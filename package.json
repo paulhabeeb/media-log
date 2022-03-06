@@ -1,0 +1,26 @@
+{
+    "name": "input-log",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "npm run build:eleventy && npm run build:sass",
+        "build:eleventy": "npx @11ty/eleventy",
+        "build:sass": "npx sass src/sass:_site/css --style compressed",
+        "debug": "DEBUG=* npx @11ty/eleventy",
+        "dev": "npm run watch:eleventy & npm run watch:sass",
+        "watch:eleventy": "npx @11ty/eleventy --serve",
+        "watch:sass": "npx sass src/sass:_site/css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@11ty/eleventy": "^1.0.0",
+        "@11ty/eleventy-navigation": "^0.3.2",
+        "@11ty/eleventy-plugin-rss": "^1.1.2",
+        "html-minifier": "^4.0.0",
+        "luxon": "^2.3.1",
+        "sass": "^1.49.9"
+    }
+}

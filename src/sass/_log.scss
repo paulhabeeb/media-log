@@ -1,0 +1,47 @@
+.logItem {
+    display: grid;
+    grid-gap: var(--spacing-single);
+    grid-template-columns: minmax(100px, min-content) 1.5fr 1fr min-content 16px;
+    padding: var(--spacing-sixth) 0;
+
+    &-creator,
+    &-date,
+    &-title {
+        white-space: nowrap;
+    }
+
+    &-creator,
+    &-title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &-date {
+        color: var(--color-dark-grey);
+        font-feature-settings: 'tnum';
+        font-variant: tabular-nums;
+        text-align: right;
+    }
+
+    &-title {
+        color: var(--color-not-black);
+        font-weight: var(--font-weight-sans-bold);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &-rewatch {
+        line-height: 1;
+
+        svg {
+            fill: var(--color-dark-grey);
+            height: 16px;
+            margin-top: 4px;
+            vertical-align: middle;
+            width: 16px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Paul Habeeb",
+    "url": "https://paulhabeeb.com/",
+    "language": "en",
+    "description": "A log of everything I watch and read",
+    "feed": {
+        "subtitle": "A log of everything I watch and read",
+        "filename": "feed.xml",
+        "path": "/feed/feed.xml",
+        "id": "https://paulhabeeb.com/"
+    },
+    "jsonfeed": {
+        "path": "/feed/feed.json",
+        "url": "https://paulhabeeb.com/feed/feed.json"
+    },
+    "author": {
+        "name": "Paul Habeeb",
+        "email": "paul@paulhabeeb.com",
+        "url": "https://paulhabeeb.com/"
+    }
+}

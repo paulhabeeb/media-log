@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+---
+{% set book = media === 'Book' %}
+{% set movie = media === 'Movie' %}
+{% set show = media === 'TV Show' %}
+<article>
+    <header class="postHeader">
+        <div class="postTitle-wrapper">
+            <h2 class="postTitle">{{ title }}{% if season and episode %} (S{{season}}E{{ episode }}){% endif %}</h2>
+            <div class="releaseDate">{{ release | yearOnly }}</div>
+        </div>
+        <div class="postDates">
+            {%if book and date_started %}
+            <time datetime="{{ date_started | htmlDateString }}">
+                {{ date_started | readableDate }}
+            </time>
+            &rarr;
+            {% endif %}
+            <time datetime="{{ page.date | htmlDateString }}">
+                {{ page.date | readableDate }}
+            </time>
+        </div>
+    </header>
+    
+    <dl class="postDetails">
+        <dt>{%if book %}Author{% elif movie or show %}Director{% endif %}</dt>
+        <dd>{{ creator }}</dd>
+        
+        {% if movie or show %}
+        <dt>Studio{% if (studios | isArray) %}s{% endif %}</dt>
+        <dd>
+        {% if (studios | isArray) %}
+            {% for studio in studios %}{% if loop.first %}{{ studio }}{% else %}, {{ studio }}{% endif %}{% endfor %}
+        {% else %}
+            {{ studios }}
+        {% endif %}
+        </dd>
+        
+        <dt>Venue</dt>
+        <dd>{{ venue }}</dd>
+        {% endif %}
+        
+        {%if book %}
+        <dt>Publisher</dt>
+        <dd>{{ publisher }}</dd>
+        
+        <dt>ISBN-13</dt>
+        <dd>{{ isbn }}</dd>
+        {% endif %}
+        
+        <dt>Format</dt>
+        <dd>{{ format }}</dd>
+    </dl>
+</article>
+{% include "postPageNav.njk" %}
