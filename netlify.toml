@@ -1,9 +1,3 @@
 [build]
   publish = "_site"
   command = "npm run build"
-
-[[plugins]]
-package = "netlify-plugin-cache"
-
-  [plugins.inputs]
-  paths = [ ".cache" ]
