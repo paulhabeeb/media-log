@@ -7,9 +7,10 @@ isbn: 9780547134666
 format: Hardcover
 date_started: 2022-03-06T05:00:00Z
 date: 
-rating: 
+rating: 5
 revisit: false
 media: Book
 tags: []
 
 ---
+Test post.
