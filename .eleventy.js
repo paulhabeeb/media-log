@@ -1,13 +1,13 @@
 const { DateTime } = require('luxon')
 const fs = require('fs')
-const pluginRss = require('@11ty/eleventy-plugin-rss')
-const pluginNavigation = require('@11ty/eleventy-navigation')
 const htmlmin = require('html-minifier')
+const pluginNavigation = require('@11ty/eleventy-navigation')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 module.exports = function (eleventyConfig) {
     // Add plugins
-    eleventyConfig.addPlugin(pluginRss)
     eleventyConfig.addPlugin(pluginNavigation)
+    eleventyConfig.addPlugin(pluginRss)
 
     // For debugging
     eleventyConfig.addFilter('log', value => {
@@ -41,13 +41,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('htmlDateString', dateObj => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
             'yyyy-LL-dd'
-        )
-    })
-
-    // For tag lists on post pages, possibly up for removal
-    eleventyConfig.addFilter('filterTagList', tags => {
-        return (tags || []).filter(
-            tag => ['all', 'nav', 'post', 'posts'].indexOf(tag) === -1
         )
     })
 
