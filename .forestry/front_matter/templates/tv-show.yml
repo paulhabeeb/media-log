@@ -1,0 +1,43 @@
+---
+label: TV Show
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: number
+  name: season
+  label: season
+- type: number
+  name: episode
+  label: episode
+- type: text
+  name: creator
+  label: creator
+- type: datetime
+  name: release
+  label: release
+- type: text
+  name: studios
+  label: studios
+- type: text
+  name: format
+  label: format
+- type: text
+  name: venue
+  label: venue
+- type: datetime
+  name: date
+  label: date
+- type: number
+  name: rating
+  label: rating
+- type: boolean
+  name: revisit
+  label: revisit
+- type: text
+  name: media
+  label: media
+- type: list
+  name: tags
+  label: tags
