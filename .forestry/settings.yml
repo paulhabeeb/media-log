@@ -8,7 +8,7 @@ sections:
   path: src/about/index.md
   label: About
 - type: directory
-  path: src/posts
+  path: src/content/posts
   label: Posts
   create: all
   match: "**/*"
