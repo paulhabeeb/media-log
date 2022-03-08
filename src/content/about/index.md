@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 title: About
+permalink: /about/index.html
 eleventyNavigation:
     key: About
     order: 3

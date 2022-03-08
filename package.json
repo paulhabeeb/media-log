@@ -6,11 +6,11 @@
     "scripts": {
         "build": "npm run build:sass && npm run build:eleventy",
         "build:eleventy": "npx @11ty/eleventy",
-        "build:sass": "npx sass src/sass:src/_includes --style compressed --no-source-map ",
+        "build:sass": "npx sass src/assets/scss:src/_includes/css --style compressed --no-source-map ",
         "debug": "DEBUG=* npx @11ty/eleventy",
         "dev": "npm run watch:eleventy & npm run watch:sass",
         "watch:eleventy": "npx @11ty/eleventy --serve",
-        "watch:sass": "npx sass src/sass:src/_includes --watch"
+        "watch:sass": "npx sass src/assets/scss:src/_includes/css --watch"
     },
     "keywords": [],
     "author": "",

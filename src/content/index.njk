@@ -1,0 +1,26 @@
+---
+layout: layouts/log.njk
+permalink: /index.html
+eleventyNavigation:
+  key: Log
+  order: 1
+---
+
+{% set postsList = collections.postsByMonth %}
+<ul class="log">
+{% for month in postsList %}
+    {% for post in month %}
+    <li class="logItem">
+        <time class="logItem-date" datetime="{{ post.date | htmlDateString }}">
+            {% if loop.first %}{{ post.date | yearAndMonth}}-{% endif %}{{ post.date | dayOnly }}
+        </time>
+        <a class="logItem-title" href="{{ post.url | url }}">{{ post.data.title }}{% if post.data.season and post.data.episode %} (S{{post.data.season}}E{{ post.data.episode }}){% endif %}</a>
+        <div class="logItem-creator">{{ post.data.creator }}</div>
+        <div class="logItem-date">{{ post.data.release | yearOnly }}</div>
+        {% if post.data.revisit %}
+        <div class="logItem-rewatch">{% include "svg/revisit.svg" %}</div>
+        {% endif %}
+    </li>
+    {% endfor %}
+{% endfor %}
+</ul>
