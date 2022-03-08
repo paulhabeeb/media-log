@@ -7,7 +7,7 @@
             {% if title %}{{ title }}&nbsp;-&nbsp;{% endif %}{{ metadata.title }}
         </title>
         <meta name="description" content="{{ description or metadata.description }}">
-        <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+        <style>{% include "index.css" %}</style>
         <link
             rel="alternate"
             href="{{ metadata.feed.path | url }}"

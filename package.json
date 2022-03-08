@@ -4,13 +4,13 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "npm run build:eleventy && npm run build:sass",
+        "build": "npm run build:sass && npm run build:eleventy",
         "build:eleventy": "npx @11ty/eleventy",
-        "build:sass": "npx sass src/sass:_site/css --style compressed",
+        "build:sass": "npx sass src/sass:src/_includes --style compressed --no-source-map ",
         "debug": "DEBUG=* npx @11ty/eleventy",
         "dev": "npm run watch:eleventy & npm run watch:sass",
         "watch:eleventy": "npx @11ty/eleventy --serve",
-        "watch:sass": "npx sass src/sass:_site/css --watch"
+        "watch:sass": "npx sass src/sass:src/_includes --watch"
     },
     "keywords": [],
     "author": "",
