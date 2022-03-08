@@ -59,7 +59,9 @@ module.exports = function (eleventyConfig) {
 
         const postsByMonth = uniqueMonths.reduce((prev, month) => {
             const filteredPosts = posts.filter(
-                post => getYearMonth(post.date) === month
+                post =>
+                    getYearMonth(post.date) === month &&
+                    !post.data.tags.includes('In Progress')
             )
 
             return [...prev, filteredPosts]
@@ -71,7 +73,7 @@ module.exports = function (eleventyConfig) {
     // Minify HTML
     eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
         if (outputPath && outputPath.endsWith('.html')) {
-            let minified = htmlmin.minify(content, {
+            const minified = htmlmin.minify(content, {
                 useShortDoctype: true,
                 removeComments: true,
                 collapseWhitespace: true,

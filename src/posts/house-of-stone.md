@@ -6,11 +6,12 @@ publisher: Houghton Mifflin Harcourt
 isbn: 9780547134666
 format: Hardcover
 date_started: 2022-03-06T05:00:00Z
-date: 
+date:
 rating: 5
 revisit: false
 media: Book
-tags: []
-
+tags:
+    - In Progress
 ---
+
 Test post.
