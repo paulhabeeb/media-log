@@ -41,3 +41,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- src/content/posts/the-afterparty.md
