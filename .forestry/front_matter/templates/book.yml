@@ -1,0 +1,40 @@
+---
+label: Book
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: creator
+  label: creator
+- type: datetime
+  name: release
+  label: release
+- type: text
+  name: publisher
+  label: publisher
+- type: number
+  name: isbn
+  label: isbn
+- type: text
+  name: format
+  label: format
+- type: datetime
+  name: date_started
+  label: date_started
+- type: datetime
+  name: date
+  label: date
+- type: number
+  name: rating
+  label: rating
+- type: boolean
+  name: revisit
+  label: revisit
+- type: text
+  name: media
+  label: media
+- type: list
+  name: tags
+  label: tags
