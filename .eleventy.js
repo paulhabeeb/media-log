@@ -18,8 +18,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('isArray', arr => Array.isArray(arr))
 
     // Various date formats
-    const getYearMonth = post =>
-        DateTime.fromJSDate(post, { zone: 'utc' }).toFormat('yyyy-LL')
+    const getYearMonth = date =>
+        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy-LL')
 
     eleventyConfig.addFilter('yearAndMonth', getYearMonth)
 
@@ -34,6 +34,12 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('readableDate', dateObj => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
             'dd LLLL yyyy'
+        )
+    })
+
+    eleventyConfig.addFilter('readableYearAndMonth', dateObj => {
+        return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
+            'LLLL yyyy'
         )
     })
 

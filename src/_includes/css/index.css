@@ -1,5 +1,6 @@
 :root {
   --color-white: #ffffff;
+  --color-lightest-grey: #f1f1f1;
   --color-light-grey: #e1e1e1;
   --color-dark-grey: #545454;
   --color-not-black: #222222;
@@ -140,31 +141,81 @@ small {
   width: 100%;
 }
 
+.monthAndYear {
+  background-color: var(--color-lightest-grey);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-sans-medium);
+  padding: var(--spacing-sixth) var(--spacing-third);
+}
+@media (min-width: 551px) {
+  .monthAndYear {
+    display: none;
+  }
+}
+
 .logItem {
   display: grid;
-  grid-gap: var(--spacing-single);
-  grid-template-columns: minmax(100px, min-content) 1.5fr 1fr min-content 16px;
-  padding: var(--spacing-sixth) 0;
+  grid-gap: var(--spacing-third) var(--spacing-half);
+  grid-template-areas: "date title" "date creator";
+  grid-template-columns: min-content 1.5fr min-content;
+  padding: var(--spacing-half) var(--spacing-third);
 }
-.logItem-creator, .logItem-date, .logItem-title {
-  white-space: nowrap;
+@media (min-width: 551px) {
+  .logItem {
+    grid-gap: var(--spacing-single);
+    grid-template-areas: none;
+    grid-template-columns: minmax(100px, min-content) 1.5fr 1fr min-content 16px;
+    padding: var(--spacing-sixth) 0;
+  }
 }
-.logItem-creator, .logItem-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
+.logItem + .logItem {
+  border-top: 1px solid var(--color-light-grey);
+}
+@media (min-width: 551px) {
+  .logItem + .logItem {
+    border-top: none;
+  }
+}
+.logItem-creator {
+  grid-area: creator;
 }
 .logItem-date {
-  color: var(--color-dark-grey);
   font-feature-settings: "tnum";
+  font-size: var(--font-size-medium);
   font-variant: tabular-nums;
+  grid-area: date;
   text-align: right;
 }
+@media (min-width: 551px) {
+  .logItem-date {
+    font-size: var(--font-size-normal);
+  }
+}
+.logItem-mobileYearCreated {
+  font-size: var(--font-size-small);
+}
+@media (min-width: 551px) {
+  .logItem-mobileYearCreated {
+    display: none;
+  }
+}
+.logItem-monthYear {
+  display: none;
+}
+@media (min-width: 551px) {
+  .logItem-monthYear {
+    display: inline;
+  }
+}
 .logItem-title {
+  grid-area: title;
+}
+.logItem-title a {
   color: var(--color-not-black);
   font-weight: var(--font-weight-sans-bold);
   text-decoration: none;
 }
-.logItem-title:hover {
+.logItem-title a:hover {
   text-decoration: underline;
 }
 .logItem-rewatch {
@@ -176,6 +227,29 @@ small {
   margin-top: 4px;
   vertical-align: middle;
   width: 16px;
+}
+.logItem-yearCreated {
+  display: none;
+}
+@media (min-width: 551px) {
+  .logItem-yearCreated {
+    display: block;
+  }
+}
+.logItem-date, .logItem-mobileYearCreated, .logItem-yearCreated {
+  color: var(--color-dark-grey);
+}
+@media (min-width: 551px) {
+  .logItem-creator, .logItem-date, .logItem-title, .logItem-yearCreated {
+    grid-area: unset;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 551px) {
+  .logItem-creator, .logItem-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 .postHeader {

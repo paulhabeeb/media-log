@@ -10,13 +10,19 @@ eleventyNavigation:
 <ul class="log">
 {% for month in postsList %}
     {% for post in month %}
+    {% if loop.first %}
+    <li class="monthAndYear">{{ post.date | readableYearAndMonth }}</li>
+    {% endif %}
     <li class="logItem">
         <time class="logItem-date" datetime="{{ post.date | htmlDateString }}">
-            {% if loop.first %}{{ post.date | yearAndMonth}}-{% endif %}{{ post.date | dayOnly }}
+            <span class="logItem-monthYear">{% if loop.first %}{{ post.date | yearAndMonth}}-{% endif %}</span>{{ post.date | dayOnly }}
         </time>
-        <a class="logItem-title" href="{{ post.url | url }}">{{ post.data.title }}{% if post.data.season and post.data.episode %} (S{{post.data.season}}E{{ post.data.episode }}){% endif %}</a>
+        <div class="logItem-title">
+            <a href="{{ post.url | url }}">{{ post.data.title }}{% if post.data.season and post.data.episode %} (S{{post.data.season}}E{{ post.data.episode }}){% endif %}</a>
+            <span class="logItem-mobileYearCreated">{{ post.data.release | yearOnly }}</span>
+        </div>
         <div class="logItem-creator">{{ post.data.creator }}</div>
-        <div class="logItem-date">{{ post.data.release | yearOnly }}</div>
+        <div class="logItem-yearCreated">{{ post.data.release | yearOnly }}</div>
         {% if post.data.revisit %}
         <div class="logItem-rewatch">{% include "svg/revisit.svg" %}</div>
         {% endif %}
