@@ -77,6 +77,9 @@ module.exports = function (eleventyConfig) {
         return content
     })
 
+    // Copy favicons to base dir
+    eleventyConfig.addPassthroughCopy({ 'src/assets/favicon': '/' })
+
     // Override Browsersync defaults (used only with --serve)
     eleventyConfig.setBrowserSyncConfig({
         callbacks: {
@@ -99,7 +102,7 @@ module.exports = function (eleventyConfig) {
     })
 
     return {
-        templateFormats: ['md', 'njk', 'html', 'liquid'],
+        templateFormats: ['md', 'njk', 'html'],
         markdownTemplateEngine: 'liquid',
         htmlTemplateEngine: 'njk',
         dir: {

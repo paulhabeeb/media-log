@@ -7,7 +7,9 @@
             {% if title %}{{ title }}&nbsp;-&nbsp;{% endif %}{{ metadata.title }}
         </title>
         <meta name="description" content="{{ description or metadata.description }}">
-        <style>{% include "css/index.css" %}</style>
+        <link rel="icon" href="/favicon.ico" sizes="any">
+        <link rel="icon" href="/icon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <link
             rel="alternate"
             href="{{ metadata.feed.path | url }}"
@@ -20,6 +22,7 @@
             type="application/json"
             title="{{ metadata.title }}"
         >
+        <style>{% include "css/index.css" %}</style>
     </head>
     <body>
         <div class="container">
