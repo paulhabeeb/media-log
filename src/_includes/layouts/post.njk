@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
+{% from 'macros/post-title.njk' import postTitle %}
 {% from 'macros/post-page-nav.njk' import postPageNav %}
 {% set book = media === 'Book' %}
 {% set movie = media === 'Movie' %}
@@ -8,7 +9,7 @@ layout: layouts/base.njk
 <article>
     <header class="postHeader">
         <div class="postTitle-wrapper">
-            <h2 class="postTitle">{{ title }}{% if season and episode %} (S{{season}}E{{ episode }}){% endif %}</h2>
+            <h2 class="postTitle">{{ postTitle(title, season, episode) }}</h2>
             <div class="releaseDate">{{ release | yearOnly }}</div>
         </div>
         <div class="postDates">
@@ -25,7 +26,7 @@ layout: layouts/base.njk
     </header>
     
     <dl class="postDetails">
-        <dt>{%if book %}Author{% elif movie or show %}Director{% endif %}</dt>
+        <dt>{%if book %}Author{% elif movie %}Director{% elif show %}Showrunner{% endif %}</dt>
         <dd>{{ creator }}</dd>
         
         {% if movie or show %}

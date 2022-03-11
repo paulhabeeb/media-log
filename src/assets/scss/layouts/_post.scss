@@ -1,3 +1,5 @@
+@import '../mixins';
+
 .postHeader {
     margin-bottom: var(--spacing-single);
 }
@@ -5,9 +7,11 @@
 .postTitle {
     font-size: var(--font-size-large);
     margin-bottom: 0;
+    margin-right: var(--spacing-half);
 
     &-wrapper {
         display: flex;
+        flex-wrap: wrap;
         align-items: baseline;
     }
 }
@@ -15,7 +19,6 @@
 .releaseDate {
     color: var(--color-dark-grey);
     font-size: var(--font-size-medium);
-    margin-left: var(--spacing-half);
 }
 
 .postDates {
@@ -35,9 +38,13 @@
 .postNav {
     border-top: 1px solid var(--color-light-grey);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: var(--spacing-single);
     padding-top: var(--spacing-single);
+
+    @include breakpoint('small') {
+        grid-template-columns: 1fr 1fr;
+    }
 
     &-next {
         text-align: right;

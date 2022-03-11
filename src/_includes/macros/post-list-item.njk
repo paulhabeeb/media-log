@@ -1,3 +1,5 @@
+{% from 'macros/post-title.njk' import postTitle %}
+
 {% macro postListItem(post, isFirst) %}
     <li class="logItem">
         <time class="logItem-date" datetime="{{ post.date | htmlDateString }}">
@@ -5,7 +7,7 @@
         </time>
         <div class="logItem-title">
             <a href="{{ post.url | url }}">
-                {{ post.data.title }}{% if post.data.season and post.data.episode %} (S{{post.data.season}}E{{ post.data.episode }}){% endif %}
+                {{ postTitle(post.data.title, post.data.season, post.data.episode) }}
             </a>
             <span class="logItem-mobileYearCreated">
                 {{ post.data.release | yearOnly }}

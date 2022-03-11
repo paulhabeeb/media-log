@@ -16,6 +16,7 @@
   --font-weight-sans-medium: 500;
   --font-weight-sans-bold: 600;
   --spacing-single: 1.5rem;
+  --spacing-two-thirds: 1rem;
   --spacing-half: 0.75rem;
   --spacing-third: 0.5rem;
   --spacing-sixth: 0.25rem;
@@ -126,7 +127,7 @@ small {
 
 .navItem {
   display: inline-block;
-  margin-right: var(--spacing-third);
+  margin-right: var(--spacing-half);
 }
 
 .navItem-link {
@@ -162,13 +163,15 @@ small {
   grid-gap: var(--spacing-third) var(--spacing-half);
   grid-template-areas: "date title" "date creator";
   grid-template-columns: min-content 1.5fr min-content;
-  padding: var(--spacing-half) var(--spacing-third);
+  line-height: 1;
+  padding: var(--spacing-two-thirds) var(--spacing-third);
 }
 @media (min-width: 551px) {
   .logItem {
     grid-gap: var(--spacing-single);
     grid-template-areas: none;
     grid-template-columns: minmax(100px, min-content) 1.5fr 1fr min-content 16px;
+    line-height: 1.5;
     padding: var(--spacing-sixth) 0;
   }
 }
@@ -184,15 +187,29 @@ small {
   grid-area: creator;
 }
 .logItem-date {
+  align-items: center;
+  border: 2px solid var(--color-light-grey);
+  border-radius: 3px;
+  display: flex;
   font-feature-settings: "tnum";
   font-size: var(--font-size-medium);
   font-variant: tabular-nums;
   grid-area: date;
+  height: 100%;
+  max-height: 40px;
+  padding: var(--spacing-sixth);
   text-align: right;
 }
 @media (min-width: 551px) {
   .logItem-date {
+    align-items: initial;
+    border: none;
+    border-radius: initial;
+    display: initial;
     font-size: var(--font-size-normal);
+    height: initial;
+    max-height: initial;
+    padding: 0;
   }
 }
 .logItem-mobileYearCreated {
@@ -217,20 +234,28 @@ small {
 .logItem-title a {
   color: var(--color-not-black);
   font-weight: var(--font-weight-sans-bold);
+  line-height: 1.25;
   text-decoration: none;
 }
 .logItem-title a:hover {
   text-decoration: underline;
 }
-.logItem-rewatch {
-  line-height: 1;
+@media (min-width: 551px) {
+  .logItem-title a {
+    line-height: 1.5;
+  }
 }
 .logItem-rewatch svg {
   fill: var(--color-dark-grey);
   height: 16px;
-  margin-top: 4px;
+  margin-top: 2px;
   vertical-align: middle;
   width: 16px;
+}
+@media (min-width: 551px) {
+  .logItem-rewatch svg {
+    margin-top: -3px;
+  }
 }
 .logItem-yearCreated {
   display: none;
@@ -263,16 +288,17 @@ small {
 .postTitle {
   font-size: var(--font-size-large);
   margin-bottom: 0;
+  margin-right: var(--spacing-half);
 }
 .postTitle-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 
 .releaseDate {
   color: var(--color-dark-grey);
   font-size: var(--font-size-medium);
-  margin-left: var(--spacing-half);
 }
 
 .postDates {
@@ -291,9 +317,14 @@ small {
 .postNav {
   border-top: 1px solid var(--color-light-grey);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin-top: var(--spacing-single);
   padding-top: var(--spacing-single);
+}
+@media (min-width: 551px) {
+  .postNav {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 .postNav-next {
   text-align: right;

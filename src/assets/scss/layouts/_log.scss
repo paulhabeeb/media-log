@@ -1,4 +1,4 @@
-@import 'mixins';
+@import '../mixins';
 
 .monthAndYear {
     background-color: var(--color-lightest-grey);
@@ -18,12 +18,14 @@
         'date title'
         'date creator';
     grid-template-columns: min-content 1.5fr min-content;
-    padding: var(--spacing-half) var(--spacing-third);
+    line-height: 1;
+    padding: var(--spacing-two-thirds) var(--spacing-third);
 
     @include breakpoint('small') {
         grid-gap: var(--spacing-single);
         grid-template-areas: none;
         grid-template-columns: minmax(100px, min-content) 1.5fr 1fr min-content 16px;
+        line-height: 1.5;
         padding: var(--spacing-sixth) 0;
     }
 
@@ -40,14 +42,28 @@
     }
 
     &-date {
+        align-items: center;
+        border: 2px solid var(--color-light-grey);
+        border-radius: 3px;
+        display: flex;
         font-feature-settings: 'tnum';
         font-size: var(--font-size-medium);
         font-variant: tabular-nums;
         grid-area: date;
+        height: 100%;
+        max-height: 40px;
+        padding: var(--spacing-sixth);
         text-align: right;
 
         @include breakpoint('small') {
+            align-items: initial;
+            border: none;
+            border-radius: initial;
+            display: initial;
             font-size: var(--font-size-normal);
+            height: initial;
+            max-height: initial;
+            padding: 0;
         }
     }
 
@@ -73,23 +89,30 @@
         a {
             color: var(--color-not-black);
             font-weight: var(--font-weight-sans-bold);
+            line-height: 1.25;
             text-decoration: none;
 
             &:hover {
                 text-decoration: underline;
             }
+
+            @include breakpoint('small') {
+                line-height: 1.5;
+            }
         }
     }
 
     &-rewatch {
-        line-height: 1;
-
         svg {
             fill: var(--color-dark-grey);
             height: 16px;
-            margin-top: 4px;
+            margin-top: 2px;
             vertical-align: middle;
             width: 16px;
+
+            @include breakpoint('small') {
+                margin-top: -3px;
+            }
         }
     }
 
