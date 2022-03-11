@@ -16,7 +16,7 @@
         <div class="logItem-creator">{{ post.data.creator }}</div>
         <div class="logItem-yearCreated">{{ post.data.release | yearOnly }}</div>
         {% if post.data.revisit %}
-            <div class="logItem-rewatch">{% include "svg/revisit.svg" %}</div>
+            <div class="icon-rewatch logItem-rewatch">{% include "svg/revisit.svg" %}</div>
         {% endif %}
     </li>
 {% endmacro %}

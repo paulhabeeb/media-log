@@ -5,19 +5,19 @@
 }
 
 .postTitle {
+    display: inline;
     font-size: var(--font-size-large);
     margin-bottom: 0;
     margin-right: var(--spacing-half);
 
     &-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: baseline;
+        margin-bottom: var(--spacing-half);
     }
 }
 
 .releaseDate {
     color: var(--color-dark-grey);
+    display: inline;
     font-size: var(--font-size-medium);
 }
 
@@ -33,4 +33,9 @@
     dt {
         font-weight: var(--font-weight-sans-medium);
     }
+}
+
+.postRewatch svg {
+    margin-top: -3px;
+    padding-right: var(--spacing-sixth);
 }

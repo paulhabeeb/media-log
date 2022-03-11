@@ -146,6 +146,13 @@ small {
   width: 100%;
 }
 
+.icon-rewatch svg {
+  fill: var(--color-dark-grey);
+  height: 16px;
+  vertical-align: middle;
+  width: 16px;
+}
+
 .monthAndYear {
   background-color: var(--color-lightest-grey);
   font-size: var(--font-size-small);
@@ -196,7 +203,7 @@ small {
   font-variant: tabular-nums;
   grid-area: date;
   height: 100%;
-  max-height: 40px;
+  max-height: 44px;
   padding: var(--spacing-sixth);
   text-align: right;
 }
@@ -228,6 +235,14 @@ small {
     display: inline;
   }
 }
+.logItem-rewatch svg {
+  margin-top: 2px;
+}
+@media (min-width: 551px) {
+  .logItem-rewatch svg {
+    margin-top: -2px;
+  }
+}
 .logItem-title {
   grid-area: title;
 }
@@ -243,18 +258,6 @@ small {
 @media (min-width: 551px) {
   .logItem-title a {
     line-height: 1.5;
-  }
-}
-.logItem-rewatch svg {
-  fill: var(--color-dark-grey);
-  height: 16px;
-  margin-top: 2px;
-  vertical-align: middle;
-  width: 16px;
-}
-@media (min-width: 551px) {
-  .logItem-rewatch svg {
-    margin-top: -3px;
   }
 }
 .logItem-yearCreated {
@@ -286,18 +289,18 @@ small {
 }
 
 .postTitle {
+  display: inline;
   font-size: var(--font-size-large);
   margin-bottom: 0;
   margin-right: var(--spacing-half);
 }
 .postTitle-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
+  margin-bottom: var(--spacing-half);
 }
 
 .releaseDate {
   color: var(--color-dark-grey);
+  display: inline;
   font-size: var(--font-size-medium);
 }
 
@@ -312,6 +315,11 @@ small {
 }
 .postDetails dt {
   font-weight: var(--font-weight-sans-medium);
+}
+
+.postRewatch svg {
+  margin-top: -3px;
+  padding-right: var(--spacing-sixth);
 }
 
 /*# sourceMappingURL=index.css.map */

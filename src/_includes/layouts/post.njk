@@ -1,11 +1,12 @@
 ---
 layout: layouts/base.njk
 ---
+
 {% from 'macros/post-title.njk' import postTitle %}
-{% from 'macros/post-page-nav.njk' import postPageNav %}
 {% set book = media === 'Book' %}
 {% set movie = media === 'Movie' %}
 {% set show = media === 'TV Show' %}
+
 <article>
     <header class="postHeader">
         <div class="postTitle-wrapper">
@@ -13,6 +14,9 @@ layout: layouts/base.njk
             <div class="releaseDate">{{ release | yearOnly }}</div>
         </div>
         <div class="postDates">
+            {% if revisit %}
+                <span class="icon-rewatch postRewatch">{% include "svg/revisit.svg" %}</span>
+            {% endif %}
             {%if book and date_started %}
             <time datetime="{{ date_started | htmlDateString }}">
                 {{ date_started | readableDate }}
