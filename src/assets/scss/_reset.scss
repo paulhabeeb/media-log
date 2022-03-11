@@ -49,6 +49,10 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
     background-color: var(--color-white);
     color: var(--color-not-black);
