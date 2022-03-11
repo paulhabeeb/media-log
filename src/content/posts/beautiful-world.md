@@ -5,8 +5,8 @@ release: 2021-05-01
 publisher: NYU Press
 isbn: 9781479892303
 format: Hardcover
-date_started: 2022-02-20
-date: 2022-03-04
+date_started: 2021-10-06
+date: 2021-10-09
 rating: 5
 revisit: false
 media: Book
