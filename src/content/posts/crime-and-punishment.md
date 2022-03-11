@@ -13,5 +13,6 @@ media: Book
 tags:
 - Paperback
 - Book
+translator: Oliver Ready
 
 ---
