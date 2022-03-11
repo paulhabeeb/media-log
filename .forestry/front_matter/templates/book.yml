@@ -8,11 +8,6 @@ fields:
 - type: text
   name: creator
   label: creator
-- name: translator
-  type: text
-  config:
-    required: false
-  label: Translator
 - type: datetime
   name: release
   label: release
@@ -25,6 +20,11 @@ fields:
 - type: text
   name: format
   label: format
+- name: translator
+  type: text
+  config:
+    required: false
+  label: Translator
 - type: datetime
   name: date_started
   label: date_started
