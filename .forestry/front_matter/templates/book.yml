@@ -4,22 +4,26 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: text
   name: creator
-  label: creator
+  label: Author
+  config:
+    required: true
 - type: datetime
   name: release
-  label: release
+  label: Release
 - type: text
   name: publisher
-  label: publisher
+  label: Publisher
 - type: number
   name: isbn
-  label: isbn
+  label: ISBN-13
 - type: text
   name: format
-  label: format
+  label: Format
 - name: translator
   type: text
   config:
@@ -27,22 +31,22 @@ fields:
   label: Translator
 - type: datetime
   name: date_started
-  label: date_started
+  label: Date Started
 - type: datetime
   name: date
-  label: date
+  label: Date Finished
 - type: number
   name: rating
-  label: rating
+  label: Rating
 - type: boolean
   name: revisit
-  label: revisit
+  label: Reread
 - type: text
   name: media
-  label: media
+  label: Media
 - type: list
   name: tags
-  label: tags
+  label: Tags
 pages:
 - src/content/posts/a-farewell-to-arms.md
 - src/content/posts/a-separation.md
