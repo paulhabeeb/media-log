@@ -314,29 +314,4 @@ small {
   font-weight: var(--font-weight-sans-medium);
 }
 
-.postNav {
-  border-top: 1px solid var(--color-light-grey);
-  display: grid;
-  grid-template-columns: 1fr;
-  margin-top: var(--spacing-single);
-  padding-top: var(--spacing-single);
-}
-@media (min-width: 551px) {
-  .postNav {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-.postNav-next {
-  text-align: right;
-}
-.postNav-title {
-  font-weight: var(--font-weight-sans-medium);
-}
-.postNav-next .postNav-title {
-  margin-right: var(--spacing-half);
-}
-.postNav-previous .postNav-title {
-  margin-left: var(--spacing-half);
-}
-
 /*# sourceMappingURL=index.css.map */

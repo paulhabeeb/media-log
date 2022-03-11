@@ -55,7 +55,3 @@ layout: layouts/base.njk
         <dd>{{ format }}</dd>
     </dl>
 </article>
-
-{% if collections.posts %}
-    {{ postPageNav(collections.posts | getNextCollectionItem(page), collections.posts | getPreviousCollectionItem(page)) }}
-{% endif %}
