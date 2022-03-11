@@ -8,7 +8,7 @@ studios:
 format: Hulu
 venue: Home
 date: 2022-03-10T05:00:00Z
-rating: 4
+rating: 3.5
 revisit: false
 media: Movie
 tags:
