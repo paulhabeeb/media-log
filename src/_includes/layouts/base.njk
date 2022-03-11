@@ -37,30 +37,8 @@
     </head>
     <body>
         <div class="container">
-            <header class="pageHeader">
-                <h1 class="pageHeader-title">
-                    <a
-                        class="navItem-link"
-                        href="{{ '/' | url }}"
-                    >
-                        {{ metadata.title }}
-                    </a>
-                </h1>
-                <nav class="nav">
-                    <ul>
-                    {% for entry in collections.all | eleventyNavigation %}
-                        <li class="navItem">
-                            <a
-                                class="navItem-link{% if (entry.url == page.url) or (entry.title == 'Log' and '/posts/' in page.filePathStem) %} navItem-link_active{% endif %}"
-                                href="{{ entry.url | url }}"
-                            >
-                                {{ entry.title }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                    </ul>
-                </nav>
-            </header>
+            {% include "partials/site-header.njk" %}
+            
             <main>{{ content | safe }}</main>
         </div>
     </body>

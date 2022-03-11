@@ -1,0 +1,20 @@
+{% macro postListItem(post, isFirst) %}
+    <li class="logItem">
+        <time class="logItem-date" datetime="{{ post.date | htmlDateString }}">
+            <span class="logItem-monthYear">{% if isFirst %}{{ post.date | yearAndMonth}}-{% endif %}</span>{{ post.date | dayOnly }}
+        </time>
+        <div class="logItem-title">
+            <a href="{{ post.url | url }}">
+                {{ post.data.title }}{% if post.data.season and post.data.episode %} (S{{post.data.season}}E{{ post.data.episode }}){% endif %}
+            </a>
+            <span class="logItem-mobileYearCreated">
+                {{ post.data.release | yearOnly }}
+            </span>
+        </div>
+        <div class="logItem-creator">{{ post.data.creator }}</div>
+        <div class="logItem-yearCreated">{{ post.data.release | yearOnly }}</div>
+        {% if post.data.revisit %}
+            <div class="logItem-rewatch">{% include "svg/revisit.svg" %}</div>
+        {% endif %}
+    </li>
+{% endmacro %}

@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
+{% from 'macros/post-page-nav.njk' import postPageNav %}
 {% set book = media === 'Book' %}
 {% set movie = media === 'Movie' %}
 {% set show = media === 'TV Show' %}
@@ -53,4 +54,7 @@ layout: layouts/base.njk
         <dd>{{ format }}</dd>
     </dl>
 </article>
-{% include "macros/postPageNav.njk" %}
+
+{% if collections.posts %}
+    {{ postPageNav(collections.posts | getNextCollectionItem(page), collections.posts | getPreviousCollectionItem(page)) }}
+{% endif %}

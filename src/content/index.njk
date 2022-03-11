@@ -1,32 +1,19 @@
 ---
-layout: layouts/log.njk
+layout: layouts/base.njk
 permalink: /index.html
 eleventyNavigation:
     key: Log
     order: 1
 ---
+{% from 'macros/post-list-item.njk' import postListItem %}
 
-{% set postsList = collections.postsByMonth %}
 <ul class="log">
-{% for month in postsList %}
-    {% for post in month %}
-    {% if loop.first %}
-    <li class="monthAndYear">{{ post.date | readableYearAndMonth }}</li>
-    {% endif %}
-    <li class="logItem">
-        <time class="logItem-date" datetime="{{ post.date | htmlDateString }}">
-            <span class="logItem-monthYear">{% if loop.first %}{{ post.date | yearAndMonth}}-{% endif %}</span>{{ post.date | dayOnly }}
-        </time>
-        <div class="logItem-title">
-            <a href="{{ post.url | url }}">{{ post.data.title }}{% if post.data.season and post.data.episode %} (S{{post.data.season}}E{{ post.data.episode }}){% endif %}</a>
-            <span class="logItem-mobileYearCreated">{{ post.data.release | yearOnly }}</span>
-        </div>
-        <div class="logItem-creator">{{ post.data.creator }}</div>
-        <div class="logItem-yearCreated">{{ post.data.release | yearOnly }}</div>
-        {% if post.data.revisit %}
-        <div class="logItem-rewatch">{% include "svg/revisit.svg" %}</div>
-        {% endif %}
-    </li>
+    {% for month in collections.postsByMonth %}
+        {% for post in month %}
+            {% if loop.first %}
+                <li class="monthAndYear">{{ post.date | readableYearAndMonth }}</li>
+            {% endif %}
+            {{ postListItem(post, loop.first) }}
+        {% endfor %}
     {% endfor %}
-{% endfor %}
 </ul>
