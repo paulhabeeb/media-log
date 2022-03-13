@@ -112,6 +112,8 @@
 
     &-yearCreated {
         display: none;
+        font-feature-settings: 'tnum';
+        font-variant: tabular-nums;
 
         @include breakpoint('small') {
             display: block;

@@ -262,6 +262,8 @@ small {
 }
 .logItem-yearCreated {
   display: none;
+  font-feature-settings: "tnum";
+  font-variant: tabular-nums;
 }
 @media (min-width: 551px) {
   .logItem-yearCreated {
