@@ -12,8 +12,8 @@ rating: 3.5
 revisit: false
 media: TV Show
 tags:
-- Apple TV+
-- TV Show
-
+    - Apple TV+
+    - TV Show
 ---
+
 Really makes me feel like a millennial.

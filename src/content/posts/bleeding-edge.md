@@ -5,6 +5,7 @@ release: 2013-09-17
 publisher: Penguin Press
 isbn: 9781594204234
 format: Hardcover
+translator: ''
 date_started: 2022-02-20
 date: 2022-02-20
 rating: 3

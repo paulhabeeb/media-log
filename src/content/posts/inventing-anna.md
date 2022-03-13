@@ -12,6 +12,6 @@ rating: 2
 revisit: false
 media: TV Show
 tags:
-- Netflix
-
+    - Netflix
+    - TV Show
 ---
