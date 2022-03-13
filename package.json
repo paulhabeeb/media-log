@@ -1,26 +1,41 @@
 {
     "name": "input-log",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "A log of everything I watch and read.",
+    "author": "Paul Habeeb",
+    "private": true,
+    "browserslist": [
+        "defaults",
+        "IE 10",
+        "IE 11"
+    ],
     "scripts": {
-        "build": "npm run build:sass && npm run build:eleventy",
+        "build": "npm run build:sass && npm run build:postcss && npm run build:eleventy",
         "build:eleventy": "npx @11ty/eleventy",
-        "build:sass": "npx sass src/assets/scss:src/_includes/css --style compressed --no-source-map ",
+        "build:postcss": "postcss --use autoprefixer -o src/_includes/css/index.css src/assets/css/*.css",
+        "build:sass": "npx sass src/assets/scss:src/assets/css --style compressed --no-source-map ",
         "debug": "DEBUG=* npx @11ty/eleventy",
         "dev": "npm run watch:eleventy & npm run watch:sass",
+        "lint": "npm run lint:js & npm run lint:sass",
+        "lint:js": "eslint .",
+        "lint:sass": "stylelint src/assets/scss/*.scss",
         "watch:eleventy": "npx @11ty/eleventy --serve",
         "watch:sass": "npx sass src/assets/scss:src/_includes/css --watch"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
     "devDependencies": {
         "@11ty/eleventy": "^1.0.0",
         "@11ty/eleventy-navigation": "^0.3.2",
         "@11ty/eleventy-plugin-rss": "^1.1.2",
+        "autoprefixer": "^10.4.2",
+        "eslint": "^8.11.0",
+        "eslint-config-prettier": "^8.5.0",
         "html-minifier": "^4.0.0",
         "luxon": "^2.3.1",
-        "sass": "^1.49.9"
+        "postcss": "^8.4.8",
+        "postcss-cli": "^9.1.0",
+        "sass": "^1.49.9",
+        "stylelint": "^14.5.3",
+        "stylelint-config-prettier-scss": "0.0.1",
+        "stylelint-config-standard-scss": "^3.0.0"
     }
 }
