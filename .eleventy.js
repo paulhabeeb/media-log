@@ -57,10 +57,10 @@ module.exports = function (eleventyConfig) {
         const uniqueMonths = [...new Set(months)]
 
         const postsByMonth = uniqueMonths.reduce((prev, month) => {
+            // If the posts match the current month and if they have a completion date
+            // (i.e., don't show in-progress books)
             const filteredPosts = posts.filter(
-                post =>
-                    getYearMonth(post.date) === month &&
-                    !post.data.tags.includes('In Progress')
+                post => getYearMonth(post.date) === month && post.data.date
             )
 
             return [...prev, filteredPosts]
