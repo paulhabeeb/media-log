@@ -57,5 +57,7 @@ layout: layouts/base.njk
         
         <dt>Format</dt>
         <dd>{{ format }}</dd>
+        
+        {% getPreviousViews page.fileSlug, collections.posts %}
     </dl>
 </article>

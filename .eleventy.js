@@ -21,6 +21,9 @@ module.exports = function (eleventyConfig) {
     const getYearMonth = date =>
         DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy-LL')
 
+    const getReadableDate = date =>
+        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('dd LLLL yyyy')
+
     eleventyConfig.addFilter('yearAndMonth', getYearMonth)
 
     eleventyConfig.addFilter('yearOnly', dateObj => {
@@ -31,11 +34,7 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('dd')
     })
 
-    eleventyConfig.addFilter('readableDate', dateObj => {
-        return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-            'dd LLLL yyyy'
-        )
-    })
+    eleventyConfig.addFilter('readableDate', getReadableDate)
 
     eleventyConfig.addFilter('readableYearAndMonth', dateObj => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
@@ -48,6 +47,39 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
             'yyyy-LL-dd'
         )
+    })
+
+    // Retrieve previous views/reads
+    eleventyConfig.addShortcode('getPreviousViews', (slug, posts) => {
+        const {
+            data: { creator, date, episode, media, season, title, year },
+        } = posts.find(p => p.fileSlug === slug)
+
+        const filteredPosts = posts.filter(
+            ({ data }) =>
+                data.title === title &&
+                data.creator === creator &&
+                data.year === year &&
+                data.media === media &&
+                data.date !== date &&
+                (media !== 'TV Show' ||
+                    (media === 'TV Show' &&
+                        data.season === season &&
+                        data.episode === episode))
+        )
+
+        let html = ''
+
+        if (filteredPosts.length > 0) {
+            html = '<dt>Other visits</dt><div>'
+            filteredPosts.forEach(p => {
+                const date = getReadableDate(p.date)
+                html += `<dd><a href="${p.url}">${date}</a></dd>`
+            })
+            html += '</div>'
+        }
+
+        return html
     })
 
     // Break up posts by month and year for frontend styling
