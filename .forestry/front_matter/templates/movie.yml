@@ -36,4 +36,5 @@ fields:
   name: tags
   label: tags
 pages:
+- src/content/posts/fast-times-at-ridgemont-high.md
 - src/content/posts/fresh.md
