@@ -21,6 +21,21 @@ fields:
 - type: number
   name: isbn
   label: ISBN-13
+- name: pages
+  type: number
+  label: Pages
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: language
+  type: text
+  config:
+    required: false
+  label: Language
 - type: text
   name: format
   label: Format
