@@ -4,6 +4,8 @@ creator: William Goldman
 release: 1983-03-30T05:00:00Z
 publisher: Warner Books, Inc.
 isbn: 9780446512732
+pages: 436
+language: English
 format: Hardcover
 translator: ''
 date_started: 2019-09-03T04:00:00Z

@@ -4,6 +4,8 @@ creator: Hermione Hoby
 release: 2021-07-20T04:00:00Z
 publisher: Riverhead Books
 isbn: 9780593188590
+pages: 320
+language: English
 format: Hardcover
 translator: ''
 date_started: 2021-11-08T05:00:00Z

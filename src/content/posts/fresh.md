@@ -5,6 +5,13 @@ release: 2022-03-04T05:00:00Z
 studios:
     - Hyperobject Industries
     - Legendary Pictures
+language: English
+country: United States
+length: 114
+genre:
+    - Horror
+    - Thriller
+    - Comedy
 format: Hulu
 venue: Home
 date: 2022-03-10T05:00:00Z

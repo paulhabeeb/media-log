@@ -36,15 +36,21 @@ layout: layouts/base.njk
         {% if movie or show %}
         <dt>Studio{% if (studios | isArray) %}s{% endif %}</dt>
         <dd>
-        {% if (studios | isArray) %}
-            {% for studio in studios %}{% if loop.first %}{{ studio }}{% else %}, {{ studio }}{% endif %}{% endfor %}
-        {% else %}
-            {{ studios }}
-        {% endif %}
+            {% if (studios | isArray) %}
+                {% for studio in studios %}{% if loop.first %}{{ studio }}{% else %}, {{ studio }}{% endif %}{% endfor %}
+            {% else %}
+                {{ studios }}
+            {% endif %}
         </dd>
         
-        <dt>Venue</dt>
-        <dd>{{ venue }}</dd>
+        <dt>Length</dt>
+        <dd>{{ length }} minutes</dd>
+        
+        <dt>Genre</dt>
+        <dd>{{ genre }}</dd>
+        
+        <dt>Country</dt>
+        <dd>{{ country }}</dd>
         {% endif %}
         
         {%if book %}
@@ -53,6 +59,17 @@ layout: layouts/base.njk
         
         <dt>ISBN-13</dt>
         <dd>{{ isbn }}</dd>
+        
+        <dt>Pages</dt>
+        <dd>{{ pages }}</dd>
+        {% endif %}
+        
+        <dt>Language</dt>
+        <dd>{{ language }}</dd>
+        
+        {% if movie or show %}
+        <dt>Venue</dt>
+        <dd>{{ venue }}</dd>
         {% endif %}
         
         <dt>Format</dt>

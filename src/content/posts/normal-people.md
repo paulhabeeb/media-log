@@ -4,6 +4,8 @@ creator: Sally Rooney
 release: 2019-04-16T04:00:00Z
 publisher: Random House Publishing Group
 isbn: 9781984822185
+pages: 304
+language: English
 format: Paperback
 translator: ''
 date_started: 2021-10-03T04:00:00Z

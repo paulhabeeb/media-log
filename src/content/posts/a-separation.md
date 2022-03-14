@@ -4,6 +4,8 @@ creator: Katie Kitamura
 release: 2017-02-07T05:00:00Z
 publisher: Riverhead Books
 isbn: 9780399576102
+pages: 240
+language: English
 format: Hardcover
 translator: ''
 date_started: 2017-09-07T04:00:00Z
