@@ -15,12 +15,13 @@
         "build:postcss": "postcss --use autoprefixer -o src/_includes/css/index.css src/assets/css/*.css",
         "build:sass": "npx sass src/assets/scss:src/assets/css --style compressed --no-source-map ",
         "debug": "DEBUG=* npx @11ty/eleventy",
-        "dev": "npm run watch:eleventy & npm run watch:sass",
+        "dev": "npm run dev:eleventy & npm run dev:sass",
+        "dev:eleventy": "npx @11ty/eleventy --serve",
+        "dev:sass": "npx sass src/assets/scss:src/_includes/css --watch",
         "lint": "npm run lint:js & npm run lint:sass",
         "lint:js": "eslint .",
-        "lint:sass": "stylelint src/assets/scss/*.scss",
-        "watch:eleventy": "npx @11ty/eleventy --serve",
-        "watch:sass": "npx sass src/assets/scss:src/_includes/css --watch"
+        "lint:njk": "curlylint src/",
+        "lint:sass": "stylelint src/assets/scss/*.scss"
     },
     "devDependencies": {
         "@11ty/eleventy": "^1.0.0",
