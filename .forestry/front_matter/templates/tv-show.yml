@@ -70,5 +70,6 @@ fields:
   label: tags
 pages:
 - src/content/posts/inventing-anna-1.md
+- src/content/posts/inventing-anna-2.md
 - src/content/posts/inventing-anna.md
 - src/content/posts/the-afterparty.md
