@@ -17,7 +17,7 @@ layout: layouts/base.njk
             {% if revisit %}
                 <span class="icon-rewatch postRewatch">{% include "svg/revisit.svg" %}</span>
             {% endif %}
-            {%if book and date_started %}
+            {% if book and date_started %}
             <time datetime="{{ date_started | htmlDateString }}">
                 {{ date_started | readableDate }}
             </time>
@@ -30,7 +30,7 @@ layout: layouts/base.njk
     </header>
     
     <dl class="postDetails">
-        <dt>{%if book %}Author{% elif movie %}Director{% elif show %}Showrunner{% endif %}</dt>
+        <dt>{% if book %}Author{% elif movie %}Director{% elif show %}Showrunner{% endif %}</dt>
         <dd>{{ creator }}</dd>
         
         {% if movie or show %}
@@ -53,7 +53,7 @@ layout: layouts/base.njk
         <dd>{{ country }}</dd>
         {% endif %}
         
-        {%if book %}
+        {% if book %}
         <dt>Publisher</dt>
         <dd>{{ publisher }}</dd>
         

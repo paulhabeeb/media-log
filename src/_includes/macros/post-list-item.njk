@@ -3,7 +3,7 @@
 {% macro postListItem(post, isFirst) %}
     <li class="logItem">
         <time class="logItem-date" datetime="{{ post.date | htmlDateString }}">
-            <span class="logItem-monthYear">{% if isFirst %}{{ post.date | yearAndMonth}}-{% endif %}</span>{{ post.date | dayOnly }}
+            <span class="logItem-monthYear">{% if isFirst %}{{ post.date | yearAndMonth }}-{% endif %}</span>{{ post.date | dayOnly }}
         </time>
         <div class="logItem-title">
             <a href="{{ post.url | url }}">

@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 {% from 'macros/post-list-item.njk' import postListItem %}
 
-<p>{{metadata.description }}</p>
+<p>{{ metadata.description }}</p>
 
 <ul class="log">
     {% for month in collections.postsByMonth %}

@@ -20,7 +20,7 @@
         "dev:sass": "npx sass src/assets/scss:src/_includes/css --watch",
         "lint": "npm run lint:js & npm run lint:sass",
         "lint:js": "eslint .",
-        "lint:njk": "curlylint src/",
+        "lint:njk": "djlint src --lint --profile=nunjucks --extension njk",
         "lint:sass": "stylelint src/assets/scss/*.scss"
     },
     "devDependencies": {
