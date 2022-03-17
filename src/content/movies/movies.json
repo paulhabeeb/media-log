@@ -1,0 +1,5 @@
+{
+    "layout": "layouts/post.njk",
+    "permalink": "/movie/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slugify }}.html",
+    "tags": ["movie", "posts"]
+}

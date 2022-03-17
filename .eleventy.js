@@ -15,7 +15,10 @@ module.exports = function (eleventyConfig) {
     })
 
     // Test if a Nunjucks variable is an array
-    eleventyConfig.addFilter('isArray', arr => Array.isArray(arr))
+    eleventyConfig.addFilter(
+        'isLongerThanOne',
+        arr => Array.isArray(arr) && arr.length > 1
+    )
 
     // Various date formats
     const getYearMonth = date =>

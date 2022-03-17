@@ -1,4 +1,5 @@
 {% from 'macros/post-title.njk' import postTitle %}
+{% from 'macros/print-creator.njk' import printCreator %}
 
 {% macro postListItem(post, isFirst) %}
     <li class="logItem">
@@ -13,7 +14,7 @@
                 {{ post.data.release | yearOnly }}
             </span>
         </div>
-        <div class="logItem-creator">{{ post.data.creator }}</div>
+        <div class="logItem-creator">{{ printCreator(post.data.creator) }}</div>
         <div class="logItem-yearCreated">{{ post.data.release | yearOnly }}</div>
         {% if post.data.revisit %}
             <div class="icon-rewatch logItem-rewatch">{% include "svg/revisit.svg" %}</div>

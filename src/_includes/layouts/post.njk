@@ -3,9 +3,20 @@ layout: layouts/base.njk
 ---
 
 {% from 'macros/post-title.njk' import postTitle %}
+{% from 'macros/print-array.njk' import printArray %}
 {% set book = media === 'Book' %}
 {% set movie = media === 'Movie' %}
 {% set show = media === 'TV Show' %}
+{% if book %}
+    {% set creatorTitle = 'Author' %}
+    {% set creatorTitlePlural = 'Authors' %}
+{% elif movie %}
+    {% set creatorTitle = 'Director' %}
+    {% set creatorTitlePlural = 'Directors' %}
+{% elif show %}
+    {% set creatorTitle = 'Showrunner' %}
+    {% set creatorTitlePlural = 'Showrunners' %}
+{% endif %}
 
 <article>
     <header class="postHeader">
@@ -30,27 +41,17 @@ layout: layouts/base.njk
     </header>
     
     <dl class="postDetails">
-        <dt>{% if book %}Author{% elif movie %}Director{% elif show %}Showrunner{% endif %}</dt>
-        <dd>{{ creator }}</dd>
+        {{ printArray(creator, creatorTitle, creatorTitlePlural) }}
         
         {% if movie or show %}
-        <dt>Studio{% if (studios | isArray) %}s{% endif %}</dt>
-        <dd>
-            {% if (studios | isArray) %}
-                {% for studio in studios %}{% if loop.first %}{{ studio }}{% else %}, {{ studio }}{% endif %}{% endfor %}
-            {% else %}
-                {{ studios }}
-            {% endif %}
-        </dd>
+        {{ printArray(studios, 'Studio', 'Studios') }}
         
         <dt>Length</dt>
         <dd>{{ length }} minutes</dd>
         
-        <dt>Genre</dt>
-        <dd>{{ genre }}</dd>
+        {{ printArray(genre, 'Genre', 'Genres') }}
         
-        <dt>Country</dt>
-        <dd>{{ country }}</dd>
+        {{ printArray(country, 'Country', 'Countries') }}
         {% endif %}
         
         {% if book %}
@@ -64,16 +65,24 @@ layout: layouts/base.njk
         <dd>{{ pages }}</dd>
         {% endif %}
         
-        <dt>Language</dt>
-        <dd>{{ language }}</dd>
+        {{ printArray(language, 'Language', 'Languages') }}
         
-        {% if movie or show %}
-        <dt>Venue</dt>
-        <dd>{{ venue }}</dd>
-        {% endif %}
-        
+        {% if format !== '' %}
         <dt>Format</dt>
         <dd>{{ format }}</dd>
+        {% endif %}
+        
+        {% if movie or show %}
+            {% if service !== '' %}
+            <dt>Service</dt>
+            <dd>{{ service }}</dd>
+            {% endif %}
+            
+            {% if venue !== '' %}
+            <dt>Venue</dt>
+            <dd>{{ venue }}</dd>
+            {% endif %}
+        {% endif %}
         
         {% getPreviousViews page.fileSlug, collections.posts %}
     </dl>

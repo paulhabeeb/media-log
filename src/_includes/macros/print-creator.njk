@@ -1,0 +1,19 @@
+{% macro printCreator(creator) %}
+    {% for name in creator %}
+        {% if loop.length > 2 %}
+            {% if not loop.last %}
+                {{ name }}, 
+            {% else %}
+                and {{ name }}
+            {% endif %}
+        {% elif loop.length == 2 %}
+            {% if loop.first %}
+                {{ name }}
+            {% else %}
+                and {{ name }}
+            {% endif %}
+        {% else %}
+            {{ name }}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
