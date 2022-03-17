@@ -52,17 +52,17 @@ module.exports = function (eleventyConfig) {
         )
     })
 
-    // Retrieve previous views/reads
-    eleventyConfig.addShortcode('getPreviousViews', (slug, posts) => {
+    // Retrieve previous views/reads to list on individual post pages
+    eleventyConfig.addShortcode('getPreviousViews', (url, posts) => {
         const {
-            data: { creator, date, episode, media, season, title, year },
-        } = posts.find(p => p.fileSlug === slug)
+            data: { creator, date, episode, media, release, season, title },
+        } = posts.find(p => p.url === url)
 
         const filteredPosts = posts.filter(
             ({ data }) =>
                 data.title === title &&
-                data.creator === creator &&
-                data.year === year &&
+                JSON.stringify(data.creator) === JSON.stringify(creator) &&
+                getReadableDate(data.release) === getReadableDate(release) &&
                 data.media === media &&
                 data.date !== date &&
                 (media !== 'TV Show' ||
