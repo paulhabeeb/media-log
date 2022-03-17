@@ -1,0 +1,7 @@
+---
+layout: layouts/base.njk
+permalink: /filter/media/books.html
+---
+{% from 'macros/list-posts-by-month.njk' import listPostsByMonth %}
+
+{{ listPostsByMonth(collections.books) }}

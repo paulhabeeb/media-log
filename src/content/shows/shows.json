@@ -1,5 +1,5 @@
 {
     "layout": "layouts/post.njk",
     "permalink": "/show/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slugify }}{% if season and episode %}-s{{season}}e{{ episode | slugify }}{% endif %}.html",
-    "tags": ["show", "posts"]
+    "tags": ["shows", "posts"]
 }

@@ -1,0 +1,15 @@
+{% from 'macros/post-list-item.njk' import postListItem %}
+
+{% macro listPostsByMonth(collection) %}
+    {% set postsByMonth = collection | reverse | separatePostsByMonth %}
+    <ul class="log">
+        {% for month in postsByMonth %}
+            {% for post in month %}
+                {% if loop.first %}
+                    <li class="monthAndYear">{{ post.date | readableYearAndMonth }}</li>
+                {% endif %}
+                {{ postListItem(post, loop.first) }}
+            {% endfor %}
+        {% endfor %}
+    </ul>
+{% endmacro %}

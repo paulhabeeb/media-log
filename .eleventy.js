@@ -52,6 +52,24 @@ module.exports = function (eleventyConfig) {
         )
     })
 
+    // Break up posts by month and year for frontend styling
+    eleventyConfig.addFilter('separatePostsByMonth', posts => {
+        const months = posts.map(post => getYearMonth(post.date))
+        const uniqueMonths = [...new Set(months)]
+
+        const postsByMonth = uniqueMonths.reduce((prev, month) => {
+            // If the posts match the current month and if they have a completion date
+            // (i.e., don't show in-progress books)
+            const filteredPosts = posts.filter(
+                post => getYearMonth(post.date) === month && post.data.date
+            )
+
+            return [...prev, filteredPosts]
+        }, [])
+
+        return postsByMonth
+    })
+
     // Retrieve previous views/reads to list on individual post pages
     eleventyConfig.addShortcode('getPreviousViews', (url, posts) => {
         const {
@@ -83,25 +101,6 @@ module.exports = function (eleventyConfig) {
         }
 
         return html
-    })
-
-    // Break up posts by month and year for frontend styling
-    eleventyConfig.addCollection('postsByMonth', collection => {
-        const posts = collection.getFilteredByTag('posts').reverse()
-        const months = posts.map(post => getYearMonth(post.date))
-        const uniqueMonths = [...new Set(months)]
-
-        const postsByMonth = uniqueMonths.reduce((prev, month) => {
-            // If the posts match the current month and if they have a completion date
-            // (i.e., don't show in-progress books)
-            const filteredPosts = posts.filter(
-                post => getYearMonth(post.date) === month && post.data.date
-            )
-
-            return [...prev, filteredPosts]
-        }, [])
-
-        return postsByMonth
     })
 
     // Minify HTML
