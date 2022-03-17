@@ -20,9 +20,7 @@ service: HBO Max
 venue: Home
 date: 2021-07-10T04:00:00.000Z
 rating: ''
-revisit: false
+revisit: true
 media: Movie
 id: 6957
 ---
-
-

@@ -28,7 +28,7 @@ service: Netflix
 venue: Home
 date: 2020-12-27T05:00:00.000Z
 rating: '3.5'
-revisit: false
+revisit: true
 media: Movie
 id: 12573
 ---

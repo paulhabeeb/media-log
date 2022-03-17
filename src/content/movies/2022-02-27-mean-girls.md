@@ -23,9 +23,7 @@ service: ''
 venue: Home
 date: 2022-02-27T05:00:00.000Z
 rating: '5'
-revisit: false
+revisit: true
 media: Movie
 id: 10625
 ---
-
-
