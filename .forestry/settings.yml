@@ -4,15 +4,37 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: src/content/about/index.md
-  label: About
+- type: heading
+  label: Log
 - type: directory
-  path: src/content/posts
-  label: Posts
+  path: src/content/books
+  label: Books
   create: all
   match: "**/*"
   exclude: "*.json"
+  templates:
+  - book
+- type: directory
+  path: src/content/movies
+  label: Movies
+  create: all
+  match: "**/*"
+  exclude: "*.json"
+  templates:
+  - movie
+- type: directory
+  path: src/content/shows
+  label: Shows
+  create: all
+  match: "**/*"
+  exclude: "*.json"
+  templates:
+  - tv-show
+- type: heading
+  label: Pages
+- type: document
+  path: src/content/about/index.md
+  label: About
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
