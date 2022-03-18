@@ -248,8 +248,10 @@ small {
 }
 .logItem-title a {
   color: var(--color-not-black);
+  display: inline-block;
   font-weight: var(--font-weight-sans-bold);
   line-height: 1.25;
+  margin-right: var(--spacing-sixth);
   text-decoration: none;
 }
 .logItem-title a:hover {
@@ -258,6 +260,7 @@ small {
 @media (min-width: 551px) {
   .logItem-title a {
     line-height: 1.5;
+    margin-right: 0;
   }
 }
 .logItem-yearCreated {
