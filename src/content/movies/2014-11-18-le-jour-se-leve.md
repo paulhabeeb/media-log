@@ -5,6 +5,8 @@ creator:
 release: 1939-06-09T00:00:00.000Z
 studios:
     - Productions Sigma
+original_title: Le Jour Se Lève
+original_language: fr
 language:
     - French
 country:
@@ -20,7 +22,7 @@ date: 2014-11-18T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 27053
+tmdb_id: 27053
 ---
 
 

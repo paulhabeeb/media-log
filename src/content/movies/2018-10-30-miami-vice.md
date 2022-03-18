@@ -10,6 +10,8 @@ studios:
     - Motion Picture ETA Produktionsgesellschaft
     - Foqus Arte Digital
     - Michael Mann Productions
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -30,7 +32,7 @@ date: 2018-10-30T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 82
+tmdb_id: 82
 ---
 
 If Michael Mann were required to shoot only a third of the setups he normally shoots and never use Audioslave in a movie again, his output would improve.

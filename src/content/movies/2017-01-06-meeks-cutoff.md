@@ -1,5 +1,5 @@
 ---
-title: Meek's Cutoff
+title: Meek’s Cutoff
 creator:
     - Kelly Reichardt
 release: 2010-09-05T00:00:00.000Z
@@ -7,6 +7,8 @@ studios:
     - Oscilloscope
     - filmscience
     - Evenstar Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2017-01-06T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 57120
+tmdb_id: 57120
 ---
 
 

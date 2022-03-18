@@ -5,6 +5,8 @@ creator:
 release: 1942-11-26T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - German
     - French
@@ -23,7 +25,7 @@ date: 2017-02-05T05:00:00.000Z
 rating: '4'
 revisit: true
 media: Movie
-id: 289
+tmdb_id: 289
 ---
 
 

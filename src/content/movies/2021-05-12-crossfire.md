@@ -5,6 +5,8 @@ creator:
 release: 1947-08-15T00:00:00.000Z
 studios:
     - RKO Radio Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2021-05-12T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 28120
+tmdb_id: 28120
 ---
 
 

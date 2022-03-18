@@ -5,6 +5,8 @@ creator:
 release: 1952-12-25T00:00:00.000Z
 studios:
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2020-02-11T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 32499
+tmdb_id: 32499
 ---
 
 

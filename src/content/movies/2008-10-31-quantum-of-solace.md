@@ -8,6 +8,8 @@ studios:
     - Metro-Goldwyn-Mayer
     - Columbia Pictures
     - B22
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -30,7 +32,7 @@ date: 2008-10-31T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 10764
+tmdb_id: 10764
 ---
 
 

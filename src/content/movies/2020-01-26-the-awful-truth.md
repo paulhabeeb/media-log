@@ -5,6 +5,8 @@ creator:
 release: 1937-10-20T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - French
     - English
@@ -23,7 +25,7 @@ date: 2020-01-26T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 14675
+tmdb_id: 14675
 ---
 
 Funny to think about this in the context of Indiscreet, also starring Cary Grant.

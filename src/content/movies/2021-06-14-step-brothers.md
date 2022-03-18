@@ -9,6 +9,8 @@ studios:
     - Gary Sanchez Productions
     - Relativity Media
     - Apatow Productions
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -24,7 +26,7 @@ date: 2021-06-14T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 12133
+tmdb_id: 12133
 ---
 
 

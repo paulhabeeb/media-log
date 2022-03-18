@@ -5,6 +5,8 @@ creator:
 release: 1965-02-10T00:00:00.000Z
 studios:
     - Parc Film
+original_title: Le Bonheur
+original_language: fr
 language:
     - French
 country:
@@ -20,7 +22,7 @@ date: 2020-07-11T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 53023
+tmdb_id: 53023
 ---
 
 

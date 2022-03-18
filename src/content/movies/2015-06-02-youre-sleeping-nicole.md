@@ -1,11 +1,13 @@
 ---
-title: You're Sleeping Nicole
+title: You’re Sleeping Nicole
 creator:
     - Stéphane Lafleur
 release: 2014-08-22T00:00:00.000Z
 studios:
     - micro_scope
     - Fullum Films Studios
+original_title: Tu dors Nicole
+original_language: fr
 language:
     - French
 country:
@@ -21,7 +23,7 @@ date: 2015-06-02T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 270886
+tmdb_id: 270886
 ---
 
 

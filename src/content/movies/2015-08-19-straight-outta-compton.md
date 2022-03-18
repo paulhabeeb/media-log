@@ -10,6 +10,8 @@ studios:
     - New Line Cinema
     - Cube Vision
     - Crucial Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -26,7 +28,7 @@ date: 2015-08-19T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 277216
+tmdb_id: 277216
 ---
 
 

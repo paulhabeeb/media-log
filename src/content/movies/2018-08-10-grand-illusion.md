@@ -4,7 +4,9 @@ creator:
     - Jean Renoir
 release: 1937-06-04T00:00:00.000Z
 studios:
-    - Réalisation d'Art Cinématographique
+    - Réalisation d’Art Cinématographique
+original_title: La Grande Illusion
+original_language: fr
 language:
     - Russian
     - German
@@ -24,7 +26,7 @@ date: 2018-08-10T04:00:00.000Z
 rating: '5'
 revisit: false
 media: Movie
-id: 777
+tmdb_id: 777
 ---
 
 

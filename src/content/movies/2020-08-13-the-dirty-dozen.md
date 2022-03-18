@@ -7,6 +7,8 @@ studios:
     - Seven Arts Pictures
     - MKH
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - Latin
     - English
@@ -28,7 +30,7 @@ date: 2020-08-13T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 1654
+tmdb_id: 1654
 ---
 
 It's a bit sloppy in its construct — things take a long time to get set up and sometimes pay off less than they should — and the end, of course, is what makes the whole film work. But it is fun, the cast is outstanding, and I enjoyed it.

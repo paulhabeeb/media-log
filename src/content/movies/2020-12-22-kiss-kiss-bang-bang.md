@@ -6,6 +6,8 @@ release: 2005-09-05T00:00:00.000Z
 studios:
     - Silver Pictures
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2020-12-22T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 5236
+tmdb_id: 5236
 ---
 
 Not a Christmas movie.

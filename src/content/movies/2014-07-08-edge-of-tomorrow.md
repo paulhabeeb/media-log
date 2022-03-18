@@ -9,6 +9,8 @@ studios:
     - VIZ Media
     - 3 Arts Entertainment
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2014-07-08T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 137113
+tmdb_id: 137113
 ---
 
 

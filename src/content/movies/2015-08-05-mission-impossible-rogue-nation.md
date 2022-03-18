@@ -11,6 +11,8 @@ studios:
     - Alibaba Pictures Group
     - Odin
     - Skydance Media
+original_title: ''
+original_language: en
 language:
     - German
     - English
@@ -28,7 +30,7 @@ date: 2015-08-05T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 177677
+tmdb_id: 177677
 ---
 
 

@@ -12,6 +12,8 @@ studios:
     - X Filme International
     - Kinematograf
     - Tartan
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -33,7 +35,7 @@ date: 2013-09-29T04:00:00.000Z
 rating: '4'
 revisit: true
 media: Movie
-id: 8461
+tmdb_id: 8461
 ---
 
 

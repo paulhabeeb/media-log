@@ -15,6 +15,8 @@ studios:
     - Star Thrower Entertainment
     - Tunica-Biloxi Tribe of Louisiana
     - The Fyzz
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -32,7 +34,7 @@ date: 2017-12-29T05:00:00.000Z
 rating: '1.5'
 revisit: false
 media: Movie
-id: 395834
+tmdb_id: 395834
 ---
 
 Distracting editing, amateurish sound, uncompelling on a scene-by-scene basis, and boring performances from otherwise outstanding actors. Did I see a rough cut or something?

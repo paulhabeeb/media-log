@@ -5,6 +5,8 @@ creator:
 release: 1939-11-23T00:00:00.000Z
 studios:
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
     - Russian
@@ -21,7 +23,7 @@ date: 2018-01-07T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 1859
+tmdb_id: 1859
 ---
 
 

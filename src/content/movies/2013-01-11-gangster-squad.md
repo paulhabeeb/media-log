@@ -8,6 +8,8 @@ studios:
     - Lin Pictures
     - Langley Park Production
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2013-01-11T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 82682
+tmdb_id: 82682
 ---
 
 

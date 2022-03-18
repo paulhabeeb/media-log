@@ -5,6 +5,8 @@ creator:
 release: 1987-06-03T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2015-07-29T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 117
+tmdb_id: 117
 ---
 
 

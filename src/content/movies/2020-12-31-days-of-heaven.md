@@ -5,6 +5,8 @@ creator:
 release: 1978-09-13T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -21,7 +23,7 @@ date: 2020-12-31T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 16642
+tmdb_id: 16642
 ---
 
 I'm surprised it took me this long to watch Days of Heaven. I expected something much slower, longer, and amorphous. More Tree of Life. The story is surprisingly traditional in structure and certainly benefits from Manz's voice over.

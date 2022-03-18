@@ -4,10 +4,12 @@ creator:
     - Olivier Assayas
 release: 2008-03-05T00:00:00.000Z
 studios:
-    - Musée d'Orsay
+    - Musée d’Orsay
     - France 3 Cinéma
     - Canal+
     - TPS Star
+original_title: L'Heure d'été
+original_language: fr
 language:
     - French
 country:
@@ -24,7 +26,7 @@ date: 2020-03-20T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 8282
+tmdb_id: 8282
 ---
 
 Assayas tried to revisit this with Non-Fiction, but to no avail. Summer Hours is far superior. Love the meandering quality, the talkiness, the ellipses. And what a beautiful house.

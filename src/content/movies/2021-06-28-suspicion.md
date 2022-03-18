@@ -5,6 +5,8 @@ creator:
 release: 1941-11-14T00:00:00.000Z
 studios:
     - RKO Radio Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2021-06-28T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 11462
+tmdb_id: 11462
 ---
 
 Joan Fontaine is something else. A great little Hitchcock. This period, late British/early American, might be my favorite of his.

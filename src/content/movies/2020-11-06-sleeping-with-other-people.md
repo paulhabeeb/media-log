@@ -7,6 +7,8 @@ studios:
     - Sidney Kimmel Entertainment
     - Gary Sanchez Productions
     - IM Global
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-11-06T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 288036
+tmdb_id: 288036
 ---
 
 Ultimately just a little boring and without real stakes. You know what’s going to happen, so the journey has to be interesting.

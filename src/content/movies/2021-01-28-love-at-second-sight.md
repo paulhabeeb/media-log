@@ -10,6 +10,8 @@ studios:
     - Belga Productions
     - France 3 Cinéma
     - C8 Films
+original_title: Mon Inconnue
+original_language: fr
 language:
     - French
     - English
@@ -29,7 +31,7 @@ date: 2021-01-28T05:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 570131
+tmdb_id: 570131
 ---
 
 

@@ -11,6 +11,8 @@ studios:
     - Nord-Ouest Productions
     - 120 Films
     - Canal+
+original_title: Irréversible
+original_language: fr
 language:
     - French
 country:
@@ -28,7 +30,7 @@ date: 2014-07-06T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 979
+tmdb_id: 979
 ---
 
 

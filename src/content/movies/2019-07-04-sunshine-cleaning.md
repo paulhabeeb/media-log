@@ -7,6 +7,8 @@ studios:
     - Overture Films
     - Back Lot Pictures
     - Big Beach
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -23,7 +25,7 @@ date: 2019-07-04T04:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 13090
+tmdb_id: 13090
 ---
 
 

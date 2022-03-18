@@ -10,6 +10,8 @@ studios:
     - Scott Rudin Productions
     - IAC Films
     - Elara Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -26,7 +28,7 @@ date: 2019-12-25T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 473033
+tmdb_id: 473033
 ---
 
 What an exhausting movie. Felt this did not reach the heights of <i>Good Time</i>, <i>Heaven Knows What</i>, or <i>Daddy Longlegs</i>.

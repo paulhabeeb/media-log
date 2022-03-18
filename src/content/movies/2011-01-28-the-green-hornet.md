@@ -8,6 +8,8 @@ studios:
     - Reliance Big Entertainment
     - Sony Pictures
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Mandarin
@@ -25,7 +27,7 @@ date: 2011-01-28T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 40805
+tmdb_id: 40805
 ---
 
 

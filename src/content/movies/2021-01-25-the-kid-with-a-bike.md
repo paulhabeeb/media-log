@@ -25,6 +25,8 @@ studios:
     - RTBF
     - France Télévisions
     - MEDIA Programme of the European Union
+original_title: Le Gamin au vélo
+original_language: fr
 language:
     - French
 country:
@@ -41,7 +43,7 @@ date: 2021-01-25T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 63831
+tmdb_id: 63831
 ---
 
 

@@ -9,6 +9,8 @@ studios:
     - Bold Films
     - Gaumont
     - Film i Väst
+original_title: ''
+original_language: en
 language:
     - English
     - Thai
@@ -29,7 +31,7 @@ date: 2013-07-16T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 77987
+tmdb_id: 77987
 ---
 
 

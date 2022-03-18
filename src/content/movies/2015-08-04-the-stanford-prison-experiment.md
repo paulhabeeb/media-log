@@ -5,8 +5,10 @@ creator:
 release: 2015-07-17T00:00:00.000Z
 studios:
     - Abandon Pictures
-    - Coup d'Etat Films
+    - Coup d’Etat Films
     - Sandbar Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2015-08-04T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 308032
+tmdb_id: 308032
 ---
 
 

@@ -8,6 +8,8 @@ studios:
     - Universal Pictures
     - Mike Zoss Productions
     - Working Title Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2020-06-01T04:00:00.000Z
 rating: '3.5'
 revisit: true
 media: Movie
-id: 270487
+tmdb_id: 270487
 ---
 
 

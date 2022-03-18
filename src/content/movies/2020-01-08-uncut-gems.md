@@ -10,6 +10,8 @@ studios:
     - Scott Rudin Productions
     - IAC Films
     - Elara Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -26,7 +28,7 @@ date: 2020-01-08T05:00:00.000Z
 rating: '4'
 revisit: true
 media: Movie
-id: 473033
+tmdb_id: 473033
 ---
 
 Not nearly as stressful the second time around. I’m not sure it does anything for me personally beyond pure spectacle and memeability. Anything significant I could take away is too removed and academic.

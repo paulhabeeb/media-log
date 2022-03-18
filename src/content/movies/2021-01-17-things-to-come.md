@@ -17,6 +17,8 @@ studios:
     - Hessen-Invest Film
     - Les Films du Losange
     - Auvergne-Rhône-Alpes Cinéma
+original_title: L'avenir
+original_language: fr
 language:
     - German
     - English
@@ -34,7 +36,7 @@ date: 2021-01-17T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 374465
+tmdb_id: 374465
 ---
 
 Really lovely how it meanders not in topic but through time. You can feel Rohmer and Assayas in the best ways.

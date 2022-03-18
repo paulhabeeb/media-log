@@ -5,6 +5,8 @@ creator:
 release: 1950-02-23T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2019-01-01T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 1978
+tmdb_id: 1978
 ---
 
 Very incredibly this is the first movie I’ve seen with Marlene Dietrich. I always think I’m running out of movies to watch, and then I realize how little I’ve seen.

@@ -8,6 +8,8 @@ studios:
     - Destination Films
     - Samuel Goldwyn Films
     - Andrew Lauren Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2019-02-06T05:00:00.000Z
 rating: '2.5'
 revisit: true
 media: Movie
-id: 10707
+tmdb_id: 10707
 ---
 
 

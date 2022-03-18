@@ -7,6 +7,8 @@ studios:
     - Archer Gray
     - Caviar
     - Cold Iron Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Turkish
@@ -23,7 +25,7 @@ date: 2015-08-23T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 250124
+tmdb_id: 250124
 ---
 
 

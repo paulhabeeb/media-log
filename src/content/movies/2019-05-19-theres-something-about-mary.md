@@ -1,11 +1,13 @@
 ---
-title: There's Something About Mary
+title: There’s Something About Mary
 creator:
     - Bobby Farrelly
     - Peter Farrelly
 release: 1998-07-15T00:00:00.000Z
 studios:
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2019-05-19T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 544
+tmdb_id: 544
 ---
 
 

@@ -6,6 +6,8 @@ release: 1974-12-20T00:00:00.000Z
 studios:
     - Paramount
     - The Coppola Company
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -24,7 +26,7 @@ date: 2018-02-07T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 240
+tmdb_id: 240
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Plan B Entertainment
     - Paramount
     - Regency Enterprises
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2015-12-25T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 318846
+tmdb_id: 318846
 ---
 
 

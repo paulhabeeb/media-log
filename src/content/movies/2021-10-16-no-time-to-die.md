@@ -8,6 +8,8 @@ studios:
     - Metro-Goldwyn-Mayer
     - United Artists
     - Universal Pictures
+original_title: ''
+original_language: en
 language:
     - Spanish
     - French
@@ -29,7 +31,7 @@ date: 2021-10-16T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 370172
+tmdb_id: 370172
 ---
 
 

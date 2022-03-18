@@ -6,6 +6,8 @@ release: 1967-06-22T00:00:00.000Z
 studios:
     - Jalem Productions
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2021-07-25T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 903
+tmdb_id: 903
 ---
 
 

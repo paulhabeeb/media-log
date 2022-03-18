@@ -6,6 +6,8 @@ release: 2010-03-26T00:00:00.000Z
 studios:
     - Scott Rudin Productions
     - Twins Financing
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2018-01-21T05:00:00.000Z
 rating: '3'
 revisit: true
 media: Movie
-id: 27583
+tmdb_id: 27583
 ---
 
 Lots of faces here that we'd come to see more often in the following years. Plus, Harris Savides photographed this.

@@ -6,6 +6,8 @@ release: 2012-12-25T00:00:00.000Z
 studios:
     - The Weinstein Company
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -23,7 +25,7 @@ date: 2013-01-19T05:00:00.000Z
 rating: '4.5'
 revisit: true
 media: Movie
-id: 68718
+tmdb_id: 68718
 ---
 
 

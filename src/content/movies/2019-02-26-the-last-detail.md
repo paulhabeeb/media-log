@@ -7,6 +7,8 @@ studios:
     - Columbia Pictures
     - Acrobat Productions
     - Bright-Persky Associates
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2019-02-26T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 14886
+tmdb_id: 14886
 ---
 
 

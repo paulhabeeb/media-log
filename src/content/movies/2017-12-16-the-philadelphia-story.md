@@ -5,6 +5,8 @@ creator:
 release: 1940-12-05T00:00:00.000Z
 studios:
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -21,7 +23,7 @@ date: 2017-12-16T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 981
+tmdb_id: 981
 ---
 
 

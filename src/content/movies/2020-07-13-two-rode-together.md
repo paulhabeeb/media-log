@@ -5,6 +5,8 @@ creator:
 release: 1961-07-26T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2020-07-13T04:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 32634
+tmdb_id: 32634
 ---
 
 

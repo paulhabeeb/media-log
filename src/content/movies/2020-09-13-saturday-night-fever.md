@@ -6,6 +6,8 @@ release: 1977-12-16T00:00:00.000Z
 studios:
     - Robert Stigwood Organization (RSO)
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-09-13T04:00:00.000Z
 rating: '1.5'
 revisit: false
 media: Movie
-id: 11009
+tmdb_id: 11009
 ---
 
 It's fun to see the clothes, the hairstyles, old New York, hear the music — but is there even a story here? You could tell one based on the facts, but the actual movie doesn't add up to much. Most compelling moment: when Tony gives away the award because he feels he didn't earn it.

@@ -1,11 +1,13 @@
 ---
-title: Sun Don't Shine
+title: Sun Don’t Shine
 creator:
     - Amy Seimetz
 release: 2012-03-10T00:00:00.000Z
 studios:
     - Spy Post Digital
     - Skywalker Sound
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2021-01-07T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 95177
+tmdb_id: 95177
 ---
 
 A wonderful approach to a crime film.

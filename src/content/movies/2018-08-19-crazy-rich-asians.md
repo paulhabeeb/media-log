@@ -7,6 +7,8 @@ studios:
     - Color Force
     - Ivanhoe Pictures
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - Cantonese
     - Mandarin
@@ -25,7 +27,7 @@ date: 2018-08-19T04:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 455207
+tmdb_id: 455207
 ---
 
 

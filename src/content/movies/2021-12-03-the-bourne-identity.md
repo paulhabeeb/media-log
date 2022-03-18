@@ -9,6 +9,8 @@ studios:
     - Kalima Productions GmbH & Co. KG
     - Stillking Films
     - The Kennedy/Marshall Company
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -32,7 +34,7 @@ date: 2021-12-03T05:00:00.000Z
 rating: '3.5'
 revisit: true
 media: Movie
-id: 2501
+tmdb_id: 2501
 ---
 
 I'd always remembered this one as my favorite, but watching it now it feels much more dated than I recall. There are a bunch of classic scenes — <em>Why do I know that?</em>, the embassy, the car chase — but I think <em>Supremacy</em> might be better.

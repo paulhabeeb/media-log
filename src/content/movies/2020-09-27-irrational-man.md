@@ -7,6 +7,8 @@ studios:
     - Perdido Productions
     - Sony Pictures
     - Gravier Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2020-09-27T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 282984
+tmdb_id: 282984
 ---
 
 Love the unexpected combination of genres. But it feels very surface. I think it’s the voiceover. Allen uses it as a crutch so the script doesn’t have to take a deep dive into the characters. He doesn’t put them in the right situations to reveal themselves, instead relying on the voiceover.

@@ -5,6 +5,8 @@ creator:
 release: 1953-10-14T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2018-01-24T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 14580
+tmdb_id: 14580
 ---
 
 

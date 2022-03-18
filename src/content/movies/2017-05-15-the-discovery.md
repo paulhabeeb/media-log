@@ -6,6 +6,8 @@ release: 2017-03-31T00:00:00.000Z
 studios:
     - Protagonist Pictures
     - Endgame Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2017-05-15T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 376134
+tmdb_id: 376134
 ---
 
 

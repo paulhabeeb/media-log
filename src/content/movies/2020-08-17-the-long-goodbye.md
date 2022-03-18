@@ -7,6 +7,8 @@ studios:
     - Lions Gate Films
     - E-K-Corporation
     - United Artists
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -24,7 +26,7 @@ date: 2020-08-17T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 1847
+tmdb_id: 1847
 ---
 
 The opening scene is such a funny yet honest way into the story. His cat's a picky eater. Whose cat isn't? And the atmosphere, the haze, it's all great. This is probably my favorite Altman.

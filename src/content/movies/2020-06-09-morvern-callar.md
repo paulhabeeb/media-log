@@ -13,6 +13,8 @@ studios:
     - The Glasgow Film Fund
     - BBC Scotland
     - National Lottery
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -29,7 +31,7 @@ date: 2020-06-09T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 18602
+tmdb_id: 18602
 ---
 
 

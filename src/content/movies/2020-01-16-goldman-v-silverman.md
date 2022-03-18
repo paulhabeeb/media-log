@@ -6,6 +6,8 @@ creator:
 release: 2020-01-16T00:00:00.000Z
 studios:
     - Elara Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-01-16T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 664394
+tmdb_id: 664394
 ---
 
 Fun..but...I enjoyed the original more.

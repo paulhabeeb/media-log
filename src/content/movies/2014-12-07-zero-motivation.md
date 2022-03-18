@@ -5,6 +5,8 @@ creator:
 release: 2014-06-26T00:00:00.000Z
 studios:
     - July August Productions
+original_title: Efes Beyahasei Enosh
+original_language: he
 language:
     - Hebrew
 country:
@@ -20,7 +22,7 @@ date: 2014-12-07T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 261825
+tmdb_id: 261825
 ---
 
 

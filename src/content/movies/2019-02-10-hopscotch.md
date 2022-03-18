@@ -7,6 +7,8 @@ studios:
     - Edie & Ely Landau Inc.
     - Embassy Pictures
     - Connelly Associates
+original_title: ''
+original_language: en
 language:
     - German
     - English
@@ -25,7 +27,7 @@ date: 2019-02-10T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 32030
+tmdb_id: 32030
 ---
 
 

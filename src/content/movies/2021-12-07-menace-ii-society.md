@@ -6,6 +6,8 @@ creator:
 release: 1993-05-26T00:00:00.000Z
 studios:
     - New Line Cinema
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2021-12-07T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 9516
+tmdb_id: 9516
 ---
 
 

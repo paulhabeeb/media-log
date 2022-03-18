@@ -7,6 +7,8 @@ studios:
     - Mundy Lane Entertainment
     - TriStar Pictures
     - Clinica Estetico
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2020-08-23T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 8512
+tmdb_id: 8512
 ---
 
 Man, this was great. I had no idea what I was in for, but this was right up my alley. A perfect piece of neo-noir, probably superior to L.A. Confidential, which came two years later. Denzel and Cheadle. Man. So good.

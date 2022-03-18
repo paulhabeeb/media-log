@@ -6,6 +6,8 @@ release: 1980-02-08T00:00:00.000Z
 studios:
     - Paramount
     - Freddie Fields Productions
+original_title: ''
+original_language: en
 language:
     - German
     - Swedish
@@ -27,7 +29,7 @@ date: 2020-02-14T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 2768
+tmdb_id: 2768
 ---
 
 A week later, I’m still thinking about the mood here. There’s something to it.

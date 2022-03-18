@@ -6,6 +6,8 @@ release: 1971-06-17T00:00:00.000Z
 studios:
     - Robert M. Weitman Productions
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2020-03-31T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 30941
+tmdb_id: 30941
 ---
 
 What a mess. This kind of script really isn’t suited to Lumet’s realistic style. It could’ve been something really fun, like Ocean’s 11, but instead all the liberties the story takes with realistic possibility — they thought they were <i>really</i> going to knock over that entire building? — become distractions. Tellingly, the most interesting part was the police rappelling from roof to roof.

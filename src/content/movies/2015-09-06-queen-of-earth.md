@@ -7,6 +7,8 @@ studios:
     - Faliro House Productions
     - Washington Square Films
     - Her Majesty September
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2015-09-06T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 300542
+tmdb_id: 300542
 ---
 
 

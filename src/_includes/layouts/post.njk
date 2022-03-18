@@ -21,7 +21,7 @@ layout: layouts/base.njk
 <article>
     <header class="postHeader">
         <div class="postTitle-wrapper">
-            <h2 class="postTitle">{{ postTitle(title, season, episode) }}</h2>
+            <h2 class="postTitle">{{ postTitle(title, original_title, original_language, season, episode) }}</h2>
             <div class="releaseDate">{{ release | yearOnly }}</div>
         </div>
         <div class="postDates">

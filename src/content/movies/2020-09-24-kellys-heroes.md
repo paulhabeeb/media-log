@@ -1,5 +1,5 @@
 ---
-title: Kelly's Heroes
+title: Kelly’s Heroes
 creator:
     - Brian G. Hutton
 release: 1970-01-01T00:00:00.000Z
@@ -7,6 +7,8 @@ studios:
     - Katzka-Loeb
     - Avala Film
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -25,7 +27,7 @@ date: 2020-09-24T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 11589
+tmdb_id: 11589
 ---
 
 The opening scene, at night and in the rain, is beautifully lit. You don’t see things lit that way these days.

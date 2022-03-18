@@ -1,10 +1,12 @@
 ---
-title: You've Got Mail
+title: You’ve Got Mail
 creator:
     - Nora Ephron
 release: 1998-02-26T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2015-01-15T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 9489
+tmdb_id: 9489
 ---
 
 

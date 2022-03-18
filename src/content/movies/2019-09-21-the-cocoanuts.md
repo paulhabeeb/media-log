@@ -6,6 +6,8 @@ creator:
 release: 1929-05-23T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2019-09-21T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 20625
+tmdb_id: 20625
 ---
 
 

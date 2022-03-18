@@ -17,6 +17,8 @@ studios:
     - Svenska Filminstitutet
     - SVT
     - Talipot Studio
+original_title: ''
+original_language: en
 language:
     - German
     - English
@@ -37,7 +39,7 @@ date: 2021-12-03T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 477044
+tmdb_id: 477044
 ---
 
 Mia Hansen-Løve’s movies have a way of lingering in my brain for a long time after I see them, and this one is no different. Her storytelling ability is unique and always subtle. Never too much straight plot, and never characters that scream one way or another. I appreciate the subtlety.

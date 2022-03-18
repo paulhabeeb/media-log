@@ -6,6 +6,8 @@ release: 1995-10-20T00:00:00.000Z
 studios:
     - Jersey Films
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2021-07-12T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 8012
+tmdb_id: 8012
 ---
 
 

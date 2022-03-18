@@ -5,6 +5,8 @@ creator:
 release: 2012-07-11T00:00:00.000Z
 studios:
     - Live Wire Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2019-12-15T05:00:00.000Z
 rating: '1'
 revisit: false
 media: Movie
-id: 89237
+tmdb_id: 89237
 ---
 
 I appreciate that the movie treats its subject sincerely, and a lesser film would have explicitly revealed the answer to the mystery. The conceit is unique and interesting.

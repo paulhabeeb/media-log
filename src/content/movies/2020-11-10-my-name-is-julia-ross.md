@@ -5,6 +5,8 @@ creator:
 release: 1945-11-08T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2020-11-10T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 42077
+tmdb_id: 42077
 ---
 
 Too much revealed too soon, so tension is deflated. Pure enjoyment, though.

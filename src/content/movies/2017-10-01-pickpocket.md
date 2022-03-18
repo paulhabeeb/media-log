@@ -5,6 +5,8 @@ creator:
 release: 1959-12-16T00:00:00.000Z
 studios:
     - Lux Compagnie Cinématographique de France
+original_title: Pickpocket
+original_language: fr
 language:
     - French
 country:
@@ -20,7 +22,7 @@ date: 2017-10-01T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 690
+tmdb_id: 690
 ---
 
 

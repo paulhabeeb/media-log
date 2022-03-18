@@ -6,6 +6,8 @@ release: 2011-11-22T00:00:00.000Z
 studios:
     - Walt Disney Pictures
     - The Muppets Studio
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -23,7 +25,7 @@ date: 2011-12-03T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 64328
+tmdb_id: 64328
 ---
 
 

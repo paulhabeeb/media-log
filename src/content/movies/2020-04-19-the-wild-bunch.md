@@ -5,6 +5,8 @@ creator:
 release: 1969-06-17T00:00:00.000Z
 studios:
     - Warner Bros./Seven Arts
+original_title: ''
+original_language: en
 language:
     - English
     - German
@@ -23,7 +25,7 @@ date: 2020-04-19T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 576
+tmdb_id: 576
 ---
 
 I dunno. Not sure I loved this. Don’t know if it’s as interesting in today’s context.

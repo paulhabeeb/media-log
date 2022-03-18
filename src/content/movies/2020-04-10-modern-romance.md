@@ -5,6 +5,8 @@ creator:
 release: 1981-03-13T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-04-10T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 63443
+tmdb_id: 63443
 ---
 
 Wannabe Woody Allen. Bored to death, but I feel like it made a deep impression.

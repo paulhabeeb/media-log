@@ -8,6 +8,8 @@ studios:
     - United Artists
     - Norma Productions
     - Curtleigh Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2018-02-14T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 976
+tmdb_id: 976
 ---
 
 

@@ -11,6 +11,8 @@ studios:
     - McCann-Erickson
     - Televiziunea Română
     - Hubert Bals Fund
+original_title: 4 luni, 3 săptămîni și 2 zile
+original_language: ro
 language:
     - Romanian
 country:
@@ -26,7 +28,7 @@ date: 2008-04-12T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 2009
+tmdb_id: 2009
 ---
 
 

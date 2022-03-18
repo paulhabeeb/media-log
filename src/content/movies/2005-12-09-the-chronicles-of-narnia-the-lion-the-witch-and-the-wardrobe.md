@@ -6,6 +6,8 @@ release: 2005-12-07T00:00:00.000Z
 studios:
     - Walt Disney Pictures
     - Walden Media
+original_title: ''
+original_language: en
 language:
     - English
     - German
@@ -24,7 +26,7 @@ date: 2005-12-09T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 411
+tmdb_id: 411
 ---
 
 

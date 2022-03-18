@@ -5,6 +5,8 @@ creator:
 release: 2013-12-06T00:00:00.000Z
 studios:
     - IFC Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2013-12-08T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 176085
+tmdb_id: 176085
 ---
 
 

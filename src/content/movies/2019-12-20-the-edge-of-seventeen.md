@@ -8,6 +8,8 @@ studios:
     - Gracie Films
     - STX Entertainment
     - Huayi Brothers Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2019-12-20T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 376660
+tmdb_id: 376660
 ---
 
 Delivered something much greater than I expected. It looks at mental health in a way most teen films completely ignore. It's so honest and raw about Nadine's character that she borders on unsympathetic. We get to see how her depression and anxiety control her life and her relationships with her brother, mom, and best friend.

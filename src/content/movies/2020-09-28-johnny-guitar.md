@@ -5,6 +5,8 @@ creator:
 release: 1954-05-26T00:00:00.000Z
 studios:
     - Republic Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-09-28T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 26596
+tmdb_id: 26596
 ---
 
 

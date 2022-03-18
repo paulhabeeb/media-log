@@ -11,6 +11,8 @@ studios:
     - Elle Driver
     - Indéfilms
     - Pyramide Films
+original_title: Les choses qu'on dit, les choses qu'on fait
+original_language: fr
 language:
     - French
 country:
@@ -26,7 +28,7 @@ date: 2021-03-12T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 661935
+tmdb_id: 661935
 ---
 
 

@@ -6,6 +6,8 @@ creator:
 release: 2011-07-29T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2011-07-30T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 50646
+tmdb_id: 50646
 ---
 
 

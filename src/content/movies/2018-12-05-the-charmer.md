@@ -9,6 +9,8 @@ studios:
     - New Danish Screen
     - Vixens
     - Film i Väst
+original_title: Charmøren
+original_language: da
 language:
     - Danish
     - Persian
@@ -26,7 +28,7 @@ date: 2018-12-05T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 476243
+tmdb_id: 476243
 ---
 
 

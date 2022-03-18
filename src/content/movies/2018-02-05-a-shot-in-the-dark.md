@@ -6,6 +6,8 @@ release: 1964-06-23T00:00:00.000Z
 studios:
     - United Artists
     - The Mirisch Company
+original_title: ''
+original_language: en
 language:
     - French
     - English
@@ -24,7 +26,7 @@ date: 2018-02-05T05:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 1594
+tmdb_id: 1594
 ---
 
 Surprisingly boring. In most scenes I found myself waiting for Peter Sellers to come round and be funny. There’s really nothing here except for his physical comedy, which is outstanding. David Niven added so much to the first film, and he’s missed.

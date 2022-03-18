@@ -6,6 +6,8 @@ release: 1950-05-17T00:00:00.000Z
 studios:
     - Santana Pictures Corporation
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2019-01-17T05:00:00.000Z
 rating: '3.5'
 revisit: true
 media: Movie
-id: 17057
+tmdb_id: 17057
 ---
 
 <i>“What a grip — that’s from counting money.”</i>

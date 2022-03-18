@@ -9,6 +9,8 @@ studios:
     - Working Title Films
     - StudioCanal
     - Focus Features
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -27,7 +29,7 @@ date: 2018-05-31T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 4347
+tmdb_id: 4347
 ---
 
 

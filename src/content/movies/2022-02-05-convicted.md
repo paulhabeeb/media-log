@@ -5,6 +5,8 @@ creator:
 release: 1950-08-01T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2022-02-05T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 35920
+tmdb_id: 35920
 ---
 
 The plot keeps twisting and turning and layering until the very end. Surprisingly slow at the beginning, though.

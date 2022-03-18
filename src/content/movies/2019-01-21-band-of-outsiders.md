@@ -7,6 +7,8 @@ studios:
     - Orsay Films
     - Anouchka Films
     - Columbia Films
+original_title: Bande à part
+original_language: fr
 language:
     - English
     - French
@@ -24,7 +26,7 @@ date: 2019-01-21T05:00:00.000Z
 rating: '5'
 revisit: true
 media: Movie
-id: 8073
+tmdb_id: 8073
 ---
 
 

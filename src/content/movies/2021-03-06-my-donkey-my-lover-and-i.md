@@ -8,6 +8,8 @@ studios:
     - France 3 Cinéma
     - Belga Productions
     - La Filmerie
+original_title: Antoinette dans les Cévennes
+original_language: fr
 language:
     - French
 country:
@@ -25,7 +27,7 @@ date: 2021-03-06T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 669664
+tmdb_id: 669664
 ---
 
 

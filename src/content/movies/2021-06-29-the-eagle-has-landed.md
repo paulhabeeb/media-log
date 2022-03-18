@@ -6,6 +6,8 @@ release: 1976-12-24T00:00:00.000Z
 studios:
     - Associated General Films
     - ITC
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2021-06-29T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 11372
+tmdb_id: 11372
 ---
 
 Larry Hagman steals the show.

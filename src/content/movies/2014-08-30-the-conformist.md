@@ -7,6 +7,8 @@ studios:
     - Marianne Productions
     - Maran Film
     - Mars Film Produzione
+original_title: Il conformista
+original_language: it
 language:
     - French
     - Italian
@@ -24,7 +26,7 @@ date: 2014-08-30T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 8416
+tmdb_id: 8416
 ---
 
 

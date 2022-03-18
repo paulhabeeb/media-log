@@ -7,6 +7,8 @@ studios:
     - Lionsgate
     - MRC
     - T-Street Productions
+original_title: ''
+original_language: en
 language:
     - Spanish
     - English
@@ -24,7 +26,7 @@ date: 2019-12-04T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 546554
+tmdb_id: 546554
 ---
 
 It was fun...but I don’t know. The politics felt pasted on. Nothing was particularly surprising. I wanted to like it so much more than I did.

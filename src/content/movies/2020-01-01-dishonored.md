@@ -5,6 +5,8 @@ creator:
 release: 1931-04-04T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
     - Russian
@@ -22,7 +24,7 @@ date: 2020-01-01T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 73420
+tmdb_id: 73420
 ---
 
 

@@ -7,11 +7,13 @@ studios:
     - La Cinéfacture
     - RT Features
     - Frenesy Film
-    - Water's End Productions
+    - Water’s End Productions
     - M.Y.R.A. Entertainment
     - Memento Films International
     - Ministero per i Beni e le Attività Culturali
     - Sony Pictures Classics
+original_title: ''
+original_language: en
 language:
     - French
     - English
@@ -32,7 +34,7 @@ date: 2018-02-04T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 398818
+tmdb_id: 398818
 ---
 
 

@@ -12,6 +12,8 @@ studios:
     - Vortex Sutra
     - Canal+
     - ARTE France Cinéma
+original_title: ''
+original_language: en
 language:
     - Swedish
     - English
@@ -33,7 +35,7 @@ date: 2017-08-14T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 340676
+tmdb_id: 340676
 ---
 
 

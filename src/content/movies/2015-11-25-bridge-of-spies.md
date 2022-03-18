@@ -12,6 +12,8 @@ studios:
     - Participant
     - Reliance Entertainment
     - DreamWorks Pictures
+original_title: ''
+original_language: en
 language:
     - Russian
     - English
@@ -31,7 +33,7 @@ date: 2015-11-25T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 296098
+tmdb_id: 296098
 ---
 
 

@@ -8,6 +8,8 @@ studios:
     - Focus Features
     - Tohokushinsha Film Corporation
     - Elemental Films
+original_title: ''
+original_language: en
 language:
     - Japanese
     - English
@@ -27,7 +29,7 @@ date: 2013-10-27T04:00:00.000Z
 rating: '3.5'
 revisit: true
 media: Movie
-id: 153
+tmdb_id: 153
 ---
 
 

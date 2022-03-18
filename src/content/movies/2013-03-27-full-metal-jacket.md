@@ -7,6 +7,8 @@ studios:
     - Natant
     - Stanley Kubrick Productions
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Vietnamese
@@ -24,7 +26,7 @@ date: 2013-03-27T04:00:00.000Z
 rating: '5'
 revisit: true
 media: Movie
-id: 600
+tmdb_id: 600
 ---
 
 

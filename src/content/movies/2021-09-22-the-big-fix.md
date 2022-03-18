@@ -5,6 +5,8 @@ creator:
 release: 1978-10-06T00:00:00.000Z
 studios:
     - Universal Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2021-09-22T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 42213
+tmdb_id: 42213
 ---
 
 

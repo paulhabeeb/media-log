@@ -5,6 +5,8 @@ creator:
 release: 1944-09-01T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2018-01-12T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 212
+tmdb_id: 212
 ---
 
 Not my kind of humor. Wasn’t able to make it to Peter Lorre. 😔

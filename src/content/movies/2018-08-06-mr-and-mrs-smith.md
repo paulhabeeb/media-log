@@ -5,6 +5,8 @@ creator:
 release: 1941-01-31T00:00:00.000Z
 studios:
     - RKO Radio Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2018-08-06T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 24197
+tmdb_id: 24197
 ---
 
 

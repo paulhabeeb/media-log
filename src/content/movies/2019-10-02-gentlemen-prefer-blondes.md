@@ -5,6 +5,8 @@ creator:
 release: 1953-07-14T00:00:00.000Z
 studios:
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - French
     - English
@@ -22,7 +24,7 @@ date: 2019-10-02T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 759
+tmdb_id: 759
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Tapestry Films
     - Miramax
     - Simon Fields Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2020-12-16T05:00:00.000Z
 rating: '1.5'
 revisit: false
 media: Movie
-id: 9778
+tmdb_id: 9778
 ---
 
 I’d heard this was a Christmas movie, but I think not.

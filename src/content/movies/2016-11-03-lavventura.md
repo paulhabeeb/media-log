@@ -1,5 +1,5 @@
 ---
-title: L'Avventura
+title: L’Avventura
 creator:
     - Michelangelo Antonioni
 release: 1960-09-14T00:00:00.000Z
@@ -7,6 +7,8 @@ studios:
     - Cino del Duca
     - Produzioni Cinematografiche Europee (P.C.E.)
     - Societé Cinématographique Lyre
+original_title: L'avventura
+original_language: it
 language:
     - Italian
     - English
@@ -24,7 +26,7 @@ date: 2016-11-03T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 5165
+tmdb_id: 5165
 ---
 
 

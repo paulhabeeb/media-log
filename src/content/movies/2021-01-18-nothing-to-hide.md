@@ -9,6 +9,8 @@ studios:
     - C8 Films
     - Medset Film
     - SCOPE Pictures
+original_title: Le Jeu
+original_language: fr
 language:
     - French
 country:
@@ -26,7 +28,7 @@ date: 2021-01-18T05:00:00.000Z
 rating: '1'
 revisit: false
 media: Movie
-id: 487476
+tmdb_id: 487476
 ---
 
 The ending kills it, certainly, but everything that leads up to that point is so expected and uninteresting that I wasn't at all surprised by the poor decision.

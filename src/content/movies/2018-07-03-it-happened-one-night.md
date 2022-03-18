@@ -5,6 +5,8 @@ creator:
 release: 1934-02-22T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2018-07-03T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 3078
+tmdb_id: 3078
 ---
 
 

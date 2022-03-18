@@ -7,6 +7,8 @@ studios:
     - Robert et Raymond Hakim
     - Paris Film
     - Titanus
+original_title: Plein soleil
+original_language: fr
 language:
     - English
     - French
@@ -26,7 +28,7 @@ date: 2018-09-05T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 10363
+tmdb_id: 10363
 ---
 
 

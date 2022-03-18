@@ -5,6 +5,8 @@ creator:
 release: 1934-05-09T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-07-19T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 31527
+tmdb_id: 31527
 ---
 
 

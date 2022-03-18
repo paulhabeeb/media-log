@@ -8,6 +8,8 @@ studios:
     - ARTE France Cinéma
     - Hold Up Films
     - Neon
+original_title: Portrait de la jeune fille en feu
+original_language: fr
 language:
     - Italian
     - French
@@ -25,7 +27,7 @@ date: 2020-04-02T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 531428
+tmdb_id: 531428
 ---
 
 Weirdly emotionless. Not bad at all — wonderful craft at work, with a beautiful way of letting things linger. But the story moves along through the first three and a half acts at a distance that left me feeling nothing through the characters. It’s more academic than emotional. By the time things get interesting, I didn’t feel all that invested. Maybe a rewatch will change this.

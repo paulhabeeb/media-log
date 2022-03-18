@@ -10,6 +10,8 @@ studios:
     - Canal+
     - ARTE France Cinéma
     - Bayerischer Rundfunk
+original_title: La Pianiste
+original_language: fr
 language:
     - French
     - German
@@ -28,7 +30,7 @@ date: 2017-10-02T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 1791
+tmdb_id: 1791
 ---
 
 

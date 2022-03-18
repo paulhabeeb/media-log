@@ -7,6 +7,8 @@ studios:
     - Stera Films
     - Compagnie Commerciale Française Cinématographique (CCFC)
     - C.C.F.C
+original_title: Le Plaisir
+original_language: fr
 language:
     - French
 country:
@@ -21,7 +23,7 @@ date: 2013-08-19T04:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 43360
+tmdb_id: 43360
 ---
 
 

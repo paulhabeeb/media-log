@@ -7,6 +7,8 @@ studios:
     - MK2 Films
     - BiBi Film
     - The Antria Group (TAG)
+original_title: Copie conforme
+original_language: fr
 language:
     - English
     - French
@@ -27,7 +29,7 @@ date: 2020-06-29T04:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 48303
+tmdb_id: 48303
 ---
 
 This could have fallen apart so easily, but Kiarostami handled it well. An interesting twist on Rohmer.

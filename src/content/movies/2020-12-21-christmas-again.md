@@ -4,6 +4,8 @@ creator:
     - Charles Poekel
 release: 2014-08-13T00:00:00.000Z
 studios: []
+original_title: ''
+original_language: en
 language:
     - English
 country: []
@@ -18,7 +20,7 @@ date: 2020-12-21T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 285020
+tmdb_id: 285020
 ---
 
 Christmas movies can’t get much better than this. A wonderful film that’s incredibly cast. Each new customer feels like they contain their own world. Kudos.

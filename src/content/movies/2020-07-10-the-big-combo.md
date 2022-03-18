@@ -7,6 +7,8 @@ studios:
     - Security Pictures
     - Theodora Productions
     - Allied Artists Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2020-07-10T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 22342
+tmdb_id: 22342
 ---
 
 

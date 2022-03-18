@@ -5,6 +5,8 @@ creator:
 release: 1982-08-13T04:00:00Z
 studios:
     - Refugee Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,4 +21,5 @@ date: 2022-03-13T05:00:00Z
 rating: 3.5
 revisit: true
 media: Movie
+tmdb_id: 13342
 ---

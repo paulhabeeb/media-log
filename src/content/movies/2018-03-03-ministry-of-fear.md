@@ -5,6 +5,8 @@ creator:
 release: 1944-05-19T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2018-03-03T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 21451
+tmdb_id: 21451
 ---
 
 Practically a Hitchcock.

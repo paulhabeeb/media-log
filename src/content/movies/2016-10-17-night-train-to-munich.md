@@ -5,6 +5,8 @@ creator:
 release: 1940-08-31T00:00:00.000Z
 studios:
     - Gainsborough Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - German
@@ -22,7 +24,7 @@ date: 2016-10-17T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 41597
+tmdb_id: 41597
 ---
 
 

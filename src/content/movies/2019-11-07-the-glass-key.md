@@ -5,6 +5,8 @@ creator:
 release: 1942-09-08T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2019-11-07T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 17131
+tmdb_id: 17131
 ---
 
 

@@ -5,6 +5,8 @@ creator:
 release: 1948-12-24T00:00:00.000Z
 studios:
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2022-02-26T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 20638
+tmdb_id: 20638
 ---
 
 

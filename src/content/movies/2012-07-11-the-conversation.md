@@ -7,6 +7,8 @@ studios:
     - Paramount
     - The Directors Company
     - The Coppola Company
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2012-07-11T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 592
+tmdb_id: 592
 ---
 
 

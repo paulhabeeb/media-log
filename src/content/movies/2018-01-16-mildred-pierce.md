@@ -5,6 +5,8 @@ creator:
 release: 1945-10-20T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2018-01-16T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 3309
+tmdb_id: 3309
 ---
 
 This blew me away. Just incredible. Also, Joan Crawford’s wardrobe!

@@ -7,6 +7,8 @@ studios:
     - Star Partners III Ltd.
     - Metro-Goldwyn-Mayer
     - Pathé Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2018-10-28T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 1541
+tmdb_id: 1541
 ---
 
 

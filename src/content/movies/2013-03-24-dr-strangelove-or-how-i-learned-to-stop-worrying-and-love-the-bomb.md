@@ -6,6 +6,8 @@ release: 1964-01-29T00:00:00.000Z
 studios:
     - Hawk Films
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2013-03-24T04:00:00.000Z
 rating: '4'
 revisit: true
 media: Movie
-id: 935
+tmdb_id: 935
 ---
 
 

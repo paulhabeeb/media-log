@@ -7,6 +7,8 @@ studios:
     - Paramount
     - Marianne Productions
     - Adel Productions
+original_title: Borsalino
+original_language: fr
 language:
     - French
     - Italian
@@ -24,7 +26,7 @@ date: 2018-09-11T04:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 25251
+tmdb_id: 25251
 ---
 
 

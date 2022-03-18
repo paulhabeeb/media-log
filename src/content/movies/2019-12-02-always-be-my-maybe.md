@@ -5,6 +5,8 @@ creator:
 release: 2019-05-31T00:00:00.000Z
 studios:
     - Good Universe
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2019-12-02T05:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 513576
+tmdb_id: 513576
 ---
 
 

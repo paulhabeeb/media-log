@@ -5,6 +5,8 @@ creator:
 release: 2018-10-06T00:00:00.000Z
 studios:
     - Les Films Pelléas
+original_title: En liberté !
+original_language: fr
 language:
     - French
 country:
@@ -22,7 +24,7 @@ date: 2021-01-11T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 519106
+tmdb_id: 519106
 ---
 
 Neither here nor there on this. Haenel is superb, of course, but the absurdity never reaches the heights of something like, say, <em>Le daim</em>, and it probably should.

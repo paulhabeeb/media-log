@@ -7,6 +7,8 @@ studios:
     - Brio Films
     - SCOPE Invest
     - SCOPE Pictures
+original_title: L'écume des jours
+original_language: fr
 language:
     - French
     - English
@@ -24,7 +26,7 @@ date: 2014-03-10T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 157820
+tmdb_id: 157820
 ---
 
 

@@ -10,6 +10,8 @@ studios:
     - Tango Film
     - Trio Films
     - WDR
+original_title: Die Ehe der Maria Braun
+original_language: de
 language:
     - French
     - German
@@ -26,7 +28,7 @@ date: 2020-05-17T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 661
+tmdb_id: 661
 ---
 
 

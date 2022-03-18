@@ -5,6 +5,8 @@ creator:
 release: 1954-02-12T00:00:00.000Z
 studios:
     - Universal Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2020-11-09T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 18721
+tmdb_id: 18721
 ---
 
 I just don’t buy James Stewart as a leave-me-out-of-it rebel. Mitchum or Wayne would’ve been better.

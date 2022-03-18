@@ -7,6 +7,8 @@ studios:
     - Annapurna Pictures
     - Plan B Entertainment
     - PASTEL
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2019-01-20T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 465914
+tmdb_id: 465914
 ---
 
 

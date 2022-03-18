@@ -6,6 +6,8 @@ release: 1978-09-07T00:00:00.000Z
 studios:
     - Tiberius Entertainment
     - Carolco Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2021-05-14T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 25338
+tmdb_id: 25338
 ---
 
 

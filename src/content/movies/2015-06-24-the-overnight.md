@@ -5,7 +5,9 @@ creator:
 release: 2015-06-19T00:00:00.000Z
 studios:
     - Duplass Brothers Productions
-    - Gettin' Rad Productions
+    - Gettin’ Rad Productions
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -22,7 +24,7 @@ date: 2015-06-24T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 308024
+tmdb_id: 308024
 ---
 
 

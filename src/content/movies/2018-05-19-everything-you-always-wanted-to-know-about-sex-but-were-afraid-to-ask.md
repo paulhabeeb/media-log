@@ -5,6 +5,8 @@ creator:
 release: 1972-08-06T00:00:00.000Z
 studios:
     - United Artists
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -20,7 +22,7 @@ date: 2018-05-19T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 11624
+tmdb_id: 11624
 ---
 
 

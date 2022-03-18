@@ -1,5 +1,5 @@
 ---
-title: Maggie's Plan
+title: Maggie’s Plan
 creator:
     - Rebecca Miller
 release: 2016-04-27T00:00:00.000Z
@@ -11,6 +11,8 @@ studios:
     - Hall Monitor
     - Hyperion Media Group
     - Locomotive
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -27,7 +29,7 @@ date: 2018-11-21T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 312669
+tmdb_id: 312669
 ---
 
 

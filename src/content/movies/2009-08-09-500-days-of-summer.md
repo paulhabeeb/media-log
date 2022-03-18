@@ -7,6 +7,8 @@ studios:
     - Fox Searchlight Pictures
     - Watermark Pictures
     - Dune Entertainment III
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -25,7 +27,7 @@ date: 2009-08-09T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 19913
+tmdb_id: 19913
 ---
 
 

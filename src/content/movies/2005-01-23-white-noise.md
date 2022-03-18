@@ -13,6 +13,8 @@ studios:
     - Gold Circle Films
     - The Movie Network
     - Corus Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -31,7 +33,7 @@ date: 2005-01-23T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 11804
+tmdb_id: 11804
 ---
 
 

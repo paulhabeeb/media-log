@@ -5,6 +5,8 @@ creator:
 release: 2008-08-20T00:00:00.000Z
 studios:
     - Fox Atomic
+original_title: ''
+original_language: en
 language:
     - French
     - English
@@ -21,7 +23,7 @@ date: 2018-08-28T04:00:00.000Z
 rating: '1'
 revisit: false
 media: Movie
-id: 10186
+tmdb_id: 10186
 ---
 
 After watching Superbad yesterday, I decided it would be a good idea to watch every one of Emma Stone’s movies in order, so here we go.

@@ -5,6 +5,8 @@ creator:
 release: 1958-05-01T00:00:00.000Z
 studios:
     - Les Films de la Pléiade
+original_title: Ô saisons, ô châteaux
+original_language: fr
 language:
     - French
 country:
@@ -19,7 +21,7 @@ date: 2020-09-14T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 278727
+tmdb_id: 278727
 ---
 
 

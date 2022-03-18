@@ -6,6 +6,8 @@ release: 1978-03-18T00:00:00.000Z
 studios:
     - First Artists
     - Sweetwall
+original_title: ''
+original_language: en
 language:
     - Cantonese
     - English
@@ -23,7 +25,7 @@ date: 2018-12-24T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 23397
+tmdb_id: 23397
 ---
 
 

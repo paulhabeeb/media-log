@@ -7,6 +7,8 @@ studios:
     - Gramercy Pictures
     - Propaganda Films
     - Single Cell Pictures
+original_title: ''
+original_language: en
 language:
     - French
     - English
@@ -24,7 +26,7 @@ date: 2013-08-12T04:00:00.000Z
 rating: '4'
 revisit: true
 media: Movie
-id: 492
+tmdb_id: 492
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Tempesta Films
     - 2929 Productions
     - Wild Bunch
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2020-04-25T04:00:00.000Z
 rating: '4'
 revisit: true
 media: Movie
-id: 10362
+tmdb_id: 10362
 ---
 
 This might be my favorite of all of James Gray’s movies. I saw its first run back in 2009, and it had a deep impact on me then. It’s different for me now — I see it more for the bleak story it is.

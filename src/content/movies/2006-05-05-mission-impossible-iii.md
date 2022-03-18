@@ -12,6 +12,8 @@ studios:
     - China Film Group Corporation
     - Cinecittá Studios
     - Studio Babelsberg
+original_title: ''
+original_language: en
 language:
     - German
     - English
@@ -35,7 +37,7 @@ date: 2006-05-05T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 956
+tmdb_id: 956
 ---
 
 

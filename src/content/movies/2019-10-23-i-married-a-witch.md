@@ -6,6 +6,8 @@ release: 1942-10-30T00:00:00.000Z
 studios:
     - Rene Clair Productions
     - United Artists
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2019-10-23T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 25970
+tmdb_id: 25970
 ---
 
 

@@ -5,6 +5,8 @@ creator:
 release: 1973-07-25T00:00:00.000Z
 studios:
     - Newman-Foreman Company
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2022-01-01T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 32627
+tmdb_id: 32627
 ---
 
 Two odd halves to a film. They almost feel disconnected from each other. The first is confusing and forced. The second is much more interesting and probably should have been fleshed out to be the entire story.

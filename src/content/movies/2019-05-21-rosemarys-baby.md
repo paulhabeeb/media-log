@@ -1,10 +1,12 @@
 ---
-title: Rosemary's Baby
+title: Rosemary’s Baby
 creator:
     - Roman Polanski
 release: 1968-06-12T00:00:00.000Z
 studios:
     - William Castle Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2019-05-21T04:00:00.000Z
 rating: '4.5'
 revisit: true
 media: Movie
-id: 805
+tmdb_id: 805
 ---
 
 

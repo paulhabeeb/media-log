@@ -9,6 +9,8 @@ studios:
     - Scott Rudin Productions
     - Michael De Luca Productions
     - Trigger Street Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2013-08-11T04:00:00.000Z
 rating: '2.5'
 revisit: true
 media: Movie
-id: 37799
+tmdb_id: 37799
 ---
 
 

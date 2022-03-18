@@ -7,6 +7,8 @@ studios:
     - Didion-Dunne
     - gadd productions corp.
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2018-12-16T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 27554
+tmdb_id: 27554
 ---
 
 Think I need to watch Scarecrow next.

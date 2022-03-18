@@ -8,6 +8,8 @@ studios:
     - wega film vienna
     - Les Films du Losange
     - X Filme Creative Pool
+original_title: Das weisse Band - Eine deutsche Kindergeschichte
+original_language: de
 language:
     - German
     - Italian
@@ -30,7 +32,7 @@ date: 2017-10-28T04:00:00.000Z
 rating: '5'
 revisit: false
 media: Movie
-id: 37903
+tmdb_id: 37903
 ---
 
 

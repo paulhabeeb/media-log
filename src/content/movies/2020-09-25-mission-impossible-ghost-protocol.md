@@ -10,6 +10,8 @@ studios:
     - Revolution Sun Studios
     - Kontsept Film Company
     - Skydance Media
+original_title: ''
+original_language: en
 language:
     - English
     - Russian
@@ -31,7 +33,7 @@ date: 2020-09-25T04:00:00.000Z
 rating: '3'
 revisit: true
 media: Movie
-id: 56292
+tmdb_id: 56292
 ---
 
 The sand storm scene is perhaps the best in the series.

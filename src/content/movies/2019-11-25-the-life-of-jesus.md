@@ -14,6 +14,8 @@ studios:
     - Centre Régional des Ressources Audiovisuelles (CRRAV)
     - Ministère de la culture
     - Pictanovo
+original_title: La vie de Jésus
+original_language: fr
 language:
     - Arabic
     - French
@@ -29,7 +31,7 @@ date: 2019-11-25T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 27067
+tmdb_id: 27067
 ---
 
 Yes.

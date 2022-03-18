@@ -5,6 +5,8 @@ creator:
 release: 1934-05-09T00:00:00.000Z
 studios:
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2020-10-13T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 43696
+tmdb_id: 43696
 ---
 
 A wonderfully crafted script brought out by subtle performances that feel like they’d fit in a movie made 20 years later. There are some great camera moves here that aren’t extravagant but really make things go.

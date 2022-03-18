@@ -8,6 +8,8 @@ studios:
     - Phantom Four
     - Creative Wealth Media Finance
     - Foxtail Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2021-06-21T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 446101
+tmdb_id: 446101
 ---
 
 

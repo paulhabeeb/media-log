@@ -8,6 +8,8 @@ studios:
     - Bron Studios
     - Focus Features
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
     - Japanese
@@ -26,7 +28,7 @@ date: 2021-11-28T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 718032
+tmdb_id: 718032
 ---
 
 It’s like PTA watched <i>Once Upon a Time in Hollywood</I> and said, “I can do better than that.”

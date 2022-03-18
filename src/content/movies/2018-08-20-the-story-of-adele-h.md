@@ -6,6 +6,8 @@ release: 1975-10-08T00:00:00.000Z
 studios:
     - Les Films du Carrosse
     - Les Productions Artistes Associés
+original_title: L'Histoire d'Adèle H.
+original_language: fr
 language:
     - French
     - English
@@ -22,7 +24,7 @@ date: 2018-08-20T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 1829
+tmdb_id: 1829
 ---
 
 

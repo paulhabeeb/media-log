@@ -8,6 +8,8 @@ studios:
     - Paramount
     - Escape Artists
     - The Weather Man
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2005-10-31T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 6963
+tmdb_id: 6963
 ---
 
 

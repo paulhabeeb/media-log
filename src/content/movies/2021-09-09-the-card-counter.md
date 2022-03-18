@@ -13,6 +13,8 @@ studios:
     - HanWay Films
     - One Two Twenty Entertainment
     - Redline Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -31,7 +33,7 @@ date: 2021-09-09T04:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 643532
+tmdb_id: 643532
 ---
 
 

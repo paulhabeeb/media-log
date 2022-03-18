@@ -15,6 +15,8 @@ studios:
     - CNC
     - Canal+
     - Nord-Ouest Productions
+original_title: Les Combattants
+original_language: fr
 language:
     - French
 country:
@@ -30,7 +32,7 @@ date: 2021-01-12T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 270343
+tmdb_id: 270343
 ---
 
 The weird thing is this is from 2014 and name drops coronavirus. I know, I know. But still.

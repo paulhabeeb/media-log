@@ -9,6 +9,8 @@ studios:
     - Universal Pictures
     - Scott Free Productions
     - Relativity Media
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2007-11-24T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 4982
+tmdb_id: 4982
 ---
 
 

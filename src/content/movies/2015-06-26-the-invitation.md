@@ -9,6 +9,8 @@ studios:
     - Lege Artis
     - The Invitation
     - Drafthouse Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2015-06-26T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 306947
+tmdb_id: 306947
 ---
 
 

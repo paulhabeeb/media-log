@@ -18,6 +18,8 @@ studios:
     - Canal+
     - France 2 Cinéma
     - RTBF
+original_title: Deux jours, une nuit
+original_language: fr
 language:
     - French
 country:
@@ -34,7 +36,7 @@ date: 2021-03-18T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 221902
+tmdb_id: 221902
 ---
 
 

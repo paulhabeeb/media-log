@@ -6,6 +6,8 @@ release: 1996-05-22T00:00:00.000Z
 studios:
     - Paramount
     - Cruise/Wagner Productions
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -24,7 +26,7 @@ date: 2020-12-29T05:00:00.000Z
 rating: '3'
 revisit: true
 media: Movie
-id: 954
+tmdb_id: 954
 ---
 
 Not as action packed as I remember. Perhaps my recollection is colored by the recent installments. Bourne is still my favorite action series, but I do enjoy M:I.

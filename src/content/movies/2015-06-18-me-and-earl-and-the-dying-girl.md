@@ -7,6 +7,8 @@ studios:
     - Indian Paintbrush
     - Fox Searchlight Pictures
     - Rhode Island Ave. Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2015-06-18T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 308369
+tmdb_id: 308369
 ---
 
 

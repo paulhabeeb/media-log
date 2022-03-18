@@ -9,6 +9,8 @@ studios:
     - Kaitz Productions
     - Mann/Roth Productions
     - Spyglass Entertainment
+original_title: ''
+original_language: en
 language:
     - Arabic
     - Japanese
@@ -28,7 +30,7 @@ date: 2018-10-29T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 9008
+tmdb_id: 9008
 ---
 
 

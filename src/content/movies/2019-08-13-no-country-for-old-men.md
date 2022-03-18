@@ -9,6 +9,8 @@ studios:
     - Scott Rudin Productions
     - Mike Zoss Productions
     - Paramount Vantage
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -26,7 +28,7 @@ date: 2019-08-13T04:00:00.000Z
 rating: '4.5'
 revisit: true
 media: Movie
-id: 6977
+tmdb_id: 6977
 ---
 
 

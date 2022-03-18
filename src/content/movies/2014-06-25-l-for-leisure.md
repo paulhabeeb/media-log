@@ -6,6 +6,8 @@ creator:
 release: 2014-01-24T00:00:00.000Z
 studios:
     - Special Affects films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2014-06-25T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 247777
+tmdb_id: 247777
 ---
 
 

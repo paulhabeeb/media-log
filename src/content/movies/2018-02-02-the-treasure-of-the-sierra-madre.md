@@ -5,6 +5,8 @@ creator:
 release: 1948-01-15T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2018-02-02T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 3090
+tmdb_id: 3090
 ---
 
 

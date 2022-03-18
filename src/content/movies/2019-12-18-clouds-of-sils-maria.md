@@ -14,6 +14,8 @@ studios:
     - Orange Studio
     - RTS
     - SRG SSR
+original_title: ''
+original_language: en
 language:
     - German
     - English
@@ -32,7 +34,7 @@ date: 2019-12-18T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 246860
+tmdb_id: 246860
 ---
 
 Not at all what I anticipated, in a good way. Very talky, ambling, but captivating.

@@ -6,6 +6,8 @@ release: 2015-09-25T00:00:00.000Z
 studios:
     - filmscience
     - Broad Green Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2016-04-27T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 313922
+tmdb_id: 313922
 ---
 
 

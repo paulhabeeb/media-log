@@ -7,6 +7,8 @@ studios:
     - 40 Acres and a Mule Filmworks
     - Imagine Entertainment
     - Universal Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Albanian
@@ -24,7 +26,7 @@ date: 2017-08-12T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 388
+tmdb_id: 388
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - United Artists
     - SLM Production Group
     - New Century Productions
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -24,7 +26,7 @@ date: 2020-05-13T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 9846
+tmdb_id: 9846
 ---
 
 

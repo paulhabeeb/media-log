@@ -4,6 +4,8 @@ creator:
     - Spike Jonze
 release: 2019-07-09T00:00:00.000Z
 studios: []
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2019-07-09T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 613999
+tmdb_id: 613999
 ---
 
 

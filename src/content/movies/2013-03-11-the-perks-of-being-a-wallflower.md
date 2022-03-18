@@ -5,6 +5,8 @@ creator:
 release: 2012-09-20T00:00:00.000Z
 studios:
     - Mr. Mudd Production
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2013-03-11T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 84892
+tmdb_id: 84892
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Sandcastle 5
     - Chicagofilms
     - Medusa Film
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2018-01-27T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 5279
+tmdb_id: 5279
 ---
 
 

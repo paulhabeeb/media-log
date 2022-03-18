@@ -7,6 +7,8 @@ studios:
     - Moho Film
     - Yong Film
     - CJ Entertainment
+original_title: 아가씨
+original_language: ko
 language:
     - Japanese
     - Korean
@@ -24,7 +26,7 @@ date: 2018-03-07T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 290098
+tmdb_id: 290098
 ---
 
 

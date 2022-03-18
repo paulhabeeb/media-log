@@ -5,6 +5,8 @@ creator:
 release: 1957-01-15T00:00:00.000Z
 studios:
     - Toho
+original_title: 蜘蛛巣城
+original_language: ja
 language:
     - Japanese
 country:
@@ -20,7 +22,7 @@ date: 2019-02-22T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 3777
+tmdb_id: 3777
 ---
 
 

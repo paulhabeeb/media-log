@@ -6,6 +6,8 @@ release: 1960-09-15T00:00:00.000Z
 studios:
     - Toho
     - Kurosawa Production Co.
+original_title: 悪い奴ほどよく眠る
+original_language: ja
 language:
     - Japanese
 country:
@@ -22,7 +24,7 @@ date: 2019-02-22T05:00:00.000Z
 rating: '5'
 revisit: false
 media: Movie
-id: 31589
+tmdb_id: 31589
 ---
 
 

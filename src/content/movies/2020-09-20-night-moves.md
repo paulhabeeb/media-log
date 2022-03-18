@@ -7,6 +7,8 @@ studios:
     - Layton Productions
     - Hiller Productions
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -24,7 +26,7 @@ date: 2020-09-20T04:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 32042
+tmdb_id: 32042
 ---
 
 <i>“I saw a Rohmer film once. It was kind of like watching paint dry.”</i>

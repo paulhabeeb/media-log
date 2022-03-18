@@ -8,6 +8,8 @@ studios:
     - Rysher Entertainment
     - Green Parrot
     - Samuel Goldwyn Company
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2018-05-27T04:00:00.000Z
 rating: '3.5'
 revisit: true
 media: Movie
-id: 8052
+tmdb_id: 8052
 ---
 
 

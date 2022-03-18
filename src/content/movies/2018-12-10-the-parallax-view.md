@@ -8,6 +8,8 @@ studios:
     - Gus
     - Harbor Productions
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2018-12-10T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 17365
+tmdb_id: 17365
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Fine Line Features
     - Spelling Entertainment
     - Avenue Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2020-05-22T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 695
+tmdb_id: 695
 ---
 
 

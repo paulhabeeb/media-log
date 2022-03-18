@@ -11,6 +11,8 @@ studios:
     - Warner Bros. Pictures
     - Will Vinton Studios
     - Tim Burton Animation Company
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -27,7 +29,7 @@ date: 2005-10-22T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 3933
+tmdb_id: 3933
 ---
 
 

@@ -5,9 +5,11 @@ creator:
 release: 1942-03-05T00:00:00.000Z
 studios:
     - United Artists
+original_title: ''
+original_language: en
 language:
-    - English
     - German
+    - English
 country:
     - United States
 length: 99
@@ -21,7 +23,7 @@ date: 2019-09-17T04:00:00.000Z
 rating: '5'
 revisit: true
 media: Movie
-id: 198
+tmdb_id: 198
 ---
 
 

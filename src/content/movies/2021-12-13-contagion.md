@@ -9,6 +9,8 @@ studios:
     - Double Feature Films
     - Regency Enterprises
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Cantonese
@@ -28,7 +30,7 @@ date: 2021-12-13T05:00:00.000Z
 rating: ''
 revisit: true
 media: Movie
-id: 39538
+tmdb_id: 39538
 ---
 
 I almost watched this in March 2020 but didn’t. Watching it now it feels like a documentary, even down to the anti-vax guy.

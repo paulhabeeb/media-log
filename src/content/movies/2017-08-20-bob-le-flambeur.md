@@ -7,6 +7,8 @@ studios:
     - Productions Cyme
     - Mondial
     - Play Art
+original_title: Bob le flambeur
+original_language: fr
 language:
     - English
     - French
@@ -24,7 +26,7 @@ date: 2017-08-20T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 26030
+tmdb_id: 26030
 ---
 
 

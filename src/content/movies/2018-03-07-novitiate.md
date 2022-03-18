@@ -5,6 +5,8 @@ creator:
 release: 2017-10-27T00:00:00.000Z
 studios:
     - Maven Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Latin
@@ -20,7 +22,7 @@ date: 2018-03-07T05:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 411976
+tmdb_id: 411976
 ---
 
 Solid concept, weak script. Everything felt inconsequential and pasted together. Could have loved this movie, but there was too much cinematic waste. It needed a more solid structure.

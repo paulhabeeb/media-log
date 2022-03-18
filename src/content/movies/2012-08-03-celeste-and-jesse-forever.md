@@ -5,6 +5,8 @@ creator:
 release: 2012-08-03T00:00:00.000Z
 studios:
     - Team Todd
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2012-08-03T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 84184
+tmdb_id: 84184
 ---
 
 

@@ -6,6 +6,8 @@ release: 1976-08-11T00:00:00.000Z
 studios:
     - Dino De Laurentiis Company
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-07-03T04:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 12584
+tmdb_id: 12584
 ---
 
 

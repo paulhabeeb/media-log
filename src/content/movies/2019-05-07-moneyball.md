@@ -9,6 +9,8 @@ studios:
     - Michael De Luca Productions
     - Sidney Kimmel Entertainment
     - Specialty Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2019-05-07T04:00:00.000Z
 rating: '3.5'
 revisit: true
 media: Movie
-id: 60308
+tmdb_id: 60308
 ---
 
 

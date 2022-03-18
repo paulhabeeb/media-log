@@ -7,6 +7,8 @@ studios:
     - Les Films Ariane
     - Cinévidéo
     - France 3 Cinéma
+original_title: L'Homme en colère
+original_language: fr
 language:
     - French
 country:
@@ -22,7 +24,7 @@ date: 2017-08-24T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 208399
+tmdb_id: 208399
 ---
 
 

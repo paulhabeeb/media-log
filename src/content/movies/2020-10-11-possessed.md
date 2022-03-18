@@ -5,6 +5,8 @@ creator:
 release: 1931-11-21T00:00:00.000Z
 studios:
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - German
     - French
@@ -22,7 +24,7 @@ date: 2020-10-11T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 52239
+tmdb_id: 52239
 ---
 
 Crawford really makes this. The shots of her just listening say so much. A bit of an abrupt ending, and structurally a little off kilter, but the speeches at the end are great.

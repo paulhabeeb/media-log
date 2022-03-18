@@ -7,6 +7,8 @@ creator:
 release: 2022-02-11
 studios:
     - Shondaland
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,6 +23,7 @@ date: 2022-03-06
 rating: 2
 revisit: false
 media: TV Show
+tmdb_id: 95665
 ---
 
 Meh

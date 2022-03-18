@@ -5,6 +5,8 @@ creator:
 release: 1934-03-09T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2018-07-02T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 81396
+tmdb_id: 81396
 ---
 
 

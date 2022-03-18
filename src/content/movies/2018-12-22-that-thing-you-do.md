@@ -7,6 +7,8 @@ studios:
     - Clinica Estetico
     - Clavius Base
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2018-12-22T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 9591
+tmdb_id: 9591
 ---
 
 

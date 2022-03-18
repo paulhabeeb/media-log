@@ -1,10 +1,12 @@
 ---
 title: The Transfiguration
 creator:
-    - Michael O'Shea
+    - Michael O’Shea
 release: 2016-04-14T00:00:00.000Z
 studios:
     - Transfiguration Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2017-06-13T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 392818
+tmdb_id: 392818
 ---
 
 

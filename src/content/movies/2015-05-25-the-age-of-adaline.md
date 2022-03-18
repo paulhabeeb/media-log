@@ -7,6 +7,8 @@ studios:
     - Lakeshore Entertainment
     - Sidney Kimmel Entertainment
     - Lionsgate
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2015-05-25T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 293863
+tmdb_id: 293863
 ---
 
 

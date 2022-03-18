@@ -1,5 +1,5 @@
 ---
-title: It's Only the End of the World
+title: It’s Only the End of the World
 creator:
     - Xavier Dolan
 release: 2016-08-26T00:00:00.000Z
@@ -7,6 +7,8 @@ studios:
     - Téléfilm Canada
     - Sons of Manual
     - MK2 Films
+original_title: Juste la fin du monde
+original_language: fr
 language:
     - English
     - French
@@ -23,7 +25,7 @@ date: 2021-03-20T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 338189
+tmdb_id: 338189
 ---
 
 

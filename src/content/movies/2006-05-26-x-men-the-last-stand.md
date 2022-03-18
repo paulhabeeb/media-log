@@ -4,7 +4,7 @@ creator:
     - Brett Ratner
 release: 2006-05-24T00:00:00.000Z
 studios:
-    - The Donners' Company
+    - The Donners’ Company
     - Dune Entertainment
     - Major Studio Partners
     - Bad Hat Harry Productions
@@ -15,6 +15,8 @@ studios:
     - thinkfilm
     - Marvel Entertainment
     - Ingenious Media
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -34,7 +36,7 @@ date: 2006-05-26T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 36668
+tmdb_id: 36668
 ---
 
 

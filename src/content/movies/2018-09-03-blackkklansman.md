@@ -11,6 +11,8 @@ studios:
     - Blumhouse Productions
     - QC Entertainment
     - 40 Acres & A Mule Filmworks
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -28,7 +30,7 @@ date: 2018-09-03T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 487558
+tmdb_id: 487558
 ---
 
 

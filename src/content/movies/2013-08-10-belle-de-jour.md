@@ -7,6 +7,8 @@ studios:
     - Paris Films Productions
     - Five Films
     - Robert et Raymond Hakim
+original_title: Belle de jour
+original_language: fr
 language:
     - French
     - Mongolian
@@ -25,7 +27,7 @@ date: 2013-08-10T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 649
+tmdb_id: 649
 ---
 
 

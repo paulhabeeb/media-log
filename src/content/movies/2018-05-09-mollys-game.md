@@ -1,5 +1,5 @@
 ---
-title: Molly's Game
+title: Molly’s Game
 creator:
     - Aaron Sorkin
 release: 2017-01-01T00:00:00.000Z
@@ -9,6 +9,8 @@ studios:
     - STX Entertainment
     - Pascal Pictures
     - Huayi Brothers Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -26,7 +28,7 @@ date: 2018-05-09T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 396371
+tmdb_id: 396371
 ---
 
 

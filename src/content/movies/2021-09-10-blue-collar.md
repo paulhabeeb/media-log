@@ -6,6 +6,8 @@ release: 1978-02-10T00:00:00.000Z
 studios:
     - TAT Communications Company
     - Universal Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2021-09-10T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 14839
+tmdb_id: 14839
 ---
 
 

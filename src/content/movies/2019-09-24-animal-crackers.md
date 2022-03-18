@@ -5,6 +5,8 @@ creator:
 release: 1930-08-28T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2019-09-24T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 13913
+tmdb_id: 13913
 ---
 
 

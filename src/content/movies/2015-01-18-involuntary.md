@@ -6,6 +6,8 @@ release: 2008-11-28T00:00:00.000Z
 studios:
     - Plattform Produktion
     - Coproduction Office
+original_title: De ofrivilliga
+original_language: sv
 language:
     - Swedish
 country:
@@ -21,7 +23,7 @@ date: 2015-01-18T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 8927
+tmdb_id: 8927
 ---
 
 

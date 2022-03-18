@@ -13,6 +13,8 @@ studios:
     - SSS Film Capital
     - Ten Acre Films
     - Gravitas Ventures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -29,7 +31,7 @@ date: 2020-10-23T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 664301
+tmdb_id: 664301
 ---
 
 My expectations were set by a <a href="https://www.indiewire.com/wp-content/uploads/2020/03/i-used-to-go-here-185242-1.jpeg" rel="nofollow">single still</a> I saw on Indiewire several months back. That still conveyed a certain bleak, lonely tone, and the end result is much different, though still enjoyable. I was expecting something more like <i>Columbus</i>.

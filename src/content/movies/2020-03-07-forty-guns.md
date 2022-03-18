@@ -5,6 +5,8 @@ creator:
 release: 1957-09-01T00:00:00.000Z
 studios:
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2020-03-07T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 14837
+tmdb_id: 14837
 ---
 
 Aimless.

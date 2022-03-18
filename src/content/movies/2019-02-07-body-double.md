@@ -6,6 +6,8 @@ release: 1984-10-25T00:00:00.000Z
 studios:
     - Delphi II Productions
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2019-02-07T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 11507
+tmdb_id: 11507
 ---
 
 

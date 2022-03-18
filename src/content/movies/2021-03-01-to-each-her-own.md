@@ -4,6 +4,8 @@ creator:
     - Myriam Aziza
 release: 2018-06-24T00:00:00.000Z
 studios: []
+original_title: Les Goûts et les Couleurs
+original_language: fr
 language:
     - German
     - French
@@ -23,7 +25,7 @@ date: 2021-03-01T05:00:00.000Z
 rating: '1'
 revisit: false
 media: Movie
-id: 531736
+tmdb_id: 531736
 ---
 
 I didn't even watch this with subtitles, and I still know it's bad.

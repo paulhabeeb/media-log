@@ -6,6 +6,8 @@ release: 1974-06-05T00:00:00.000Z
 studios:
     - Tango Film
     - Filmverlag der Autoren
+original_title: Angst essen Seele auf
+original_language: de
 language:
     - Arabic
     - German
@@ -22,7 +24,7 @@ date: 2019-01-19T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 216
+tmdb_id: 216
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Star Thrower Entertainment
     - 141 Entertainment
     - Mighty Engine
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2017-11-08T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 411741
+tmdb_id: 411741
 ---
 
 

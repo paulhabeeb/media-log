@@ -5,6 +5,8 @@ creator:
 release: 1947-10-08T00:00:00.000Z
 studios:
     - Universal International Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -22,7 +24,7 @@ date: 2020-10-26T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 18871
+tmdb_id: 18871
 ---
 
 I don’t have much to say about the craft of the script. It works. I have nothing to critique, but also nothing that wowed me, structurally.

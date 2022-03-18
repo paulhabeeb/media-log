@@ -6,6 +6,8 @@ release: 1947-12-24T00:00:00.000Z
 studios:
     - Mercury Productions
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - Cantonese
     - English
@@ -24,7 +26,7 @@ date: 2014-02-10T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 3766
+tmdb_id: 3766
 ---
 
 

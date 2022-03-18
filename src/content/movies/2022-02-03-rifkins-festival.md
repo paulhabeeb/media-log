@@ -1,5 +1,5 @@
 ---
-title: Rifkin's Festival
+title: Rifkin’s Festival
 creator:
     - Woody Allen
 release: 2020-10-01T00:00:00.000Z
@@ -8,6 +8,8 @@ studios:
     - Wildside Media
     - TV3
     - The Mediapro Studio
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -27,7 +29,7 @@ date: 2022-02-03T05:00:00.000Z
 rating: '1'
 revisit: false
 media: Movie
-id: 606876
+tmdb_id: 606876
 ---
 
 Feels like a film student's idea of a good idea.

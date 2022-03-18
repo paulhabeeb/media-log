@@ -7,6 +7,8 @@ studios:
     - Annapurna Pictures
     - Archer Gray
     - Modern People
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2017-03-12T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 342737
+tmdb_id: 342737
 ---
 
 

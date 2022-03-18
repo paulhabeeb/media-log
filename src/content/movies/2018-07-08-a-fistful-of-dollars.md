@@ -8,6 +8,8 @@ studios:
     - Ocean Films
     - United Artists
     - Constantin Film
+original_title: Per un pugno di dollari
+original_language: it
 language:
     - Italian
     - Spanish
@@ -25,7 +27,7 @@ date: 2018-07-08T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 391
+tmdb_id: 391
 ---
 
 A certain director who is a favorite of mine was at this screening with his son. A great way to spend a Sunday afternoon.

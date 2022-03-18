@@ -5,6 +5,8 @@ creator:
 release: 1949-03-21T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -21,7 +23,7 @@ date: 2020-12-06T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 23189
+tmdb_id: 23189
 ---
 
 Crisp cinematography, and Glenn Ford is superb.

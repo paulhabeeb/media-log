@@ -5,6 +5,8 @@ creator:
 release: 1952-05-09T00:00:00.000Z
 studios:
     - Silver Films
+original_title: Jeux interdits
+original_language: fr
 language:
     - French
 country:
@@ -20,7 +22,7 @@ date: 2015-04-26T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 5000
+tmdb_id: 5000
 ---
 
 

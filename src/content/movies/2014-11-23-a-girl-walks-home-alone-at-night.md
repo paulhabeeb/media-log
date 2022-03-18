@@ -10,6 +10,8 @@ studios:
     - Logan Pictures
     - Vice Studios
     - Kino Lorber
+original_title: ''
+original_language: en
 language:
     - Persian
 country:
@@ -26,7 +28,7 @@ date: 2014-11-23T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 252171
+tmdb_id: 252171
 ---
 
 

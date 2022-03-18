@@ -7,6 +7,8 @@ studios:
     - Les Films Ariane
     - Cristaldifilm
     - RAI
+original_title: Nuovo Cinema Paradiso
+original_language: it
 language:
     - Italian
 country:
@@ -23,7 +25,7 @@ date: 2017-07-27T04:00:00.000Z
 rating: '1.5'
 revisit: false
 media: Movie
-id: 11216
+tmdb_id: 11216
 ---
 
 

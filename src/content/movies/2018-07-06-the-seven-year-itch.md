@@ -6,6 +6,8 @@ release: 1955-06-03T00:00:00.000Z
 studios:
     - Charles K. Feldman Group
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2018-07-06T04:00:00.000Z
 rating: '3'
 revisit: true
 media: Movie
-id: 10653
+tmdb_id: 10653
 ---
 
 

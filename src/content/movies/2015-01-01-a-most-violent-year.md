@@ -11,6 +11,8 @@ studios:
     - Washington Square Films
     - Old Bull Pictures
     - CounterNarrative Films
+original_title: ''
+original_language: en
 language:
     - Spanish
     - English
@@ -29,7 +31,7 @@ date: 2015-01-01T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 241239
+tmdb_id: 241239
 ---
 
 

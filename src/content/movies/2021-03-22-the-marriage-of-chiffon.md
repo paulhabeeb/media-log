@@ -4,6 +4,8 @@ creator:
     - Claude Autant-Lara
 release: 1942-08-06T00:00:00.000Z
 studios: []
+original_title: Le mariage de Chiffon
+original_language: fr
 language:
     - French
 country:
@@ -18,7 +20,7 @@ date: 2021-03-22T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 265990
+tmdb_id: 265990
 ---
 
 

@@ -6,6 +6,8 @@ release: 1950-05-17T00:00:00.000Z
 studios:
     - Santana Pictures Corporation
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2015-12-11T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 17057
+tmdb_id: 17057
 ---
 
 

@@ -5,6 +5,8 @@ creator:
 release: 1944-10-16T00:00:00.000Z
 studios:
     - Republic Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2020-01-15T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 120423
+tmdb_id: 120423
 ---
 
 It’s no Casablanca, but it’ll do.

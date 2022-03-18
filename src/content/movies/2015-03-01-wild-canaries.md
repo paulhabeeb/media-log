@@ -4,6 +4,8 @@ creator:
     - Lawrence Michael Levine
 release: 2014-10-23T00:00:00.000Z
 studios: []
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2015-03-01T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 253259
+tmdb_id: 253259
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Wild Bunch
     - CNC
     - Canal+
+original_title: Adieu au langage
+original_language: fr
 language:
     - English
     - French
@@ -23,7 +25,7 @@ date: 2014-11-04T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 114982
+tmdb_id: 114982
 ---
 
 

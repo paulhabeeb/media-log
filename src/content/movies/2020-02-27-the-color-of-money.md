@@ -6,6 +6,8 @@ release: 1986-10-17T00:00:00.000Z
 studios:
     - Touchstone Pictures
     - Silver Screen Partners II
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -21,7 +23,7 @@ date: 2020-02-27T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 11873
+tmdb_id: 11873
 ---
 
 <i>I saw a werewolf drinking a piña colada at Trader Vic’s / And his hair was perfect</i>

@@ -7,6 +7,8 @@ studios:
     - International Pictures
     - Christie Corporation
     - RKO Radio Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2019-11-29T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 17136
+tmdb_id: 17136
 ---
 
 What an awful, tacked-on ending.

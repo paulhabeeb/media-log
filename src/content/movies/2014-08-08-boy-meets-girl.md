@@ -5,6 +5,8 @@ creator:
 release: 1984-11-21T00:00:00.000Z
 studios:
     - Abilene
+original_title: Boy Meets Girl
+original_language: fr
 language:
     - French
 country:
@@ -20,7 +22,7 @@ date: 2014-08-08T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 63418
+tmdb_id: 63418
 ---
 
 

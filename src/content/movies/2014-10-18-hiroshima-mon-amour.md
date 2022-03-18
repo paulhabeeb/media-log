@@ -9,6 +9,8 @@ studios:
     - Daiei Film
     - Pathé Overseas
     - Pathé Entertainment
+original_title: Hiroshima mon amour
+original_language: fr
 language:
     - English
     - French
@@ -28,7 +30,7 @@ date: 2014-10-18T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 5544
+tmdb_id: 5544
 ---
 
 

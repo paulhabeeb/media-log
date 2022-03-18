@@ -5,6 +5,8 @@ creator:
 release: 2018-07-26T00:00:00.000Z
 studios:
     - Imperative Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2018-08-01T04:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 347866
+tmdb_id: 347866
 ---
 
 

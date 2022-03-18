@@ -6,6 +6,8 @@ release: 1941-04-17T00:00:00.000Z
 studios:
     - Mercury Productions
     - RKO Radio Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2013-08-14T04:00:00.000Z
 rating: '4.5'
 revisit: true
 media: Movie
-id: 15
+tmdb_id: 15
 ---
 
 

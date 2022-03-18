@@ -5,6 +5,8 @@ creator:
 release: 1959-04-28T00:00:00.000Z
 studios:
     - Toho
+original_title: 或る剣豪の生涯
+original_language: ja
 language:
     - Japanese
 country:
@@ -20,7 +22,7 @@ date: 2022-02-16T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 186624
+tmdb_id: 186624
 ---
 
 

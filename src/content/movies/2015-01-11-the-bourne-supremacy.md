@@ -9,6 +9,8 @@ studios:
     - Hypnotic
     - Motion Picture THETA Produktionsgesellschaft
     - Ludlum Entertainment
+original_title: ''
+original_language: en
 language:
     - English
     - Russian
@@ -29,7 +31,7 @@ date: 2015-01-11T05:00:00.000Z
 rating: '3.5'
 revisit: true
 media: Movie
-id: 2502
+tmdb_id: 2502
 ---
 
 

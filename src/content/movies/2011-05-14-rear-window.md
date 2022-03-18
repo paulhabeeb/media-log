@@ -6,6 +6,8 @@ release: 1954-09-01T00:00:00.000Z
 studios:
     - Alfred J. Hitchcock Productions
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2011-05-14T04:00:00.000Z
 rating: ''
 revisit: true
 media: Movie
-id: 567
+tmdb_id: 567
 ---
 
 

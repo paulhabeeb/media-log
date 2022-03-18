@@ -13,6 +13,8 @@ studios:
     - Sofima
     - Sogedis
     - CNC
+original_title: Mauvais Sang
+original_language: fr
 language:
     - French
 country:
@@ -30,7 +32,7 @@ date: 2013-12-01T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 64131
+tmdb_id: 64131
 ---
 
 

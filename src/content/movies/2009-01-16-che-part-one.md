@@ -11,6 +11,8 @@ studios:
     - Ministerio de Cultura
     - Guerrilla Films
     - Section Eight
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -31,7 +33,7 @@ date: 2009-01-16T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 8881
+tmdb_id: 8881
 ---
 
 

@@ -5,6 +5,8 @@ creator:
 release: 1948-06-14T00:00:00.000Z
 studios:
     - RKO Radio Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -20,7 +22,7 @@ date: 2019-10-17T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 37347
+tmdb_id: 37347
 ---
 
 This has everything — drama, comedy, romance, action.

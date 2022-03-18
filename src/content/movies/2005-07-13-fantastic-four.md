@@ -10,6 +10,8 @@ studios:
     - 20th Century Fox
     - Bernd Eichinger Productions
     - Constantin Film
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -28,7 +30,7 @@ date: 2005-07-13T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 9738
+tmdb_id: 9738
 ---
 
 

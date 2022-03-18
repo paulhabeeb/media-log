@@ -11,6 +11,8 @@ studios:
     - ImageMovers
     - Warner Bros. Pictures
     - HorsePower Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -28,7 +30,7 @@ date: 2017-11-17T05:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 7270
+tmdb_id: 7270
 ---
 
 

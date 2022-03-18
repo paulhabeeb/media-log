@@ -5,6 +5,8 @@ creator:
 release: 1946-10-10T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - French
     - English
@@ -21,7 +23,7 @@ date: 2019-05-06T04:00:00.000Z
 rating: '1.5'
 revisit: false
 media: Movie
-id: 40824
+tmdb_id: 40824
 ---
 
 

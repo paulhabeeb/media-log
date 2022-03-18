@@ -6,6 +6,8 @@ release: 2014-02-21T00:00:00.000Z
 studios:
     - Homegreen Films
     - JBA Production
+original_title: 郊遊
+original_language: zh
 language:
     - Mandarin
 country:
@@ -21,7 +23,7 @@ date: 2015-08-09T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 209840
+tmdb_id: 209840
 ---
 
 

@@ -6,6 +6,8 @@ release: 2014-11-13T00:00:00.000Z
 studios:
     - Ad Hominem Enterprises
     - Lila 9th Productions
+original_title: ''
+original_language: en
 language:
     - English
     - Japanese
@@ -21,7 +23,7 @@ date: 2015-03-22T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 244563
+tmdb_id: 244563
 ---
 
 

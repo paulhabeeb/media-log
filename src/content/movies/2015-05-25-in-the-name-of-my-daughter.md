@@ -7,6 +7,8 @@ studios:
     - Mars Films
     - Fidélité Films
     - VIP Cinéma 1
+original_title: L'homme qu'on aimait trop
+original_language: fr
 language:
     - French
 country:
@@ -22,7 +24,7 @@ date: 2015-05-25T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 270899
+tmdb_id: 270899
 ---
 
 

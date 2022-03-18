@@ -5,6 +5,8 @@ creator:
 release: 1956-12-22T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -23,7 +25,7 @@ date: 2020-07-14T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 22527
+tmdb_id: 22527
 ---
 
 I thought I’d seen this before, but I guess I hadn’t.

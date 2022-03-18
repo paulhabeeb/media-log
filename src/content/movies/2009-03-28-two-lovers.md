@@ -7,6 +7,8 @@ studios:
     - Tempesta Films
     - 2929 Productions
     - Wild Bunch
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2009-03-28T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 10362
+tmdb_id: 10362
 ---
 
 

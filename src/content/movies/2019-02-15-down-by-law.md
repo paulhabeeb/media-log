@@ -7,6 +7,8 @@ studios:
     - Island Pictures
     - Black Snake
     - Grokenberger Film Produktion
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -25,7 +27,7 @@ date: 2019-02-15T05:00:00.000Z
 rating: '5'
 revisit: false
 media: Movie
-id: 1554
+tmdb_id: 1554
 ---
 
 <i>I scream, you scream, we all scream for ice cream.</i>

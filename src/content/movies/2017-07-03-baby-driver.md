@@ -6,6 +6,8 @@ release: 2017-06-28T00:00:00.000Z
 studios:
     - Big Talk Productions
     - Working Title Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2017-07-03T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 339403
+tmdb_id: 339403
 ---
 
 

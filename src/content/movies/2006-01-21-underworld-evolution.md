@@ -6,6 +6,8 @@ release: 2006-01-12T00:00:00.000Z
 studios:
     - Screen Gems
     - Lakeshore Entertainment
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -24,7 +26,7 @@ date: 2006-01-21T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 834
+tmdb_id: 834
 ---
 
 

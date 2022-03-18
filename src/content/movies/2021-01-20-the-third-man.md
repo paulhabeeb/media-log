@@ -6,6 +6,8 @@ release: 1949-08-31T00:00:00.000Z
 studios:
     - London Films Productions
     - British Lion Films
+original_title: ''
+original_language: en
 language:
     - English
     - Russian
@@ -23,7 +25,7 @@ date: 2021-01-20T05:00:00.000Z
 rating: '5'
 revisit: true
 media: Movie
-id: 1092
+tmdb_id: 1092
 ---
 
 I always forget how funny this is. I don’t know how I forget, because it’s quite funny.

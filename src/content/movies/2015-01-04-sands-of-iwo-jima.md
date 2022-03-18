@@ -5,6 +5,8 @@ creator:
 release: 1950-01-01T00:00:00.000Z
 studios:
     - Republic Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2015-01-04T05:00:00.000Z
 rating: '3'
 revisit: true
 media: Movie
-id: 18712
+tmdb_id: 18712
 ---
 
 

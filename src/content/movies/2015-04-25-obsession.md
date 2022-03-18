@@ -6,6 +6,8 @@ release: 1976-08-01T00:00:00.000Z
 studios:
     - Yellowbird Productions
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2015-04-25T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 4780
+tmdb_id: 4780
 ---
 
 

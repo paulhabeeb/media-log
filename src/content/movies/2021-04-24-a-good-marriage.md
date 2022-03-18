@@ -6,6 +6,8 @@ release: 1982-05-19T00:00:00.000Z
 studios:
     - Les Films du Carrosse
     - Les Films du Losange
+original_title: Le Beau Mariage
+original_language: fr
 language:
     - French
 country:
@@ -22,7 +24,7 @@ date: 2021-04-24T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 2861
+tmdb_id: 2861
 ---
 
 

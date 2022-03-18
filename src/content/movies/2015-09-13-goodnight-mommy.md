@@ -12,6 +12,8 @@ studios:
     - Filmstandort Austria (FISA)
     - OFI
     - ORF
+original_title: Ich seh, Ich seh
+original_language: de
 language:
     - German
 country:
@@ -29,7 +31,7 @@ date: 2015-09-13T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 284303
+tmdb_id: 284303
 ---
 
 

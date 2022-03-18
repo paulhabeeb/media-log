@@ -7,6 +7,8 @@ studios:
     - Euro International Film
     - Les Films Corona
     - Selenia Cinematografica
+original_title: Le Cercle rouge
+original_language: fr
 language:
     - French
 country:
@@ -23,7 +25,7 @@ date: 2018-09-10T04:00:00.000Z
 rating: '4'
 revisit: true
 media: Movie
-id: 11657
+tmdb_id: 11657
 ---
 
 

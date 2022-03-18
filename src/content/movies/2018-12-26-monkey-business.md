@@ -5,6 +5,8 @@ creator:
 release: 1952-09-03T00:00:00.000Z
 studios:
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2018-12-26T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 24008
+tmdb_id: 24008
 ---
 
 Cary Grant really commits with that haircut.

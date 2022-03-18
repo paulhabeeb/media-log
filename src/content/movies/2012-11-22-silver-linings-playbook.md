@@ -5,6 +5,8 @@ creator:
 release: 2012-11-16T00:00:00.000Z
 studios:
     - The Weinstein Company
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2012-11-22T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 82693
+tmdb_id: 82693
 ---
 
 

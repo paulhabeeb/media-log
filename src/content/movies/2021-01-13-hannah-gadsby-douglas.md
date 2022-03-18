@@ -6,6 +6,8 @@ release: 2020-05-25T00:00:00.000Z
 studios:
     - What a Quokka Inc
     - Irwin Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2021-01-13T05:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 638706
+tmdb_id: 638706
 ---
 
 She does an excellent job at weaving all her jokes together throughout the set. I’ve never seen anyone do this so well. More comics need to operate this way. It helps build the entire piece, and all the jokes start to speak to each other and make each other funnier.

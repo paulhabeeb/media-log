@@ -10,6 +10,8 @@ studios:
     - Relativity Media
     - Working Title Films
     - StudioCanal
+original_title: ''
+original_language: en
 language:
     - Hebrew
     - Yiddish
@@ -28,9 +30,9 @@ service: Netflix
 venue: Home
 date: 2020-12-27T05:00:00.000Z
 rating: '3.5'
-revisit: true
+revisit: false
 media: Movie
-id: 12573
+tmdb_id: 12573
 ---
 
 I don’t know how to process this one. It is solid Coen brothers work, and it was enjoyable as I watched it, but it also feels quite forgettable. Stuhlbarg is great, but his arc feels empty and less memorable than many other Coen protagonists.

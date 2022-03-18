@@ -20,6 +20,8 @@ studios:
     - Egoli Tossell Film
     - Die Beauftragte der Bundesregierung für Kultur und Medien
     - Ministry of Culture of the Russian Federation
+original_title: Русский ковчег
+original_language: ru
 language:
     - Persian
     - Russian
@@ -43,7 +45,7 @@ date: 2014-07-04T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 16646
+tmdb_id: 16646
 ---
 
 

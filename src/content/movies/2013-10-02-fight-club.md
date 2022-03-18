@@ -10,6 +10,8 @@ studios:
     - Atman Entertainment
     - Knickerbocker Films
     - The Linson Company
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2013-10-02T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 550
+tmdb_id: 550
 ---
 
 

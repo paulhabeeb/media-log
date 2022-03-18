@@ -5,6 +5,8 @@ creator:
 release: 1984-10-01T00:00:00.000Z
 studios:
     - Cinesthesia Productions
+original_title: ''
+original_language: en
 language:
     - English
     - Hungarian
@@ -22,7 +24,7 @@ date: 2019-02-14T05:00:00.000Z
 rating: '5'
 revisit: false
 media: Movie
-id: 469
+tmdb_id: 469
 ---
 
 

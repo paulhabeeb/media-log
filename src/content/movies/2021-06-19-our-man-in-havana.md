@@ -6,6 +6,8 @@ release: 1960-01-27T00:00:00.000Z
 studios:
     - Kingsmead Productions
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2021-06-19T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 25495
+tmdb_id: 25495
 ---
 
 

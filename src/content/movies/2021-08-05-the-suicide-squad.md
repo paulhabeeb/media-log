@@ -8,6 +8,8 @@ studios:
     - Atlas Entertainment
     - The Safran Company
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -26,7 +28,7 @@ date: 2021-08-05T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 436969
+tmdb_id: 436969
 ---
 
 

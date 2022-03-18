@@ -8,6 +8,8 @@ studios:
     - Haven Entertainment
     - Minerva Productions
     - Red Crown Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2020-11-05T05:00:00.000Z
 rating: '1.5'
 revisit: false
 media: Movie
-id: 260001
+tmdb_id: 260001
 ---
 
 Kate McKinnon’s sudden entrance, and her whole vibe, is pitch perfect.

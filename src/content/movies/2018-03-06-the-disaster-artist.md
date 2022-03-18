@@ -10,6 +10,8 @@ studios:
     - Good Universe
     - RatPac Entertainment
     - Ramona Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2018-03-06T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 371638
+tmdb_id: 371638
 ---
 
 Entertaining, but never explores anything deeper than the commitment required of a pinky swear.

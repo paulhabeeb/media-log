@@ -8,6 +8,8 @@ studios:
     - Goldcrest
     - International Film Investors
     - City Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2020-06-01T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 1103
+tmdb_id: 1103
 ---
 
 

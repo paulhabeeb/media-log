@@ -6,6 +6,8 @@ creator:
 release: 1931-03-28T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - French
     - English
@@ -22,7 +24,7 @@ date: 2020-10-17T04:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 106573
+tmdb_id: 106573
 ---
 
 Not without its charms, but weak in the last couple acts. Give us about ten more minutes, and have Powell and Lombard end up together, and it’s a nice little picture.

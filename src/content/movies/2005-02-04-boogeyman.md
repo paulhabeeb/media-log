@@ -8,6 +8,8 @@ studios:
     - Screen Gems
     - Ghost House Pictures
     - Senator International
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2005-02-04T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 8968
+tmdb_id: 8968
 ---
 
 

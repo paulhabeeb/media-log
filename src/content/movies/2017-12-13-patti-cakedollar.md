@@ -9,6 +9,8 @@ studios:
     - Department of Motion Pictures
     - Maiden Voyage Pictures
     - Fox Searchlight Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2017-12-13T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 426256
+tmdb_id: 426256
 ---
 
 

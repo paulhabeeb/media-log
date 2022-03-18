@@ -9,6 +9,8 @@ studios:
     - Persky-Bright Productions
     - Columbia Pictures
     - Reno Associates
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2021-05-29T04:00:00.000Z
 rating: '4.5'
 revisit: true
 media: Movie
-id: 32044
+tmdb_id: 32044
 ---
 
 

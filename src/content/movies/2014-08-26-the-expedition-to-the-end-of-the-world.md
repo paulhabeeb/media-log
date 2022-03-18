@@ -4,6 +4,8 @@ creator:
     - Daniel Dencik
 release: 2013-02-13T00:00:00.000Z
 studios: []
+original_title: Ekspeditionen til verdens ende
+original_language: da
 language:
     - Danish
     - English
@@ -21,7 +23,7 @@ date: 2014-08-26T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 168164
+tmdb_id: 168164
 ---
 
 

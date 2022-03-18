@@ -6,6 +6,8 @@ release: 2015-05-29T00:00:00.000Z
 studios:
     - John Wells Productions
     - River Road Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2015-06-29T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 271714
+tmdb_id: 271714
 ---
 
 

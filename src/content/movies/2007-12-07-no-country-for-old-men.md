@@ -9,6 +9,8 @@ studios:
     - Scott Rudin Productions
     - Mike Zoss Productions
     - Paramount Vantage
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -26,7 +28,7 @@ date: 2007-12-07T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 6977
+tmdb_id: 6977
 ---
 
 

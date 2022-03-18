@@ -5,6 +5,8 @@ creator:
 release: 1949-04-22T00:00:00.000Z
 studios:
     - Melville Productions
+original_title: Le Silence de la mer
+original_language: fr
 language:
     - English
     - French
@@ -23,7 +25,7 @@ date: 2017-08-12T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 40650
+tmdb_id: 40650
 ---
 
 

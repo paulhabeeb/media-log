@@ -5,6 +5,8 @@ creator:
 release: 1932-05-25T00:00:00.000Z
 studios:
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2022-01-31T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 33680
+tmdb_id: 33680
 ---
 
 Wonderful long takes that move between conversations. And an excellent opening that does the same.

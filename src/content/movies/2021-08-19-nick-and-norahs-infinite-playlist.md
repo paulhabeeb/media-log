@@ -1,5 +1,5 @@
 ---
-title: Nick and Norah's Infinite Playlist
+title: Nick and Norah’s Infinite Playlist
 creator:
     - Peter Sollett
 release: 2008-10-03T00:00:00.000Z
@@ -8,6 +8,8 @@ studios:
     - Columbia Pictures
     - Mandate Pictures
     - Depth of Field
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2021-08-19T04:00:00.000Z
 rating: ''
 revisit: true
 media: Movie
-id: 12182
+tmdb_id: 12182
 ---
 
 

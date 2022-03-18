@@ -1,5 +1,5 @@
 ---
-title: The Earrings of Madame de...
+title: The Earrings of Madame de…
 creator:
     - Max Ophüls
 release: 1953-09-16T00:00:00.000Z
@@ -7,6 +7,8 @@ studios:
     - Franco London Films
     - Indusfilms
     - Rizzoli Film
+original_title: Madame de…
+original_language: fr
 language:
     - French
 country:
@@ -23,7 +25,7 @@ date: 2013-08-13T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 27030
+tmdb_id: 27030
 ---
 
 

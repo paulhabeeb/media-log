@@ -6,6 +6,8 @@ release: 1963-03-01T00:00:00.000Z
 studios:
     - Toho
     - Kurosawa Production Co.
+original_title: 天国と地獄
+original_language: ja
 language:
     - Japanese
 country:
@@ -23,7 +25,7 @@ date: 2018-12-26T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 12493
+tmdb_id: 12493
 ---
 
 

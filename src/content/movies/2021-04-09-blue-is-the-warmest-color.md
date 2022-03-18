@@ -10,16 +10,18 @@ studios:
     - Ciné+
     - SCOPE Pictures
     - Région Nord-Pas-de-Calais
-    - Quat'sous Films
+    - Quat’sous Films
     - CNC
     - Canal+
     - France 2 Cinéma
     - France 2
     - RTBF
     - France Télévisions
-    - Centre du Cinéma et de l'Audiovisuel de la Fédération Wallonie-Bruxelles
+    - Centre du Cinéma et de l’Audiovisuel de la Fédération Wallonie-Bruxelles
     - Alcatraz Films
     - Pictanovo
+original_title: La Vie d'Adèle - Chapitres 1 et 2
+original_language: fr
 language:
     - French
     - English
@@ -38,7 +40,7 @@ date: 2021-04-09T04:00:00.000Z
 rating: ''
 revisit: true
 media: Movie
-id: 152584
+tmdb_id: 152584
 ---
 
 

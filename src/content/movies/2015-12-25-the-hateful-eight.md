@@ -7,6 +7,8 @@ studios:
     - The Weinstein Company
     - Double Feature Films
     - FilmColony
+original_title: ''
+original_language: en
 language:
     - Spanish
     - English
@@ -24,7 +26,7 @@ date: 2015-12-25T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 273248
+tmdb_id: 273248
 ---
 
 

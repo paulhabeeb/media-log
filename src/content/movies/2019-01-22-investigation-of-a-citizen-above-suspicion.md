@@ -5,6 +5,8 @@ creator:
 release: 1970-10-16T00:00:00.000Z
 studios:
     - Vera Film
+original_title: Indagine su un cittadino al di sopra di ogni sospetto
+original_language: it
 language:
     - Italian
 country:
@@ -20,7 +22,7 @@ date: 2019-01-22T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 26451
+tmdb_id: 26451
 ---
 
 Did Ennio Morricone just recycle his score for <i>The Sicilian Clan</i> for this?

@@ -15,6 +15,8 @@ studios:
     - Open City Films
     - Sunnyland Film
     - The Bridge Production
+original_title: کفرناحوم
+original_language: ar
 language:
     - Arabic
 country:
@@ -29,7 +31,7 @@ date: 2018-12-14T05:00:00.000Z
 rating: '1.5'
 revisit: false
 media: Movie
-id: 517814
+tmdb_id: 517814
 ---
 
 

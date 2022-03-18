@@ -5,6 +5,8 @@ creator:
 release: 1955-07-01T00:00:00.000Z
 studios:
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
     - Japanese
@@ -21,7 +23,7 @@ date: 2020-07-20T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 20942
+tmdb_id: 20942
 ---
 
 

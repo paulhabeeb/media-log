@@ -8,6 +8,8 @@ studios:
     - FilmNation Entertainment
     - Apatow Productions
     - Story Ink
+original_title: ''
+original_language: en
 language:
     - English
     - Urdu
@@ -25,7 +27,7 @@ date: 2017-07-09T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 416477
+tmdb_id: 416477
 ---
 
 

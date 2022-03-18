@@ -7,6 +7,8 @@ studios:
     - Parkes/MacDonald Productions
     - Kemp Company
     - Splendid Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -23,7 +25,7 @@ date: 2021-10-21T04:00:00.000Z
 rating: '3'
 revisit: true
 media: Movie
-id: 640
+tmdb_id: 640
 ---
 
 

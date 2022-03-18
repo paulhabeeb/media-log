@@ -7,6 +7,8 @@ studios:
     - Weed Road Pictures
     - FilmNation Entertainment
     - Amazon Studios
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2021-07-25T04:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 672647
+tmdb_id: 672647
 ---
 
 

@@ -5,6 +5,8 @@ creator:
 release: 1948-12-22T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2021-09-25T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 43453
+tmdb_id: 43453
 ---
 
 

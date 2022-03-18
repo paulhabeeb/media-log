@@ -9,6 +9,8 @@ studios:
     - A Band Apart
     - Zehnte Babelsberg Film
     - Visiona Romantica
+original_title: ''
+original_language: en
 language:
     - German
     - English
@@ -30,7 +32,7 @@ date: 2013-02-01T05:00:00.000Z
 rating: '5'
 revisit: true
 media: Movie
-id: 16869
+tmdb_id: 16869
 ---
 
 

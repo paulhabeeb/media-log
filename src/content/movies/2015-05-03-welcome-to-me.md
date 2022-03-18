@@ -6,6 +6,8 @@ release: 2014-09-05T00:00:00.000Z
 studios:
     - Bron Studios
     - Gary Sanchez Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2015-05-03T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 284537
+tmdb_id: 284537
 ---
 
 

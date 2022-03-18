@@ -6,6 +6,8 @@ release: 1975-06-11T00:00:00.000Z
 studios:
     - Paramount
     - ABC Entertainment
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -23,7 +25,7 @@ date: 2020-06-27T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 3121
+tmdb_id: 3121
 ---
 
 

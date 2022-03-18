@@ -5,6 +5,8 @@ creator:
 release: 1943-11-07T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - German
     - English
@@ -23,7 +25,7 @@ date: 2021-01-20T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 55239
+tmdb_id: 55239
 ---
 
 Enjoyable but ludicrous. There’s not much sustained suspense. Situations come up and resolve too quickly, and the characters aren’t developed enough to really care about them. Death is also apparently not a big deal in this world.

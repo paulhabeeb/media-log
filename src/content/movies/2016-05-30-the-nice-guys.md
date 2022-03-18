@@ -10,6 +10,8 @@ studios:
     - Nice Guys
     - Misty Mountains
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -27,7 +29,7 @@ date: 2016-05-30T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 290250
+tmdb_id: 290250
 ---
 
 

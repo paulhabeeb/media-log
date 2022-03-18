@@ -7,6 +7,8 @@ studios:
     - Why Not Productions
     - Canal+
     - Ciné+
+original_title: L'Homme fidèle
+original_language: fr
 language:
     - French
     - Spanish
@@ -24,7 +26,7 @@ date: 2019-10-28T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 529784
+tmdb_id: 529784
 ---
 
 

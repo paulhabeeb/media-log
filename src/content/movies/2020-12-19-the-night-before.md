@@ -8,6 +8,8 @@ studios:
     - Good Universe
     - Point Grey Pictures
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2020-12-19T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 296100
+tmdb_id: 296100
 ---
 
 The story isn’t revolutionary, so appearances from Michael Shannon, Nathan Fielder, Lizzy Caplan, Mindy Kaling, Jason Mantzoukas, Ilana Glazer, Tracy Morgan, Randall Park, Miley Cyrus, and James Franco are what make this thing fun.

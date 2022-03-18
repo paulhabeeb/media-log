@@ -8,6 +8,8 @@ studios:
     - Chromosom Filmproduktion
     - HR
     - ARTE
+original_title: Oh Boy
+original_language: de
 language:
     - English
     - German
@@ -24,7 +26,7 @@ date: 2014-06-13T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 130739
+tmdb_id: 130739
 ---
 
 

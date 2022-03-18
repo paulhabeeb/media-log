@@ -8,7 +8,7 @@
         </time>
         <div class="logItem-title">
             <a href="{{ post.url | url }}">
-                {{ postTitle(post.data.title, post.data.season, post.data.episode) }}
+                {{ postTitle(post.data.title, post.data.original_title, post.data.original_language, post.data.season, post.data.episode) }}
             </a>
             <span class="logItem-mobileYearCreated">
                 {{ post.data.release | yearOnly }}

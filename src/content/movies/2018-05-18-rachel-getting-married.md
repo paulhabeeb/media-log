@@ -5,6 +5,8 @@ creator:
 release: 2008-10-03T00:00:00.000Z
 studios:
     - Clinica Estetico
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2018-05-18T04:00:00.000Z
 rating: '3'
 revisit: true
 media: Movie
-id: 14976
+tmdb_id: 14976
 ---
 
 Apparently Paul Thomas Anderson was offered the role of Sidney?

@@ -8,6 +8,8 @@ studios:
     - Davis Entertainment
     - Regency Enterprises
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2018-09-01T04:00:00.000Z
 rating: '0.5'
 revisit: false
 media: Movie
-id: 38579
+tmdb_id: 38579
 ---
 
 I debated not watching this, but there was no getting around it. Waste of talent, waste of time, waste of my bandwidth. What a truly awful movie.

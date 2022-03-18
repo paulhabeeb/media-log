@@ -18,6 +18,8 @@ studios:
     - Medienboard Berlin-Brandenburg
     - Soficinéma 8
     - Wild Bunch
+original_title: Holy Motors
+original_language: fr
 language:
     - French
 country:
@@ -35,7 +37,7 @@ date: 2014-08-15T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 103328
+tmdb_id: 103328
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Universal Pictures
     - MRC
     - Gambit Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2011-03-12T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 38050
+tmdb_id: 38050
 ---
 
 

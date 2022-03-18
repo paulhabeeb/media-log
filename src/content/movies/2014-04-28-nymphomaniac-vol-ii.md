@@ -6,6 +6,8 @@ release: 2013-12-25T00:00:00.000Z
 studios:
     - Zentropa Entertainments
     - ARTE France Cinéma
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -26,7 +28,7 @@ date: 2014-04-28T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 249397
+tmdb_id: 249397
 ---
 
 

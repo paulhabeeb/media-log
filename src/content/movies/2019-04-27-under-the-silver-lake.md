@@ -15,6 +15,8 @@ studios:
     - Sprockefeller Pictures
     - UnLTD Productions
     - PASTEL
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -31,7 +33,7 @@ date: 2019-04-27T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 396461
+tmdb_id: 396461
 ---
 
 

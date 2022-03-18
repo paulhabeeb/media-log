@@ -6,6 +6,8 @@ release: 1995-08-04T00:00:00.000Z
 studios:
     - Oscilloscope
     - Good Machine
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2019-05-22T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 98514
+tmdb_id: 98514
 ---
 
 

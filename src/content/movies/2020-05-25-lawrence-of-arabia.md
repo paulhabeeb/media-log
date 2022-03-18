@@ -5,6 +5,8 @@ creator:
 release: 1962-12-11T00:00:00.000Z
 studios:
     - Horizon Pictures
+original_title: ''
+original_language: en
 language:
     - Arabic
     - English
@@ -24,7 +26,7 @@ date: 2020-05-25T04:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 947
+tmdb_id: 947
 ---
 
 

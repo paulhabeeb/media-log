@@ -6,6 +6,8 @@ release: 1954-03-17T00:00:00.000Z
 studios:
     - Del Duca Films
     - Antares Produzione Cinematografica
+original_title: Touchez pas au grisbi
+original_language: fr
 language:
     - French
 country:
@@ -23,7 +25,7 @@ date: 2018-08-15T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 27430
+tmdb_id: 27430
 ---
 
 

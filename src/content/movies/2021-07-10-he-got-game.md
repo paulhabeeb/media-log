@@ -6,6 +6,8 @@ release: 1998-05-01T00:00:00.000Z
 studios:
     - 40 Acres and a Mule Filmworks
     - Touchstone Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2021-07-10T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 9469
+tmdb_id: 9469
 ---
 
 

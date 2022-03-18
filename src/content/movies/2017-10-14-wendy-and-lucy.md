@@ -8,6 +8,8 @@ studios:
     - filmscience
     - Washington Square Films
     - Field Guide Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2017-10-14T04:00:00.000Z
 rating: '4.5'
 revisit: true
 media: Movie
-id: 8942
+tmdb_id: 8942
 ---
 
 

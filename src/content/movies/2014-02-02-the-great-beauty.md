@@ -10,7 +10,7 @@ studios:
     - Babe Films
     - Medusa Film
     - Pathé
-    - Fonds Eurimages du Conseil de l'Europe
+    - Fonds Eurimages du Conseil de l’Europe
     - Regione Lazio
     - Banca Popolare di Vicenza
     - Lazio Film Commission
@@ -18,6 +18,8 @@ studios:
     - Canal+
     - MEDIA Programme of the European Union
     - France Télévisions
+original_title: La grande bellezza
+original_language: it
 language:
     - Italian
     - Japanese
@@ -35,7 +37,7 @@ date: 2014-02-02T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 179144
+tmdb_id: 179144
 ---
 
 

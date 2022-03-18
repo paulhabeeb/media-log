@@ -5,6 +5,8 @@ creator:
 release: 1979-06-15T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - Spanish
     - English
@@ -23,7 +25,7 @@ date: 2019-02-08T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 19827
+tmdb_id: 19827
 ---
 
 

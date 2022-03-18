@@ -8,6 +8,8 @@ studios:
     - New Line Productions
     - New Line Cinema
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2021-04-29T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 20676
+tmdb_id: 20676
 ---
 
 

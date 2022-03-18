@@ -6,6 +6,8 @@ release: 1948-12-31T00:00:00.000Z
 studios:
     - Argosy Pictures
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - Spanish
     - English
@@ -21,7 +23,7 @@ date: 2019-10-12T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 29244
+tmdb_id: 29244
 ---
 
 My kind of Christmas movie.

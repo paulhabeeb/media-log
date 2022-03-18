@@ -9,6 +9,8 @@ studios:
     - Rafran Cinematografica
     - Warner Bros. Pictures
     - PSO
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -29,7 +31,7 @@ date: 2018-07-05T04:00:00.000Z
 rating: '5'
 revisit: false
 media: Movie
-id: 311
+tmdb_id: 311
 ---
 
 

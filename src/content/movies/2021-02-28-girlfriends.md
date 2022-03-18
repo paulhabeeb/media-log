@@ -6,6 +6,8 @@ release: 1978-08-11T00:00:00.000Z
 studios:
     - Cyclops
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -22,7 +24,7 @@ date: 2021-02-28T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 111469
+tmdb_id: 111469
 ---
 
 

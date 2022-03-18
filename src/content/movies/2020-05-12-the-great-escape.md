@@ -6,6 +6,8 @@ release: 1963-06-20T00:00:00.000Z
 studios:
     - The Mirisch Company
     - United Artists
+original_title: ''
+original_language: en
 language:
     - English
     - German
@@ -27,7 +29,7 @@ date: 2020-05-12T04:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 5925
+tmdb_id: 5925
 ---
 
 

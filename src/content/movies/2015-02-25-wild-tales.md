@@ -10,6 +10,8 @@ studios:
     - Telefe
     - INCAA
     - ICAA
+original_title: Relatos salvajes
+original_language: es
 language:
     - Spanish
 country:
@@ -27,7 +29,7 @@ date: 2015-02-25T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 265195
+tmdb_id: 265195
 ---
 
 

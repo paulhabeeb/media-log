@@ -5,6 +5,8 @@ creator:
 release: 1946-04-16T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2019-11-02T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 16090
+tmdb_id: 16090
 ---
 
 

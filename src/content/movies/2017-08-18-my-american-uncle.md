@@ -7,6 +7,8 @@ studios:
     - Philippe Dussart
     - TF1
     - Andrea Films
+original_title: Mon oncle d'Amérique
+original_language: fr
 language:
     - French
 country:
@@ -23,7 +25,7 @@ date: 2017-08-18T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 39543
+tmdb_id: 39543
 ---
 
 

@@ -6,6 +6,8 @@ release: 1957-11-10T00:00:00.000Z
 studios:
     - Producers-Actors Corporation
     - Scott-Brown Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2020-11-13T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 39557
+tmdb_id: 39557
 ---
 
 I appreciate the unexpected transformation of Scott's character in the viewer’s eyes. I've never seen a revenge movie where the lead is so deeply misguided and also doesn’t win.

@@ -1,5 +1,5 @@
 ---
-title: The King's Speech
+title: The King’s Speech
 creator:
     - Tom Hooper
 release: 2010-11-26T00:00:00.000Z
@@ -12,6 +12,8 @@ studios:
     - FilmNation Entertainment
     - See-Saw Films
     - Bedlam Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -28,7 +30,7 @@ date: 2011-03-22T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 45269
+tmdb_id: 45269
 ---
 
 

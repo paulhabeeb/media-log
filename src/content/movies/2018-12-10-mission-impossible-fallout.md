@@ -9,6 +9,8 @@ studios:
     - Skydance Media
     - TC Productions
     - Alibaba Pictures Group
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -28,7 +30,7 @@ date: 2018-12-10T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 353081
+tmdb_id: 353081
 ---
 
 Did this need to be so long? None of the twists were surprising. Solid action movie, but....

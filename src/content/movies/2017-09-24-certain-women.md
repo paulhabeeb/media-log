@@ -6,6 +6,8 @@ release: 2016-09-25T00:00:00.000Z
 studios:
     - Stage 6 Films
     - filmscience
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2017-09-24T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 340487
+tmdb_id: 340487
 ---
 
 

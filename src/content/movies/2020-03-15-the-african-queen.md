@@ -7,6 +7,8 @@ studios:
     - United Artists
     - Independent Film Distributors
     - Romulus Films
+original_title: ''
+original_language: en
 language:
     - English
     - German
@@ -25,7 +27,7 @@ date: 2020-03-15T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 488
+tmdb_id: 488
 ---
 
 The location work, performances, and of course Jack Cardiff’s cinematography are the draws here.

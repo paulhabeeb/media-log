@@ -7,6 +7,8 @@ studios:
     - France 2 Cinéma
     - Le Pacte
     - Ecce Films
+original_title: Victoria
+original_language: fr
 language:
     - English
     - French
@@ -24,7 +26,7 @@ date: 2021-01-05T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 377275
+tmdb_id: 377275
 ---
 
 This was a nice surprise. The English title and the poster made me think I was in for a dumb rom-com, but no. It isn’t perfect, but it’s much more complex than what I expected.

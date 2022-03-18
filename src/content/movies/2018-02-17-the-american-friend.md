@@ -11,6 +11,8 @@ studios:
     - Wim Wenders Productions
     - WDR
     - Wim Wenders Stiftung
+original_title: Der amerikanische Freund
+original_language: de
 language:
     - English
     - French
@@ -29,7 +31,7 @@ date: 2018-02-17T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 11222
+tmdb_id: 11222
 ---
 
 

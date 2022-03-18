@@ -6,6 +6,8 @@ release: 1934-05-11T00:00:00.000Z
 studios:
     - Columbia Pictures
     - Columbia Pictures Corporation
+original_title: ''
+original_language: en
 language:
     - German
     - English
@@ -22,7 +24,7 @@ date: 2018-08-07T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 31835
+tmdb_id: 31835
 ---
 
 

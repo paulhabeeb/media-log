@@ -5,6 +5,8 @@ creator:
 release: 1959-07-01T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -23,7 +25,7 @@ date: 2021-07-26T04:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 93
+tmdb_id: 93
 ---
 
 

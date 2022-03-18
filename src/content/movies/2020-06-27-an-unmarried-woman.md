@@ -5,6 +5,8 @@ creator:
 release: 1978-05-24T00:00:00.000Z
 studios:
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-06-27T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 38731
+tmdb_id: 38731
 ---
 
 SoHo before it was cool.

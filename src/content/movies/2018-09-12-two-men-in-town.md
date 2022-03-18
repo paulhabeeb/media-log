@@ -6,6 +6,8 @@ release: 1973-10-24T00:00:00.000Z
 studios:
     - Adel Productions
     - Medusa Distribuzione
+original_title: Deux hommes dans la ville
+original_language: fr
 language:
     - French
 country:
@@ -22,7 +24,7 @@ date: 2018-09-12T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 4680
+tmdb_id: 4680
 ---
 
 

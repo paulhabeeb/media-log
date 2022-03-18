@@ -1,5 +1,5 @@
 ---
-title: 'Pirates of the Caribbean: Dead Man''s Chest'
+title: 'Pirates of the Caribbean: Dead Man’s Chest'
 creator:
     - Gore Verbinski
 release: 2006-07-06T00:00:00.000Z
@@ -7,6 +7,8 @@ studios:
     - Walt Disney Pictures
     - Jerry Bruckheimer Films
     - Second Mate Productions
+original_title: ''
+original_language: en
 language:
     - English
     - Turkish
@@ -26,7 +28,7 @@ date: 2006-07-10T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 58
+tmdb_id: 58
 ---
 
 

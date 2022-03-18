@@ -5,6 +5,8 @@ creator:
 release: 1944-06-14T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2019-09-27T04:00:00.000Z
 rating: '4.5'
 revisit: true
 media: Movie
-id: 996
+tmdb_id: 996
 ---
 
 

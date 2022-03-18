@@ -6,6 +6,8 @@ release: 1956-11-11T00:00:00.000Z
 studios:
     - Nouvelles Éditions de Films (NEF)
     - Gaumont
+original_title: Un condamné à mort s'est échappé
+original_language: fr
 language:
     - German
     - French
@@ -24,7 +26,7 @@ date: 2017-09-30T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 15244
+tmdb_id: 15244
 ---
 
 

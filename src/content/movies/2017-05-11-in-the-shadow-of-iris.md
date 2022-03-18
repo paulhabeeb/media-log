@@ -5,6 +5,8 @@ creator:
 release: 2016-11-16T00:00:00.000Z
 studios:
     - WY Productions
+original_title: Iris
+original_language: fr
 language:
     - French
 country:
@@ -19,7 +21,7 @@ date: 2017-05-11T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 395763
+tmdb_id: 395763
 ---
 
 

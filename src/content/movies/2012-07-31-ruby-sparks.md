@@ -8,6 +8,8 @@ studios:
     - Bona Fide Productions
     - Fox Searchlight Pictures
     - DragonCove Studios
+original_title: ''
+original_language: en
 language:
     - English
     - French
@@ -26,7 +28,7 @@ date: 2012-07-31T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 103332
+tmdb_id: 103332
 ---
 
 

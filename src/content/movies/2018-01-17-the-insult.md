@@ -9,6 +9,8 @@ studios:
     - Tessalit Productions
     - SCOPE Pictures
     - Douri Films
+original_title: L'Insulte
+original_language: fr
 language:
     - Arabic
 country:
@@ -25,7 +27,7 @@ date: 2018-01-17T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 468284
+tmdb_id: 468284
 ---
 
 After a couple days thinking about this, I bumped it down from 3.5 to 2.5 stars.

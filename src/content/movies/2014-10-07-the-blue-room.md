@@ -5,6 +5,8 @@ creator:
 release: 2014-05-16T00:00:00.000Z
 studios:
     - Alfama Films
+original_title: La chambre bleue
+original_language: fr
 language:
     - French
 country:
@@ -21,7 +23,7 @@ date: 2014-10-07T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 266034
+tmdb_id: 266034
 ---
 
 

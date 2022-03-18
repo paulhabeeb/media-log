@@ -10,6 +10,8 @@ studios:
     - Revolution Sun Studios
     - Kontsept Film Company
     - Skydance Media
+original_title: ''
+original_language: en
 language:
     - English
     - Russian
@@ -31,7 +33,7 @@ date: 2011-12-24T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 56292
+tmdb_id: 56292
 ---
 
 

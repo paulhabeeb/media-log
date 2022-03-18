@@ -9,6 +9,8 @@ studios:
     - Regency Enterprises
     - New Regency Pictures
     - Summit Entertainment
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -27,7 +29,7 @@ date: 2005-06-10T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 787
+tmdb_id: 787
 ---
 
 

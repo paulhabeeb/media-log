@@ -5,6 +5,8 @@ creator:
 release: 2012-03-29T00:00:00.000Z
 studios:
     - Fabula
+original_title: Joven y alocada
+original_language: es
 language:
     - Spanish
 country:
@@ -20,7 +22,7 @@ date: 2013-11-28T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 84354
+tmdb_id: 84354
 ---
 
 

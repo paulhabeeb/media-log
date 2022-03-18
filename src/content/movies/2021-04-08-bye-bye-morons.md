@@ -15,6 +15,8 @@ studios:
     - France Télévisions
     - Mikros Image
     - Région Ile-de-France
+original_title: Adieu les cons
+original_language: fr
 language:
     - English
     - French
@@ -31,7 +33,7 @@ date: 2021-04-08T04:00:00.000Z
 rating: '1'
 revisit: false
 media: Movie
-id: 651881
+tmdb_id: 651881
 ---
 
 

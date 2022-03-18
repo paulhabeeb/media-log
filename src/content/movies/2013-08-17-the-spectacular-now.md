@@ -7,6 +7,8 @@ studios:
     - Global Produce
     - 21 Laps Entertainment
     - Andrew Lauren Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2013-08-17T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 157386
+tmdb_id: 157386
 ---
 
 

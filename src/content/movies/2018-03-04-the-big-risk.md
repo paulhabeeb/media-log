@@ -8,6 +8,8 @@ studios:
     - Mondex Films
     - Zebra Film
     - Filmsonor
+original_title: Classe tous risques
+original_language: fr
 language:
     - French
     - Italian
@@ -26,7 +28,7 @@ date: 2018-03-04T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 34145
+tmdb_id: 34145
 ---
 
 

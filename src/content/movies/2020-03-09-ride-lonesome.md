@@ -6,6 +6,8 @@ release: 1959-02-15T00:00:00.000Z
 studios:
     - Ranown Pictures Corp.
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-03-09T04:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 27644
+tmdb_id: 27644
 ---
 
 Some westerns treat their women well, and some don’t. This one’s somewhere in the middle. I don’t love the way the guys talk about her, but she does handle herself well in tough situations.

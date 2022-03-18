@@ -8,6 +8,8 @@ studios:
     - Universal Pictures
     - Imagine Entertainment
     - Alphaville Productions
+original_title: ''
+original_language: en
 language:
     - French
     - English
@@ -25,7 +27,7 @@ date: 2019-07-06T04:00:00.000Z
 rating: '3'
 revisit: true
 media: Movie
-id: 11775
+tmdb_id: 11775
 ---
 
 

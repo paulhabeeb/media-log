@@ -7,6 +7,8 @@ studios:
     - Regency Enterprises
     - Indian Paintbrush
     - American Empirical Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2009-11-27T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 10315
+tmdb_id: 10315
 ---
 
 

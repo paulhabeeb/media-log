@@ -6,6 +6,8 @@ release: 1969-09-10T00:00:00.000Z
 studios:
     - Fono Roma
     - Les Films Corona
+original_title: L'Armée des ombres
+original_language: fr
 language:
     - German
     - English
@@ -25,7 +27,7 @@ date: 2015-09-09T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 15383
+tmdb_id: 15383
 ---
 
 

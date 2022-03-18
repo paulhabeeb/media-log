@@ -4,8 +4,10 @@ creator:
     - Marcel Carné
 release: 1938-12-17T00:00:00.000Z
 studios:
-    - Societé d'Exploitation et de Distribution de Films (SEDIF)
+    - Societé d’Exploitation et de Distribution de Films (SEDIF)
     - Impérial Film
+original_title: Hôtel du Nord
+original_language: fr
 language:
     - French
 country:
@@ -21,7 +23,7 @@ date: 2020-07-19T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 48369
+tmdb_id: 48369
 ---
 
 

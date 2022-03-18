@@ -7,6 +7,8 @@ studios:
     - Eon Productions
     - Metro-Goldwyn-Mayer
     - Danjaq
+original_title: ''
+original_language: en
 language:
     - English
     - Korean
@@ -30,7 +32,7 @@ date: 2002-11-28T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 36669
+tmdb_id: 36669
 ---
 
 

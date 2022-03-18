@@ -12,6 +12,8 @@ studios:
     - Warner Bros. Pictures
     - DC Comics
     - Medienboard Berlin-Brandenburg
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -30,7 +32,7 @@ date: 2006-03-22T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 752
+tmdb_id: 752
 ---
 
 

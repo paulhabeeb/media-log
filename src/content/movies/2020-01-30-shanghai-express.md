@@ -5,6 +5,8 @@ creator:
 release: 1932-02-03T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - Cantonese
     - English
@@ -23,7 +25,7 @@ date: 2020-01-30T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 875
+tmdb_id: 875
 ---
 
 Felt this had a strong opening two-thirds but lost steam toward the end. The minor characters create a wonderful milieu, even if there’s not a whole lot going on.

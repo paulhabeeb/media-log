@@ -5,6 +5,8 @@ creator:
 release: 1942-10-22T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Portuguese
@@ -21,7 +23,7 @@ date: 2019-12-08T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 32847
+tmdb_id: 32847
 ---
 
 Very surprised at how much I liked this. I found it deeply touching in the kind of way that many find It’s a Wonderful Life touching, but without the nonsense holiday cheer and Frank Capra sentimentality.

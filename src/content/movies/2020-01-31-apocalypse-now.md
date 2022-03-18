@@ -6,6 +6,8 @@ release: 1979-08-15T00:00:00.000Z
 studios:
     - United Artists
     - American Zoetrope
+original_title: ''
+original_language: en
 language:
     - Khmer
     - English
@@ -24,7 +26,7 @@ date: 2020-01-31T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 28
+tmdb_id: 28
 ---
 
 Sound design might be the most underrated and underutilized aspect of filmmaking. Everyone focuses on actors, directors, even cinematographers. But all that’s for naught if you have a bad sound track.

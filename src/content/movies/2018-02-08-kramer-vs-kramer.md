@@ -5,6 +5,8 @@ creator:
 release: 1979-12-19T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2018-02-08T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 12102
+tmdb_id: 12102
 ---
 
 

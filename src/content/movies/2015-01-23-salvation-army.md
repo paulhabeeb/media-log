@@ -6,6 +6,8 @@ release: 2014-05-07T00:00:00.000Z
 studios:
     - Les Films Pelléas
     - Les Films de Pierre
+original_title: L'Armée du Salut
+original_language: fr
 language:
     - Arabic
     - French
@@ -22,7 +24,7 @@ date: 2015-01-23T05:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 215960
+tmdb_id: 215960
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Lionsgate
     - Netter Productions
     - TIK Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2021-06-26T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 336000
+tmdb_id: 336000
 ---
 
 

@@ -6,6 +6,8 @@ release: 2017-01-23T00:00:00.000Z
 studios:
     - Passage Pictures
     - 141 Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2018-12-13T05:00:00.000Z
 rating: '1.5'
 revisit: false
 media: Movie
-id: 426254
+tmdb_id: 426254
 ---
 
 Didn’t need to be a movie. Way too tedious.

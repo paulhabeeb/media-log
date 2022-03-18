@@ -5,6 +5,8 @@ creator:
 release: 1953-05-27T00:00:00.000Z
 studios:
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2015-05-31T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 25955
+tmdb_id: 25955
 ---
 
 

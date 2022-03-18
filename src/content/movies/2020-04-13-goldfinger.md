@@ -7,6 +7,8 @@ studios:
     - Eon Productions
     - Danjaq
     - United Artists
+original_title: ''
+original_language: en
 language:
     - Mandarin
     - English
@@ -25,7 +27,7 @@ date: 2020-04-13T04:00:00.000Z
 rating: '4'
 revisit: true
 media: Movie
-id: 658
+tmdb_id: 658
 ---
 
 Is this the best one? Maybe? I’m not sure. Most of them aren’t all that good, I think.

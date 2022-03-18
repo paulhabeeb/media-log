@@ -11,6 +11,8 @@ studios:
     - Closed on Mondays Entertainment
     - TGIM Films
     - Film i Väst
+original_title: ''
+original_language: en
 language:
     - Swedish
     - English
@@ -32,7 +34,7 @@ date: 2018-02-16T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 341013
+tmdb_id: 341013
 ---
 
 Worth it just for the fight scene where it turns into a Bourne movie for ten minutes. Otherwise it’s John Wick.

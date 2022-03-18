@@ -5,6 +5,8 @@ creator:
 release: 1958-03-30T00:00:00.000Z
 studios:
     - Universal Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Spanish
@@ -21,7 +23,7 @@ date: 2013-08-13T04:00:00.000Z
 rating: '4.5'
 revisit: true
 media: Movie
-id: 1480
+tmdb_id: 1480
 ---
 
 

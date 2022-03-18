@@ -1,5 +1,5 @@
 ---
-title: Paris, Je T'Aime
+title: Paris, Je T’Aime
 creator:
     - Isabel Coixet
     - Christopher Doyle
@@ -27,6 +27,8 @@ studios:
     - Filmazure
     - Pirol Stiftung
     - Victoires International
+original_title: Paris, je t'aime
+original_language: fr
 language:
     - Spanish
     - French
@@ -46,7 +48,7 @@ date: 2007-09-28T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 2266
+tmdb_id: 2266
 ---
 
 

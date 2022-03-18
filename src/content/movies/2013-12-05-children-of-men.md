@@ -7,6 +7,8 @@ studios:
     - Universal Pictures
     - Strike Entertainment
     - Hit & Run Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2013-12-05T05:00:00.000Z
 rating: '3.5'
 revisit: true
 media: Movie
-id: 9693
+tmdb_id: 9693
 ---
 
 

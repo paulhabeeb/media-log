@@ -6,6 +6,8 @@ release: 1931-07-16T00:00:00.000Z
 studios:
     - The Vitaphone Corporation
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - Cantonese
     - English
@@ -23,7 +25,7 @@ date: 2019-10-27T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 51394
+tmdb_id: 51394
 ---
 
 

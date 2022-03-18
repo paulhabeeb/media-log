@@ -5,6 +5,8 @@ creator:
 release: 1995-09-06T00:00:00.000Z
 studios:
     - Jet Tone Production
+original_title: 墮落天使
+original_language: cn
 language:
     - English
     - Cantonese
@@ -24,7 +26,7 @@ date: 2015-08-09T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 11220
+tmdb_id: 11220
 ---
 
 

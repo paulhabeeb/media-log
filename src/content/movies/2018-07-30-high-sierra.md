@@ -5,6 +5,8 @@ creator:
 release: 1941-01-23T00:00:00.000Z
 studios:
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2018-07-30T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 27725
+tmdb_id: 27725
 ---
 
 Wonderful car chase

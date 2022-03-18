@@ -6,6 +6,8 @@ release: 1955-12-23T00:00:00.000Z
 studios:
     - Florida Films
     - Gamma Film
+original_title: Lola Montès
+original_language: fr
 language:
     - English
     - French
@@ -24,7 +26,7 @@ date: 2020-05-30T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 35987
+tmdb_id: 35987
 ---
 
 Started but could not finish this.

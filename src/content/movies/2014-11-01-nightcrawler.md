@@ -6,6 +6,8 @@ release: 2014-10-23T00:00:00.000Z
 studios:
     - Sierra/Affinity
     - Bold Films
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2014-11-01T04:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 242582
+tmdb_id: 242582
 ---
 
 

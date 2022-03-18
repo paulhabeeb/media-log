@@ -5,6 +5,8 @@ creator:
 release: 1939-05-15T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - Spanish
     - English
@@ -22,7 +24,7 @@ date: 2019-10-04T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 43832
+tmdb_id: 43832
 ---
 
 Probably could have cut the Jean Arthur part, fleshed out Rita’s role a bit more, and ended up with a great little movie.

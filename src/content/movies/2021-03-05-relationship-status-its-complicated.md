@@ -1,5 +1,5 @@
 ---
-title: 'Relationship Status: It''s Complicated'
+title: 'Relationship Status: It’s Complicated'
 creator:
     - Manu Payet
     - Rodolphe Lauga
@@ -10,6 +10,8 @@ studios:
     - Nexus Factory
     - Nolita
     - D8 Films
+original_title: "Situation amoureuse\_: c'est compliqué"
+original_language: fr
 language:
     - French
 country:
@@ -25,7 +27,7 @@ date: 2021-03-05T05:00:00.000Z
 rating: '1'
 revisit: false
 media: Movie
-id: 255913
+tmdb_id: 255913
 ---
 
 

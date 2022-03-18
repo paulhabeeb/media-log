@@ -6,6 +6,8 @@ release: 2015-08-13T00:00:00.000Z
 studios:
     - Jeonwonsa Film
     - Next Entertainment World
+original_title: 지금은맞고그때는틀리다
+original_language: ko
 language:
     - Korean
 country:
@@ -21,7 +23,7 @@ date: 2020-05-31T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 354275
+tmdb_id: 354275
 ---
 
 

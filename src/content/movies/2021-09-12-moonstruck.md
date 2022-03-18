@@ -6,6 +6,8 @@ release: 1987-12-16T00:00:00.000Z
 studios:
     - Star Partners
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -23,7 +25,7 @@ date: 2021-09-12T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 2039
+tmdb_id: 2039
 ---
 
 

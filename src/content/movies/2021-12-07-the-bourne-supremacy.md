@@ -9,6 +9,8 @@ studios:
     - Hypnotic
     - Motion Picture THETA Produktionsgesellschaft
     - Ludlum Entertainment
+original_title: ''
+original_language: en
 language:
     - English
     - Russian
@@ -29,7 +31,7 @@ date: 2021-12-07T05:00:00.000Z
 rating: '4'
 revisit: true
 media: Movie
-id: 2502
+tmdb_id: 2502
 ---
 
 The introduction of shaky cam to the series. Thankfully it works here. But what's funny is the visual style is much different than that of the first despite having the same DP in <a href="https://letterboxd.com/cinematography/oliver-wood/">Oliver Wood</a>. Some of it might be the old transfer for <em>Identity</em>, but a lot of it is the gaffing in this one. Everything is awash in color, with so many different temperatures influencing every frame, except those in natural light, which I'm sure is augmented (and beautifully done). It's like Robby Müller and Roger Deakins had a kid. This might be one of the most beautiful action movies out there, but it's so hard to tell because of the shaky cam.

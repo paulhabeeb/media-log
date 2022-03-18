@@ -5,6 +5,8 @@ creator:
 release: 1986-01-01T00:00:00.000Z
 studios:
     - DEG
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2019-06-28T04:00:00.000Z
 rating: '4.5'
 revisit: true
 media: Movie
-id: 793
+tmdb_id: 793
 ---
 
 How can you even rate a movie like this?

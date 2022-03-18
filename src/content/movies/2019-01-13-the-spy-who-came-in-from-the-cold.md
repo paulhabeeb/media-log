@@ -5,6 +5,8 @@ creator:
 release: 1965-12-16T00:00:00.000Z
 studios:
     - Salem Films Limited
+original_title: ''
+original_language: en
 language:
     - Dutch
     - English
@@ -21,7 +23,7 @@ date: 2019-01-13T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 13580
+tmdb_id: 13580
 ---
 
 Between this and <em>The Night of the Iguana</em>, I'm not a huge Richard Burton fan.

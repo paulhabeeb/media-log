@@ -5,6 +5,8 @@ creator:
 release: 1954-10-14T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -22,7 +24,7 @@ date: 2020-12-18T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 13368
+tmdb_id: 13368
 ---
 
 Just the kind of Christmas musical you’d want. The story could be a lot stronger, but the charisma of the actors carries it through.

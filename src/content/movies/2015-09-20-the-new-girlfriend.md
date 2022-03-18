@@ -8,6 +8,8 @@ studios:
     - FOZ
     - France 2 Cinéma
     - Mandarin Cinéma
+original_title: Une nouvelle amie
+original_language: fr
 language:
     - French
 country:
@@ -22,7 +24,7 @@ date: 2015-09-20T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 283726
+tmdb_id: 283726
 ---
 
 

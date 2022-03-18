@@ -6,6 +6,8 @@ release: 2015-08-14T00:00:00.000Z
 studios:
     - Fox Searchlight Pictures
     - RT Features
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2015-09-16T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 309245
+tmdb_id: 309245
 ---
 
 

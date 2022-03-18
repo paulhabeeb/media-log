@@ -6,6 +6,8 @@ release: 2020-12-13T00:00:00.000Z
 studios:
     - LuckyChap Entertainment
     - FilmNation Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2021-04-26T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 582014
+tmdb_id: 582014
 ---
 
 

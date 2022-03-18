@@ -5,6 +5,8 @@ creator:
 release: 1962-06-20T00:00:00.000Z
 studios:
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - Spanish
     - English
@@ -22,7 +24,7 @@ date: 2021-05-01T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 36206
+tmdb_id: 36206
 ---
 
 

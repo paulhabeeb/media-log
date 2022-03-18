@@ -6,6 +6,8 @@ release: 1961-09-25T00:00:00.000Z
 studios:
     - Rossen Films
     - 20th Century Fox
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2018-12-23T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 990
+tmdb_id: 990
 ---
 
 

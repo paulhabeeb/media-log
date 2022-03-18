@@ -8,6 +8,8 @@ studios:
     - Green Hat Films
     - IFP Westcoast Erste
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2021-08-06T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 18785
+tmdb_id: 18785
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Industry Entertainment
     - Columbia Pictures
     - 2929 Productions
+original_title: ''
+original_language: en
 language:
     - English
     - Russian
@@ -24,7 +26,7 @@ date: 2020-04-24T04:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 2001
+tmdb_id: 2001
 ---
 
 One of the best car chases ever. Reminds me of the chase in <i>Ad Astra</i>.

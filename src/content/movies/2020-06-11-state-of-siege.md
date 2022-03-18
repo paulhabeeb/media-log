@@ -8,6 +8,8 @@ studios:
     - Reggane Films
     - Unidis
     - Euro International Film
+original_title: État de siège
+original_language: fr
 language:
     - French
 country:
@@ -25,7 +27,7 @@ date: 2020-06-11T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 91487
+tmdb_id: 91487
 ---
 
 

@@ -5,6 +5,8 @@ creator:
 release: 1946-05-02T00:00:00.000Z
 studios:
     - Metro-Goldwyn-Mayer
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -23,7 +25,7 @@ date: 2018-02-24T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 25736
+tmdb_id: 25736
 ---
 
 

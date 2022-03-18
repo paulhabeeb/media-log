@@ -9,6 +9,8 @@ studios:
     - Bangumi
     - La Région Île-de-France
     - CNC
+original_title: Seize printemps
+original_language: fr
 language:
     - French
 country:
@@ -25,7 +27,7 @@ date: 2021-03-11T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 712134
+tmdb_id: 712134
 ---
 
 

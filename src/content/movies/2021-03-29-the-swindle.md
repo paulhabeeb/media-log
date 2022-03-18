@@ -13,6 +13,8 @@ studios:
     - Teleclub
     - PROCIREP
     - Office Fédéral de la Culture
+original_title: Rien ne va plus
+original_language: fr
 language:
     - French
     - Hungarian
@@ -31,7 +33,7 @@ date: 2021-03-29T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 64559
+tmdb_id: 64559
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - The Mirisch Company
     - Solar Productions
     - Simkoe
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2018-07-19T04:00:00.000Z
 rating: '2'
 revisit: true
 media: Movie
-id: 912
+tmdb_id: 912
 ---
 
 

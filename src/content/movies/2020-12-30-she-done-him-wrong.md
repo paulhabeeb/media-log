@@ -5,6 +5,8 @@ creator:
 release: 1933-02-09T00:00:00.000Z
 studios:
     - Paramount
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2020-12-30T05:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 43595
+tmdb_id: 43595
 ---
 
 Pretty forgettable. I’m not sure I’m a Mae West fan, though maybe I was just looking for more story. You know, she’s probably great in a solid role. Lots of personality there.

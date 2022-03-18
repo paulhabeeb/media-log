@@ -5,6 +5,8 @@ creator:
 release: 1986-10-17T00:00:00.000Z
 studios:
     - Villealfa Filmproductions
+original_title: Varjoja paratiisissa
+original_language: fi
 language:
     - English
     - Swedish
@@ -22,7 +24,7 @@ date: 2018-02-18T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 3
+tmdb_id: 3
 ---
 
 

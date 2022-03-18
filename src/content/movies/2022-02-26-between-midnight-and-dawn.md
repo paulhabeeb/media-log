@@ -5,6 +5,8 @@ creator:
 release: 1950-10-01T00:00:00.000Z
 studios:
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -20,7 +22,7 @@ date: 2022-02-26T05:00:00.000Z
 rating: '2.5'
 revisit: false
 media: Movie
-id: 61501
+tmdb_id: 61501
 ---
 
 

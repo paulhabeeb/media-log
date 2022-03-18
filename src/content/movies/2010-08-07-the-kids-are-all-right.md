@@ -12,6 +12,8 @@ studios:
     - Artist International
     - Antidote Films (I)
     - Artist International Management
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -27,7 +29,7 @@ date: 2010-08-07T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 39781
+tmdb_id: 39781
 ---
 
 

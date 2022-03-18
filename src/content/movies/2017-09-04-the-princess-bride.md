@@ -7,6 +7,8 @@ studios:
     - The Princess Bride Ltd.
     - Buttercup Films Ltd.
     - Act III Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2017-09-04T04:00:00.000Z
 rating: '5'
 revisit: true
 media: Movie
-id: 2493
+tmdb_id: 2493
 ---
 
 

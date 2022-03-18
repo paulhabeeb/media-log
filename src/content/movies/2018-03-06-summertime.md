@@ -6,6 +6,8 @@ release: 1955-01-01T00:00:00.000Z
 studios:
     - London Films Productions
     - United Artists
+original_title: ''
+original_language: en
 language:
     - English
     - Italian
@@ -23,7 +25,7 @@ date: 2018-03-06T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 50363
+tmdb_id: 50363
 ---
 
 Interesting to see an old film shot in color in Academy ratio. A nice counterpoint to something like Manhattan, shot in black and white in 2.35.

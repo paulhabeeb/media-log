@@ -9,6 +9,8 @@ studios:
     - Film i Väst
     - Plattform Produktion
     - Magnolia Pictures
+original_title: Turist
+original_language: sv
 language:
     - French
     - Norwegian
@@ -29,7 +31,7 @@ date: 2014-10-24T04:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 265189
+tmdb_id: 265189
 ---
 
 

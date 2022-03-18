@@ -6,6 +6,8 @@ release: 2013-07-12T00:00:00.000Z
 studios:
     - Fabula
     - Diroriro
+original_title: Crystal Fairy & the Magical Cactus
+original_language: es
 language:
     - German
     - Spanish
@@ -23,7 +25,7 @@ date: 2013-07-17T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 157409
+tmdb_id: 157409
 ---
 
 

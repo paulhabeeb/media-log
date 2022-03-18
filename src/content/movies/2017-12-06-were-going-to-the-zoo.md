@@ -1,10 +1,12 @@
 ---
-title: We're Going to the Zoo
+title: We’re Going to the Zoo
 creator:
     - Josh Safdie
 release: 2006-06-23T00:00:00.000Z
 studios:
     - Red Bucket Films
+original_title: ''
+original_language: en
 language: []
 country:
     - United States
@@ -19,7 +21,7 @@ date: 2017-12-06T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 320569
+tmdb_id: 320569
 ---
 
 

@@ -7,6 +7,8 @@ studios:
     - Paramount Vantage
     - Miramax
     - Ghoulardi Film Company
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2008-01-25T05:00:00.000Z
 rating: '5'
 revisit: false
 media: Movie
-id: 7345
+tmdb_id: 7345
 ---
 
 I remember walking out of this and realizing I'd just seen my generation's Citizen Kane. A special day, indeed.

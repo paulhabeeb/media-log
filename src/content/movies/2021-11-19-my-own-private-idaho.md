@@ -5,6 +5,8 @@ creator:
 release: 1991-02-01T00:00:00.000Z
 studios:
     - Fine Line Features
+original_title: ''
+original_language: en
 language:
     - English
     - German
@@ -22,7 +24,7 @@ date: 2021-11-19T05:00:00.000Z
 rating: '3.5'
 revisit: true
 media: Movie
-id: 468
+tmdb_id: 468
 ---
 
 It's funny how whenever Bob speaks it sounds like Shakespeare, but all the other dialogue sounds normal.

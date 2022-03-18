@@ -7,6 +7,8 @@ studios:
     - 20th Century Fox
     - Goddard Textiles
     - TSG Entertainment
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -24,7 +26,7 @@ date: 2019-04-28T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 446021
+tmdb_id: 446021
 ---
 
 

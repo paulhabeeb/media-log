@@ -5,6 +5,8 @@ creator:
 release: 1953-01-02T00:00:00.000Z
 studios:
     - RKO Radio Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Japanese
@@ -23,7 +25,7 @@ date: 2020-09-19T04:00:00.000Z
 rating: '2'
 revisit: false
 media: Movie
-id: 1938
+tmdb_id: 1938
 ---
 
 Scenes linked with “and then” instead of “but” or “therefore”.

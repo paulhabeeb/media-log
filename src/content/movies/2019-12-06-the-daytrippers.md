@@ -8,6 +8,8 @@ studios:
     - Cinépix Film Properties (CFP)
     - Fiasco Photoplays
     - Trick Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -25,7 +27,7 @@ date: 2019-12-06T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 49806
+tmdb_id: 49806
 ---
 
 

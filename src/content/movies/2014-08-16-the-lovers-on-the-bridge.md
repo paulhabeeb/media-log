@@ -7,6 +7,8 @@ studios:
     - Les Films Christian Fechner
     - Films A2
     - Gaumont International
+original_title: Les Amants du Pont-Neuf
+original_language: fr
 language:
     - French
 country:
@@ -22,7 +24,7 @@ date: 2014-08-16T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 2767
+tmdb_id: 2767
 ---
 
 

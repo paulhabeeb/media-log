@@ -9,6 +9,8 @@ studios:
     - Double Feature Films
     - Regency Enterprises
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
     - Cantonese
@@ -28,7 +30,7 @@ date: 2011-09-14T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 39538
+tmdb_id: 39538
 ---
 
 

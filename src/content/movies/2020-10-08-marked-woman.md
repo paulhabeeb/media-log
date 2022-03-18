@@ -5,6 +5,8 @@ creator:
 release: 1937-04-10T00:00:00.000Z
 studios:
     - First National Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -21,7 +23,7 @@ date: 2020-10-08T04:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 25563
+tmdb_id: 25563
 ---
 
 

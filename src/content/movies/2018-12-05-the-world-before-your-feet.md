@@ -5,6 +5,8 @@ creator:
 release: 2018-11-21T00:00:00.000Z
 studios:
     - Wheelhouse Creative
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -19,7 +21,7 @@ date: 2018-12-05T05:00:00.000Z
 rating: '3'
 revisit: false
 media: Movie
-id: 502138
+tmdb_id: 502138
 ---
 
 

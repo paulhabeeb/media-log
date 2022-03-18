@@ -6,6 +6,8 @@ release: 1990-07-26T00:00:00.000Z
 studios:
     - Mirage Enterprises
     - Warner Bros. Pictures
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2019-11-22T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 11092
+tmdb_id: 11092
 ---
 
 

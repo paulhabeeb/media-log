@@ -6,6 +6,8 @@ release: 1957-10-11T00:00:00.000Z
 studios:
     - Horizon Pictures
     - Columbia Pictures
+original_title: ''
+original_language: en
 language:
     - Japanese
     - Thai
@@ -25,7 +27,7 @@ date: 2013-12-14T05:00:00.000Z
 rating: '4.5'
 revisit: false
 media: Movie
-id: 826
+tmdb_id: 826
 ---
 
 

@@ -5,6 +5,8 @@ creator:
 release: 2009-12-16T00:00:00.000Z
 studios:
     - Lighthouse Pictures
+original_title: Le Père de mes enfants
+original_language: fr
 language:
     - English
     - French
@@ -21,7 +23,7 @@ date: 2021-01-10T05:00:00.000Z
 rating: '4'
 revisit: false
 media: Movie
-id: 43614
+tmdb_id: 43614
 ---
 
 Wonderfully split down the middle in its POV, offering very different vibes in each half.

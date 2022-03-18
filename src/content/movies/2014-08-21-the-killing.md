@@ -6,6 +6,8 @@ release: 1956-06-06T00:00:00.000Z
 studios:
     - United Artists
     - Harris-Kubrick Productions
+original_title: ''
+original_language: en
 language:
     - English
 country:
@@ -22,7 +24,7 @@ date: 2014-08-21T04:00:00.000Z
 rating: ''
 revisit: false
 media: Movie
-id: 247
+tmdb_id: 247
 ---
 
 

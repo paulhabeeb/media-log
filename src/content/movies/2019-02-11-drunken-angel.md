@@ -5,6 +5,8 @@ creator:
 release: 1948-04-27T00:00:00.000Z
 studios:
     - Toho
+original_title: 酔いどれ天使
+original_language: ja
 language:
     - Japanese
 country:
@@ -19,7 +21,7 @@ date: 2019-02-11T05:00:00.000Z
 rating: '3.5'
 revisit: false
 media: Movie
-id: 25858
+tmdb_id: 25858
 ---
 
 
