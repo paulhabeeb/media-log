@@ -7,7 +7,7 @@ episode: 2
 creator:
 - Steve Martin
 - John Robert Hoffman
-release: 2021-08-31T04:00:00Z
+release: 2021-08-31T04:02:00Z
 studios:
 - 20th Television
 original_title: ''
