@@ -23,7 +23,7 @@ genre:
 format: Streaming
 service: Hulu
 venue: Home
-date: 
+date: 2022-03-17T04:00:00Z
 rating: 4
 revisit: false
 media: TV Show
