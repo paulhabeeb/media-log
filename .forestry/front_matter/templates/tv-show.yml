@@ -4,31 +4,53 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: number
   name: season
-  label: season
+  label: Season
 - type: number
   name: episode
-  label: episode
-- type: text
-  name: creator
-  label: creator
+  label: Episode
+- name: creator
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Creator
 - type: datetime
   name: release
-  label: release
-- type: text
-  name: studios
-  label: studios
-- name: language
+  label: Release
+- name: studios
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Studios
+- name: original_title
   type: text
   config:
     required: false
+  label: Original Title
+- name: original_language
+  type: text
+  config:
+    required: false
+  label: Original Language
+- name: language
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
   label: Language
 - name: country
-  type: text
+  type: list
   config:
-    required: false
+    use_select: false
+    min: 
+    max: 
   label: Country
 - name: length
   type: number
@@ -49,22 +71,34 @@ fields:
   label: Genre
 - type: text
   name: format
-  label: format
+  label: Format
+- name: service
+  type: text
+  config:
+    required: false
+  label: Service
 - type: text
   name: venue
-  label: venue
+  label: Venue
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: number
   name: rating
-  label: rating
+  label: Rating
 - type: boolean
   name: revisit
-  label: revisit
+  label: Revisit
 - type: text
   name: media
-  label: media
-- type: list
-  name: tags
-  label: tags
+  label: Media
+- name: tmdb_id
+  type: number
+  label: TMDb ID
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 

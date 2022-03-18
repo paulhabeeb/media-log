@@ -38,11 +38,9 @@ sections:
 - type: document
   path: src/content/stats/index.md
   label: Stats
-  match: "**/*"
 - type: document
   path: src/content/404.md
   label: '404'
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
