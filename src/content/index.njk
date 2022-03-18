@@ -6,5 +6,7 @@ eleventyNavigation:
     order: 1
 ---
 {% from 'macros/list-posts-by-month.njk' import listPostsByMonth %}
+
+<p>{{ metadata.description }}</p>
     
 {{ listPostsByMonth(collections.posts) }}
