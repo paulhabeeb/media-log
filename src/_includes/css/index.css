@@ -2,10 +2,11 @@
   --color-white: #fff;
   --color-lightest-grey: #f1f1f1;
   --color-light-grey: #e1e1e1;
+  --color-medium-grey: #979797;
   --color-dark-grey: #545454;
   --color-not-black: #222;
   --color-pale-green: #5e7167;
-  --font-sans: -apple-system, blinkmacsystemfont, "avenir next", avenir,
+  --font-sans: "Fira Sans", -apple-system, blinkmacsystemfont, "avenir next", avenir,
   helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial,
   sans-serif;
   --font-size-large: 28px;
@@ -104,6 +105,27 @@ small {
   letter-spacing: 0.025em;
 }
 
+@font-face {
+  font-family: "Fira Sans";
+  src: url("/fonts/FiraSans-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("/fonts/FiraSans-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("/fonts/FiraSans-SemiBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
 .container {
   margin: 0 auto;
   max-width: 50rem;
@@ -153,6 +175,41 @@ small {
   width: 16px;
 }
 
+.logFilters {
+  display: flex;
+}
+
+.filterTitle {
+  border: 1px solid var(--color-light-grey);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-sans-medium);
+  letter-spacing: initial;
+  margin-right: var(--spacing-two-thirds);
+  padding: var(--spacing-sixth) var(--spacing-half);
+  transition: background-color 350ms ease;
+}
+.filterTitle::after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--color-medium-grey);
+  content: "";
+  display: inline-block;
+  height: 0;
+  margin-top: -1px;
+  margin-left: var(--spacing-third);
+  vertical-align: middle;
+  width: 0;
+}
+.filterTitle:hover {
+  background-color: var(--color-lightest-grey);
+}
+
+.filterOptions {
+  display: none;
+}
+
 .monthAndYear {
   background-color: var(--color-lightest-grey);
   font-size: var(--font-size-small);
@@ -192,6 +249,7 @@ small {
 }
 .logItem-creator {
   grid-area: creator;
+  line-height: 1.3;
 }
 .logItem-date {
   align-items: center;
@@ -248,10 +306,9 @@ small {
 }
 .logItem-title a {
   color: var(--color-not-black);
-  display: inline-block;
   font-weight: var(--font-weight-sans-bold);
   line-height: 1.25;
-  margin-right: var(--spacing-sixth);
+  margin-right: var(--spacing-third);
   text-decoration: none;
 }
 .logItem-title a:hover {

@@ -117,7 +117,8 @@ module.exports = function (eleventyConfig) {
         return content
     })
 
-    // Copy favicons to base dir
+    // Copy fonts and favicons
+    eleventyConfig.addPassthroughCopy({ 'src/assets/fonts': '/fonts' })
     eleventyConfig.addPassthroughCopy({ 'src/assets/favicon': '/' })
 
     // Override Browsersync defaults (used only with --serve)
