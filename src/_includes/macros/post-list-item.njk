@@ -7,12 +7,7 @@
             <span class="logItem-monthYear">{% if isFirst %}{{ post.date | yearAndMonth }}-{% endif %}</span>{{ post.date | dayOnly }}
         </time>
         <div class="logItem-title">
-            <a href="{{ post.url | url }}">
-                {{ postTitle(post.data.title, post.data.original_title, post.data.original_language, post.data.season, post.data.episode) }}
-            </a>
-            <span class="logItem-mobileYearCreated">
-                {{ post.data.release | yearOnly }}
-            </span>
+            <a href="{{ post.url | url }}">{{ postTitle(post.data.title, post.data.original_title, post.data.original_language, post.data.season, post.data.episode) }}</a><span class="logItem-mobileYearCreated">{{ post.data.release | yearOnly }}</span>
         </div>
         <div class="logItem-creator">{{ printCreator(post.data.creator) }}</div>
         <div class="logItem-yearCreated">{{ post.data.release | yearOnly }}</div>

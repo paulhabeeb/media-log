@@ -10,6 +10,4 @@
     {% endif %}
 {% endmacro %}
 
-{% macro postTitle(title, original_title, original_language, season, episode) %}
-    {{ languageTitle(title, original_title, original_language) }}{% if season and episode %} (S{{ season }}E{{ episode }}){% endif %}
-{% endmacro %}
+{% macro postTitle(title, original_title, original_language, season, episode) %}{{ languageTitle(title, original_title, original_language) }}{% if season and episode %} (S{{ season }}E{{ episode }}){% endif %}{% endmacro %}
