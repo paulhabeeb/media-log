@@ -97,7 +97,8 @@
     bottom: 0;
     display: none;
     left: 0;
-    position: absolute;
+    overflow: scroll;
+    position: fixed;
     right: 0;
     top: 0;
     z-index: 15;
@@ -109,6 +110,7 @@
     @include breakpoint('small') {
         display: flex;
         margin-bottom: var(--spacing-two-thirds);
+        overflow: initial;
         position: relative;
         z-index: initial;
     }

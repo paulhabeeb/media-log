@@ -1,5 +1,17 @@
 @import '../mixins';
 
+html {
+    &.filtersOpen {
+        overflow: hidden;
+    }
+
+    @include breakpoint('small') {
+        &.filtersOpen {
+            overflow: initial;
+        }
+    }
+}
+
 .container {
     margin: 0 auto;
     max-width: 50rem;

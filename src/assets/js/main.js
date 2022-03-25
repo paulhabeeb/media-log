@@ -51,10 +51,12 @@ const addOpenCloseListeners = () => {
     // For mobile, show filters when tapping Show Filters button
     document.querySelector('.showFilters').addEventListener('click', () => {
         document.querySelector('.logFilters').classList.add('isOpen')
+        document.documentElement.classList.add('filtersOpen')
     })
 
     document.querySelector('.hideFilters').addEventListener('click', () => {
         document.querySelector('.logFilters').classList.remove('isOpen')
+        document.documentElement.classList.remove('filtersOpen')
     })
 }
 
@@ -289,6 +291,9 @@ const addFilterItemListeners = () => {
 
             // For mobile, close the filters modal
             document.querySelector('.logFilters').classList.remove('isOpen')
+
+            // Allow the document to scroll on mobile
+            document.documentElement.classList.remove('filtersOpen')
         })
     }
 }
