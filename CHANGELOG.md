@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.1 (2022-03-25)
+
+-   Add changelog
+-   Fix filters popup scrolling
+-   Fix filter button styles
+-   Bump dependencies
+
 ## 1.1.0 (2022-03-24)
 
 -   Add webpack
