@@ -1,6 +1,8 @@
-const { DateTime } = require('luxon')
+const path = require('path')
 const fs = require('fs')
 const htmlmin = require('html-minifier')
+const slugify = require('slugify')
+const { DateTime } = require('luxon')
 const pluginNavigation = require('@11ty/eleventy-navigation')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 
@@ -14,46 +16,259 @@ module.exports = function (eleventyConfig) {
         console.log(value)
     })
 
-    // Test if a Nunjucks variable is an array
-    eleventyConfig.addFilter(
-        'isLongerThanOne',
-        arr => Array.isArray(arr) && arr.length > 1
-    )
+    // Get the contents of an svg file so we can include it in
+    // the outputted HTML of a shortcode.
+    const getSvgContent = file => {
+        const path = `./src/_includes/svg/${file}.svg`
+        const data = fs.readFileSync(path, (err, contents) => {
+            if (err) {
+                return err
+            }
+
+            return contents
+        })
+
+        return data.toString('utf8')
+    }
 
     // Various date formats
-    const getYearMonth = date =>
-        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy-LL')
+    const getDayOnly = date =>
+        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('dd')
+
+    // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+    const getHtmlDateString = date =>
+        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy-LL-dd')
 
     const getReadableDate = date =>
         DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('dd LLLL yyyy')
 
-    eleventyConfig.addFilter('yearAndMonth', getYearMonth)
+    const getReadableYearAndMonth = date =>
+        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('LLLL yyyy')
 
-    eleventyConfig.addFilter('yearOnly', dateObj => {
-        return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy')
-    })
+    const getYearMonth = date =>
+        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy-LL')
 
-    eleventyConfig.addFilter('dayOnly', dateObj => {
-        return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('dd')
-    })
+    const getYearOnly = date =>
+        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy')
 
+    eleventyConfig.addFilter('dayOnly', getDayOnly)
     eleventyConfig.addFilter('readableDate', getReadableDate)
+    eleventyConfig.addFilter('readableYearAndMonth', getReadableYearAndMonth)
+    eleventyConfig.addFilter('yearAndMonth', getYearMonth)
+    eleventyConfig.addFilter('yearOnly', getYearOnly)
+    eleventyConfig.addFilter('htmlDateString', getHtmlDateString)
 
-    eleventyConfig.addFilter('readableYearAndMonth', dateObj => {
-        return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-            'LLLL yyyy'
-        )
+    /*
+     * Format a post title, either in the log list or a post page, so it uses
+     * the original language, if that language is French or Italian. If the post
+     * type is TV Show, list the season and episode, too.
+     */
+    eleventyConfig.addFilter(
+        'postTitle',
+        (title, origTitle, origLang, season, episode) => {
+            let newTitle = title
+            let seasonEpisode = ''
+
+            if (origTitle && (origLang === 'fr' || origLang === 'it')) {
+                newTitle = origTitle
+            }
+            if (season && episode) {
+                seasonEpisode = ` (S${season}E${episode})`
+            }
+
+            return `${newTitle}${seasonEpisode}`
+        }
+    )
+
+    /*
+     * In the details section of a post page, print a detail section that's an array
+     */
+    eleventyConfig.addShortcode('printArray', (array, title, pluralTitle) => {
+        let html = ''
+        if (Array.isArray(array) && array.length > 1) {
+            html += `<dt>${pluralTitle}</dt>`
+            html += '<div>'
+            array.forEach(item => {
+                html += `<dd>${item}</dd>`
+            })
+            html += '</div>'
+        } else {
+            html += `<dt>${title}</dt>`
+            html += `<dd>${array[0]}</dd>`
+        }
+
+        return html
     })
 
-    // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-    eleventyConfig.addFilter('htmlDateString', dateObj => {
-        return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-            'yyyy-LL-dd'
-        )
+    /*
+     * Add filters to main log
+     */
+    const getDecade = date => Math.floor(getYearOnly(date) / 10) * 10 + 's'
+    const sortAsc = (a, b) => {
+        if (a < b) return -1
+        if (a > b) return 1
+        return 0
+    }
+    const getUniques = (arr, isDesc = false) => {
+        const sorted = isDesc ? arr.sort(sortAsc).reverse() : arr.sort(sortAsc)
+
+        return [...new Set(sorted)]
+    }
+    const toSlug = string =>
+        slugify(string, {
+            lower: true,
+            strict: true,
+        })
+    const addFilter = (title, data) => {
+        const titleSlug = toSlug(title)
+        let html = `<div class="filterWrapper">`
+        html += `<h2 class="filterTitle" data-title-type="${titleSlug}"><span class="baseTitle">${title}</span><span class="selectedTitle"></span></h2>`
+        html += '<ul class="filterOptions">'
+        html += `<li><button class="filterItem" data-filter-type="${titleSlug}" data-filter-value="all">All ${title}</button></li>`
+        data.forEach(item => {
+            if (!item) return null
+
+            const itemSlug = toSlug(item)
+            html += `<li><button class="filterItem" data-filter-type="${titleSlug}" data-filter-value="${itemSlug}">${item}</button></li>`
+        })
+        html += `</ul></div>`
+
+        return html
+    }
+
+    eleventyConfig.addShortcode('getFilters', posts => {
+        const media = []
+        const years = []
+        const decades = []
+        const genres = []
+
+        posts.forEach(post => {
+            media.push(post.data.media)
+            years.push(getYearOnly(post.date))
+            decades.push(getDecade(post.data.release))
+            genres.push(post.data.genre)
+        })
+
+        const uniqueMedia = getUniques(media)
+        const uniqueYears = getUniques(years, true)
+        const uniqueDecades = getUniques(decades, true)
+        const uniqueGenres = getUniques(genres.flat())
+
+        let html = `<button class="showFilters">Filter ${getSvgContent(
+            'filter'
+        )}</button>`
+        html += '<aside class="logFilters">'
+        html += '<div class="hideFiltersWrapper">Filter'
+        html += '<button class="hideFilters">&times;</button>'
+        html += '</div>'
+        html += addFilter('Media', uniqueMedia)
+        html += addFilter('Year', uniqueYears)
+        html += addFilter('Decade', uniqueDecades)
+        html += addFilter('Genre', uniqueGenres)
+        html += '</aside>'
+        html += '<div class="activeFilters"></div>'
+
+        return html
     })
 
-    // Break up posts by month and year for frontend styling
-    eleventyConfig.addFilter('separatePostsByMonth', posts => {
+    /*
+     * Create collections for filter pages
+     */
+    const getFilterCollection = (collection, filter) => {
+        const posts = collection.getFilteredByTag('posts')
+        const filteredPosts = posts.map(post => {
+            if (filter === 'date') {
+                return getYearOnly(post.date)
+            }
+            if (filter === 'release') {
+                return getDecade(post.data.release)
+            }
+
+            return post.data[filter]
+        })
+        const uniquePosts = [...new Set(filteredPosts.flat())]
+
+        return uniquePosts
+    }
+    eleventyConfig.addCollection('postsByMedia', collection =>
+        getFilterCollection(collection, 'media')
+    )
+    eleventyConfig.addCollection('postsByYear', collection =>
+        getFilterCollection(collection, 'date')
+    )
+    eleventyConfig.addCollection('postsByDecade', collection =>
+        getFilterCollection(collection, 'release')
+    )
+    eleventyConfig.addCollection('postsByGenre', collection =>
+        getFilterCollection(collection, 'genre')
+    )
+
+    /*
+     * Functions for creating a list of log posts
+     */
+
+    // Print the creator's name in different ways depending on
+    // how many creators there are.
+    const getCreator = creators => {
+        let creatorString = ''
+
+        if (creators.length > 2) {
+            creators.forEach((creator, index) => {
+                if (index + 1 === creators.length) {
+                    creatorString += `and ${creator}`
+                } else {
+                    creatorString += `${creator}, `
+                }
+            })
+        } else if (creators.length === 2) {
+            creatorString = `${creators[0]} and ${creators[1]}`
+        } else {
+            creatorString = creators[0]
+        }
+
+        return creatorString
+    }
+
+    // Create log list item
+    const getPostListItem = post => {
+        const title = eleventyConfig.getFilter('postTitle')(
+            post.data.title,
+            post.data.original_title,
+            post.data.original_language,
+            post.data.season,
+            post.data.episode
+        )
+        const url = eleventyConfig.getFilter('url')(post.url)
+        const yearOnly = getYearOnly(post.data.release)
+        const date = getYearMonth(post.date)
+        const genres = post?.data?.genre?.toString() || ''
+
+        let html = `<li class="logItem" data-media="${post.data.media}" data-decade="${yearOnly}" data-genre="${genres}" data-year="${date}">`
+        html += `<time class="logItem-date" datetime="${getHtmlDateString(
+            post.date
+        )}">${getDayOnly(post.date)}</time>`
+        html += '<div class="logItem-title">'
+        html += `<a href="${url}">${title}</a>`
+        html += `<span class="logItem-mobileYearCreated">${yearOnly}</span>`
+        html += '</div>'
+        html += `<div class="logItem-creator">${getCreator(
+            post.data.creator
+        )}</div>`
+        html += `<div class="logItem-yearCreated">${yearOnly}</div>`
+
+        if (post.data.revisit) {
+            const icon = getSvgContent('revisit')
+            html += `<div class="icon-rewatch logItem-rewatch">${icon}</div>`
+        }
+
+        html += '</li>'
+
+        return html
+    }
+
+    // Split up an array of posts into sub-arrays of months. E.g., all posts from
+    // May 2020 will be in an array, and all posts from April 2020 will be in another.
+    const separatePostsByMonth = posts => {
         const months = posts.map(post => getYearMonth(post.date))
         const uniqueMonths = [...new Set(months)]
 
@@ -68,9 +283,68 @@ module.exports = function (eleventyConfig) {
         }, [])
 
         return postsByMonth
-    })
+    }
 
-    // Retrieve previous views/reads to list on individual post pages
+    // Filter an array of posts for the dropdown filters on log list pages
+    const filterPosts = (posts, filterType, filterName) => {
+        return posts.filter(post => {
+            if (filterType && filterName) {
+                if (filterType === 'year') {
+                    const year = getYearOnly(post.date)
+                    return year === filterName
+                }
+                if (filterType === 'genre') {
+                    return post?.data?.genre?.includes(filterName)
+                }
+                if (filterType === 'decade') {
+                    const decade = getDecade(post.data.release)
+                    return decade === filterName
+                }
+
+                return post.data[filterType] === filterName
+            }
+
+            return true
+        })
+    }
+
+    // Filter posts and separate them by month
+    const getPosts = (posts, filterType, filterName) => {
+        const filteredPosts = filterPosts(posts, filterType, filterName)
+        return separatePostsByMonth(filteredPosts).reverse()
+    }
+
+    // Display list of all log posts, optionally filtering them
+    eleventyConfig.addShortcode(
+        'getPostsByFilter',
+        (posts, filterType, filterName) => {
+            const postsByMonth = getPosts(posts, filterType, filterName)
+
+            let html = '<ul class="log">'
+            postsByMonth.forEach(month => {
+                const reversedMonth = month.reverse()
+
+                reversedMonth.forEach((post, index) => {
+                    const isFirst = index === 0
+
+                    if (isFirst) {
+                        html += `<li class="monthAndYear" data-month-year="${getYearMonth(
+                            post.date
+                        )}">${getReadableYearAndMonth(post.date)}</li>`
+                    }
+
+                    html += getPostListItem(post)
+                })
+            })
+            html += '</ul>'
+
+            return html
+        }
+    )
+
+    /*
+     * Retrieve previous views/reads to list on individual post pages
+     */
     eleventyConfig.addShortcode('getPreviousViews', (url, posts) => {
         const {
             data: { creator, date, episode, media, release, season, title },
@@ -117,6 +391,17 @@ module.exports = function (eleventyConfig) {
         return content
     })
 
+    // Get true filename and path for js files transformed with Webpack
+    eleventyConfig.addFilter('assetPath', function (value) {
+        const manifestPath = path.resolve(
+            __dirname,
+            'src/_includes/assets/manifest.json'
+        )
+        const manifest = JSON.parse(fs.readFileSync(manifestPath))
+
+        return manifest[value]
+    })
+
     // Copy fonts and favicons
     eleventyConfig.addPassthroughCopy({ 'src/assets/fonts': '/fonts' })
     eleventyConfig.addPassthroughCopy({ 'src/assets/favicon': '/' })
@@ -141,6 +426,11 @@ module.exports = function (eleventyConfig) {
         ghostMode: false,
         ui: false,
     })
+
+    // ./src/_includes/assets is in .gitignore, so tell Eleventy not
+    // to listen to .gitignore when watching for changed files. That
+    // way our js files will hot update in development.
+    eleventyConfig.setUseGitIgnore(false)
 
     return {
         templateFormats: ['md', 'njk', 'html'],

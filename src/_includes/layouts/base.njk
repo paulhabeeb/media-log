@@ -55,14 +55,16 @@
         <meta property="og:title" content="{% if title %}{{ title }}&nbsp;-&nbsp;{% endif %}{{ metadata.title }}" />
         <meta property="og:description" content="{{ description or metadata.description }}" />
         
-        <!-- Styles -->
-        <style>{% include "css/index.css" %}</style>
+        <!-- Styles -->        
+        <style>{% include "css/main.css" | assetPath %}</style>
     </head>
     <body>
         <div class="container">
             {% include "partials/site-header.njk" %}
             
             <main>{{ content | safe }}</main>
+            
         </div>
+        <script>{% include "js/main.js" | assetPath %}</script>
     </body>
 </html>

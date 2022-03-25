@@ -2,8 +2,6 @@
 layout: layouts/base.njk
 ---
 
-{% from 'macros/post-title.njk' import postTitle %}
-{% from 'macros/print-array.njk' import printArray %}
 {% set book = media === 'Book' %}
 {% set movie = media === 'Movie' %}
 {% set show = media === 'TV Show' %}
@@ -21,7 +19,7 @@ layout: layouts/base.njk
 <article>
     <header class="postHeader">
         <div class="postTitle-wrapper">
-            <h2 class="postTitle">{{ postTitle(title, original_title, original_language, season, episode) }}</h2>
+            <h2 class="postTitle">{{ title | postTitle(original_title, original_language, season, episode) }}</h2>
             <div class="releaseDate">{{ release | yearOnly }}</div>
         </div>
         <div class="postDates">
@@ -41,17 +39,17 @@ layout: layouts/base.njk
     </header>
     
     <dl class="postDetails">
-        {{ printArray(creator, creatorTitle, creatorTitlePlural) }}
+        {% printArray creator, creatorTitle, creatorTitlePlural %}
         
         {% if movie or show %}
-        {{ printArray(studios, 'Studio', 'Studios') }}
+        {% printArray studios, 'Studio', 'Studios' %}
         
         <dt>Length</dt>
         <dd>{{ length }} minutes</dd>
         
-        {{ printArray(genre, 'Genre', 'Genres') }}
+        {% printArray genre, 'Genre', 'Genres' %}
         
-        {{ printArray(country, 'Country', 'Countries') }}
+        {% printArray country, 'Country', 'Countries' %}
         {% endif %}
         
         {% if book %}
@@ -65,7 +63,7 @@ layout: layouts/base.njk
         <dd>{{ pages }}</dd>
         {% endif %}
         
-        {{ printArray(language, 'Language', 'Languages') }}
+        {% printArray language, 'Language', 'Languages' %}
         
         {% if format !== '' %}
         <dt>Format</dt>

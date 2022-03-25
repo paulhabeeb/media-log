@@ -5,8 +5,9 @@ eleventyNavigation:
     key: Log
     order: 1
 ---
-{% from 'macros/list-posts-by-month.njk' import listPostsByMonth %}
+<div class="logHeader">
+    <p>{{ metadata.description }}</p>
+    {% getFilters collections.posts %}
+</div>
 
-<p>{{ metadata.description }}</p>
-    
-{{ listPostsByMonth(collections.posts) }}
+{% getPostsByFilter collections.posts %}

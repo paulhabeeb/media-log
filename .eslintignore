@@ -2,3 +2,4 @@
 .eslintrc.js
 node_modules
 postcss.config.js
+src/_includes/assets
