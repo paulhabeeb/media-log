@@ -265,10 +265,14 @@ const showActiveFilters = () => {
             }
         }
         if (type === 'year') {
-            year = ` ${consumedVerb} in <span class="activeYear">${value}</span>`
+            year = ` in <span class="activeYear">${value}</span>`
         }
 
         i++
+    }
+
+    if (year !== '') {
+        year = ` ${consumedVerb}${year}`
     }
 
     const htmlString = `Showing${genre}${media}${decade}${year}. <button class="clearFilters">Clear filters</button>`
