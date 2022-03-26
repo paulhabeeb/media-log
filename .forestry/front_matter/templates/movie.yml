@@ -62,5 +62,3 @@ fields:
 - type: list
   name: tags
   label: tags
-pages:
-- src/content/movies/the-worst-person-in-the-world.md
