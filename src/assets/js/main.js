@@ -150,7 +150,10 @@ const filterLogItems = () => {
 // Set the location in the URL bar to match the selected filters.
 // E.g., ?genre=crime&decade=1960s&media=movie
 const updateUrl = (type, value, filterLogItems) => {
-    const url = new URL(window.location.href)
+    const url =
+        type === null
+            ? new URL(window.location.origin)
+            : new URL(window.location.href)
 
     // If a filter of this type is already selected, then replace it.
     // E.g., if we have ?genre=romance and we just clicked documentary,
@@ -159,7 +162,7 @@ const updateUrl = (type, value, filterLogItems) => {
         url.searchParams.delete(type)
     } else if (url.searchParams.has(type)) {
         url.searchParams.set(type, value)
-    } else if (value !== 'all') {
+    } else if (type !== null && value !== 'all') {
         url.searchParams.append(type, value)
     }
 
@@ -223,6 +226,14 @@ const highlightSelectedFilters = () => {
     })
 }
 
+const addClearFilterListener = () => {
+    document.querySelector('.clearFilters')?.addEventListener('click', () => {
+        updateUrl(null, null, filterLogItems)
+        highlightSelectedFilters()
+        showActiveFilters()
+    })
+}
+
 // Show a string of active filters
 const showActiveFilters = () => {
     const enabledFilters = getFilterParams().entries()
@@ -269,8 +280,11 @@ const showActiveFilters = () => {
         i++
     }
 
-    const html = i > 0 ? `Showing ${genre}${media}${decade}${year}.` : ''
+    const htmlString = `Showing${genre}${media}${decade}${year}. <button class="clearFilters">Clear filters</button>`
+    const html = i > 0 ? htmlString : ''
+
     document.querySelector('.activeFilters').innerHTML = html
+    addClearFilterListener()
 }
 
 // Listen for clicks on a filter item
@@ -304,4 +318,5 @@ document.addEventListener('DOMContentLoaded', () => {
     showActiveFilters()
     addOpenCloseListeners()
     addFilterItemListeners()
+    addClearFilterListener()
 })
