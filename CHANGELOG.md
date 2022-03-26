@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.4 (2022-03-26)
+
+-   Add robots.txt
+-   Fix consumedVerb when selecting year first
+-   Fix filter pluralization
+
 ## 1.1.3 (2022-03-25)
 
 -   Remove source maps in all builds
