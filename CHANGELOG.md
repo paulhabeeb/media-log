@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.3 (2022-03-25)
+
+-   Remove source maps in all builds
+-   Filter log items on browser history change
+-   Move filters js to main page only
+-   Remove slugify from production code
+-   Add subsetted fonts
+
 ## 1.1.2 (2022-03-25)
 
 -   Don’t generate source maps in production
