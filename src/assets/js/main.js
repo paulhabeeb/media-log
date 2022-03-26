@@ -249,21 +249,23 @@ const showActiveFilters = () => {
             decade = ` from the <span class="activeDecade">${value}</span>`
         }
         if (type === 'genre') {
-            genre += '<span class="activeGenre">'
-            genre += `${value} `
+            let genreName = value
 
             if (value === 'sci-fi-and-fantasy') {
-                genre = ' sci-fi & fantasy'
+                genreName = 'sci-fi & fantasy'
             }
             if (value === 'science-fiction') {
-                genre = ' science fiction'
+                genreName = 'science fiction'
+            }
+            if (value === 'tv-movie') {
+                genreName = 'television'
             }
 
-            genre += '</span>'
+            genre += `<span class="activeGenre"> ${genreName}</span>`
         }
         if (type === 'media') {
-            media = '<span class="activeMedia">'
-            media += value === 'tv-show' ? ' tv shows' : ` ${value}s`
+            media = '<span class="activeMedia"> '
+            media += value === 'tv-show' ? 'tv shows' : `${value}s`
             media += '</span>'
 
             if (value === 'book') {

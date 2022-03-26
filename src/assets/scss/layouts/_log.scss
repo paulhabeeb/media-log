@@ -24,10 +24,12 @@
     display: flex;
     font-size: var(--font-size-normal);
     font-weight: var(--font-weight-sans-bold);
+    justify-content: center;
     margin-bottom: var(--spacing-two-thirds);
     padding: var(--spacing-sixth) var(--spacing-third) var(--spacing-sixth)
         var(--spacing-half);
     transition: all 200ms ease;
+    width: 100%;
 
     &:hover {
         background-color: var(--color-light-grey);
@@ -91,6 +93,18 @@
 
 .activeYear {
     color: #c11;
+}
+
+.clearFilters {
+    color: var(--color-dark-grey);
+    cursor: pointer;
+    font-size: var(--font-size-small);
+    padding: 0;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .logFilters {
