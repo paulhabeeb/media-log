@@ -6,7 +6,7 @@ const isDev = process.env.NODE_ENV !== 'production'
 
 module.exports = {
     mode: isDev ? 'development' : 'production',
-    devtool: isDev ? 'inline-source-map' : 'source-map',
+    devtool: isDev ? 'inline-source-map' : null,
     entry: {
         'js/main': path.resolve(__dirname, 'src/assets/js/main.js'),
         'css/main': path.resolve(__dirname, 'src/assets/scss/index.scss'),
