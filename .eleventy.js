@@ -239,22 +239,24 @@ module.exports = function (eleventyConfig) {
             post.data.episode
         )
         const url = eleventyConfig.getFilter('url')(post.url)
-        const yearOnly = getYearOnly(post.data.release)
-        const date = getYearMonth(post.date)
-        const genres = post?.data?.genre?.toString() || ''
+        const decadeYear = getYearOnly(post.data.release)
+        const genres =
+            post?.data?.genre?.map(genre => toSlug(genre)).toString() || ''
+        const media = toSlug(post.data.media)
+        const year = getYearMonth(post.date)
 
-        let html = `<li class="logItem" data-media="${post.data.media}" data-decade="${yearOnly}" data-genre="${genres}" data-year="${date}">`
+        let html = `<li class="logItem" data-decade="${decadeYear}" data-genre="${genres}" data-media="${media}" data-year="${year}">`
         html += `<time class="logItem-date" datetime="${getHtmlDateString(
             post.date
         )}">${getDayOnly(post.date)}</time>`
         html += '<div class="logItem-title">'
         html += `<a href="${url}">${title}</a>`
-        html += `<span class="logItem-mobileYearCreated">${yearOnly}</span>`
+        html += `<span class="logItem-mobileYearCreated">${decadeYear}</span>`
         html += '</div>'
         html += `<div class="logItem-creator">${getCreator(
             post.data.creator
         )}</div>`
-        html += `<div class="logItem-yearCreated">${yearOnly}</div>`
+        html += `<div class="logItem-yearCreated">${decadeYear}</div>`
 
         if (post.data.revisit) {
             const icon = getSvgContent('revisit')

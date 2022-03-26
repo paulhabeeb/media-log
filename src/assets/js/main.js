@@ -1,12 +1,3 @@
-import slugify from 'slugify'
-
-// Convert a string to a slgu
-const toSlug = string =>
-    slugify(string, {
-        lower: true,
-        strict: true,
-    })
-
 // Get a decade from a year
 const getDecade = date => Math.floor(date / 10) * 10 + 's'
 
@@ -101,7 +92,7 @@ const loopFiltersForMatch = (filters, dataset) => {
             // split that into an array we can loop
             const genres = dataset.genre.split(',')
 
-            if (!genres.some(genre => value === toSlug(genre))) {
+            if (!genres.some(genre => value === genre)) {
                 return false
             }
         } else {
@@ -115,9 +106,9 @@ const loopFiltersForMatch = (filters, dataset) => {
                     0,
                     rawItemValue.indexOf('-')
                 )
-                logItemValue = toSlug(yearOnly)
+                logItemValue = yearOnly
             } else {
-                logItemValue = toSlug(rawItemValue)
+                logItemValue = rawItemValue
             }
 
             if (value !== logItemValue) {
