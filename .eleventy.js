@@ -121,10 +121,12 @@ module.exports = function (eleventyConfig) {
         })
     const addFilter = (title, data) => {
         const titleSlug = toSlug(title)
+        const pluralTitle = title === 'Media' ? title : `${title}s`
+
         let html = `<div class="filterWrapper">`
         html += `<h2 class="filterTitle" data-title-type="${titleSlug}"><span class="baseTitle">${title}</span><span class="selectedTitle"></span></h2>`
         html += '<ul class="filterOptions">'
-        html += `<li><button class="filterItem" data-filter-type="${titleSlug}" data-filter-value="all">All ${title}</button></li>`
+        html += `<li><button class="filterItem" data-filter-type="${titleSlug}" data-filter-value="all">All ${pluralTitle}</button></li>`
         data.forEach(item => {
             if (!item) return null
 
