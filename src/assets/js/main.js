@@ -149,7 +149,7 @@ const filterLogItems = () => {
 
 // Set the location in the URL bar to match the selected filters.
 // E.g., ?genre=crime&decade=1960s&media=movie
-const updateUrl = (type, value, filterLogItems) => {
+const updateUrl = (type = null, value = null) => {
     const url =
         type === null
             ? new URL(window.location.origin)
@@ -167,7 +167,7 @@ const updateUrl = (type, value, filterLogItems) => {
     }
 
     window.history.pushState(null, document.title, url)
-    filterLogItems()
+    window.dispatchEvent(new Event('popstate'))
 }
 
 // Replace the filter title with the active filter
@@ -228,9 +228,7 @@ const highlightSelectedFilters = () => {
 
 const addClearFilterListener = () => {
     document.querySelector('.clearFilters')?.addEventListener('click', () => {
-        updateUrl(null, null, filterLogItems)
-        highlightSelectedFilters()
-        showActiveFilters()
+        updateUrl()
     })
 }
 
@@ -289,6 +287,14 @@ const showActiveFilters = () => {
     addClearFilterListener()
 }
 
+// Whenever the URL changes, whether when a filter is applied or when
+// the user goes back and forth in the browser, reinitialize all the filters.
+const addUrlChangeListener = () => {
+    window.addEventListener('popstate', () => {
+        initFilters()
+    })
+}
+
 // Listen for clicks on a filter item
 const addFilterItemListeners = () => {
     const filterItems = document.getElementsByClassName('filterItem')
@@ -296,11 +302,9 @@ const addFilterItemListeners = () => {
     for (let item of filterItems) {
         item.addEventListener('click', event => {
             event.preventDefault()
-            const { filterType, filterValue } = event.target.dataset
 
-            updateUrl(filterType, filterValue, filterLogItems)
-            highlightSelectedFilters()
-            showActiveFilters()
+            const { filterType, filterValue } = event.target.dataset
+            updateUrl(filterType, filterValue)
 
             // Close the filter after selecting a value
             event.target.closest('.filterWrapper').classList.remove('isOpen')
@@ -314,11 +318,16 @@ const addFilterItemListeners = () => {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+const initFilters = () => {
     filterLogItems()
     highlightSelectedFilters()
     showActiveFilters()
-    addOpenCloseListeners()
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    initFilters()
     addFilterItemListeners()
+    addOpenCloseListeners()
     addClearFilterListener()
+    addUrlChangeListener()
 })
