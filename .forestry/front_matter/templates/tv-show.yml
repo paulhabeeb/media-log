@@ -103,7 +103,6 @@ fields:
     max: 
     step: 
 pages:
-- src/content/shows/atlanta.md
 - src/content/shows/only-murders-in-the-building-1.md
 - src/content/shows/only-murders-in-the-building-2.md
 - src/content/shows/only-murders-in-the-building-3.md
