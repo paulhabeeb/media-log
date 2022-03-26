@@ -61,10 +61,7 @@
     <body>
         <div class="container">
             {% include "partials/site-header.njk" %}
-            
             <main>{{ content | safe }}</main>
-            
         </div>
-        <script>{% include "js/main.js" | assetPath %}</script>
     </body>
 </html>
