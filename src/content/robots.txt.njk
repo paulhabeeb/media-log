@@ -1,0 +1,7 @@
+---
+permalink: "{{ metadata.robots }}"
+eleventyExcludeFromCollections: true
+---
+Sitemap: {{ metadata.sitemap | url | absoluteUrl(metadata.url) }}
+User-agent: *
+Allow: /

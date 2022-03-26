@@ -51,7 +51,7 @@
         />
         
         <!-- Open Graph -->
-        <meta property="og:url" content="{{ site.url ~ page.url }}" />
+        <meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}" />
         <meta property="og:title" content="{% if title %}{{ title }}&nbsp;-&nbsp;{% endif %}{{ metadata.title }}" />
         <meta property="og:description" content="{{ description or metadata.description }}" />
         
