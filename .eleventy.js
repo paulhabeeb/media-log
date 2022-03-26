@@ -405,7 +405,18 @@ module.exports = function (eleventyConfig) {
     })
 
     // Copy fonts and favicons
-    eleventyConfig.addPassthroughCopy({ 'src/assets/fonts': '/fonts' })
+    eleventyConfig.addPassthroughCopy({
+        'src/assets/fonts/FiraSans-Medium.woff2':
+            '/fonts/FiraSans-Medium.woff2',
+    })
+    eleventyConfig.addPassthroughCopy({
+        'src/assets/fonts/FiraSans-Regular.woff2':
+            '/fonts/FiraSans-Regular.woff2',
+    })
+    eleventyConfig.addPassthroughCopy({
+        'src/assets/fonts/FiraSans-SemiBold.woff2':
+            '/fonts/FiraSans-SemiBold.woff2',
+    })
     eleventyConfig.addPassthroughCopy({ 'src/assets/favicon': '/' })
 
     // Override Browsersync defaults (used only with --serve)
