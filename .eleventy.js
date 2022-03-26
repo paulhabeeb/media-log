@@ -334,7 +334,9 @@ module.exports = function (eleventyConfig) {
                     if (isFirst) {
                         html += `<li class="monthAndYear" data-month-year="${getYearMonth(
                             post.date
-                        )}">${getReadableYearAndMonth(post.date)}</li>`
+                        )}"><span>${getReadableYearAndMonth(
+                            post.date
+                        )}</span></li>`
                     }
 
                     html += getPostListItem(post)

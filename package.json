@@ -14,7 +14,6 @@
         "build:webpack": "webpack",
         "build:eleventy": "npx @11ty/eleventy",
         "clean": "rimraf _site src/_includes/assets",
-        "debug": "DEBUG=* npx @11ty/eleventy",
         "dev": "cross-env NODE_ENV=development npm-run-all -l clean --parallel dev:*",
         "dev:eleventy": "npx @11ty/eleventy --serve",
         "dev:webpack": "webpack --watch",

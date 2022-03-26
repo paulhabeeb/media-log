@@ -1,5 +1,17 @@
 @import '../mixins';
 
+html {
+    &.filtersOpen {
+        overflow: hidden;
+    }
+
+    @include breakpoint('small') {
+        &.filtersOpen {
+            overflow: initial;
+        }
+    }
+}
+
 .logHeader {
     margin-bottom: var(--spacing-third);
 
@@ -276,7 +288,6 @@
 }
 
 .monthAndYear {
-    // background-color: var(--color-lightest-grey);
     background-color: var(--color-white);
     border-bottom: 1px solid var(--color-light-grey);
     color: var(--color-dark-grey);
