@@ -229,7 +229,7 @@ const showActiveFilters = () => {
     let consumedVerb = 'consumed'
     let decade = ''
     let genre = ''
-    let media = ' log items'
+    let media = ' stuff'
     let year = ''
     let i = 0
 
