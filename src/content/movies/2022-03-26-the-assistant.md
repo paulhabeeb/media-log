@@ -27,4 +27,4 @@ media: Movie
 tmdb_id: 627463
 ---
 
-Why? What new thing did I learn about the world? Julia Garner carries this story well, and it's told in a unique way, letting us see fragments of the story, with only one real conversation in the whole thing. But the point of the thing is nothing new, nothing we haven't all learned in the past few years (and already knew before that).
+Why? What new thing did I learn about the world? Julia Garner carries this story well, and it's told in a unique way, letting us see fragments of the story, with only one real conversation in the whole thing. But the point of the thing is nothing new, nothing we haven't all learned in the past few years (and already knew before that). The filmmaking is on point, wonderfully controlled, very technical. But the storytelling is lacking.
