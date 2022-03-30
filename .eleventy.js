@@ -176,33 +176,26 @@ module.exports = function (eleventyConfig) {
     /*
      * Create collections for filter pages
      */
-    const getFilterCollection = (collection, filter) => {
+    const getFilterCollection = (collection, showIncomplete = false) => {
         const posts = collection.getFilteredByTag('posts')
-        const filteredPosts = posts.map(post => {
-            if (filter === 'date') {
-                return getYearOnly(post.date)
-            }
-            if (filter === 'release') {
-                return getDecade(post.data.release)
-            }
+        const filteredPosts = []
 
-            return post.data[filter]
-        })
-        const uniquePosts = [...new Set(filteredPosts.flat())]
+        for (post of posts) {
+            if (!post.data.date && showIncomplete) {
+                filteredPosts.push(post)
+            }
+            if (post.data.date && !showIncomplete) {
+                filteredPosts.push(post)
+            }
+        }
 
-        return uniquePosts
+        return filteredPosts
     }
-    eleventyConfig.addCollection('postsByMedia', collection =>
-        getFilterCollection(collection, 'media')
+    eleventyConfig.addCollection('inProgressEntries', collection =>
+        getFilterCollection(collection, true)
     )
-    eleventyConfig.addCollection('postsByYear', collection =>
-        getFilterCollection(collection, 'date')
-    )
-    eleventyConfig.addCollection('postsByDecade', collection =>
-        getFilterCollection(collection, 'release')
-    )
-    eleventyConfig.addCollection('postsByGenre', collection =>
-        getFilterCollection(collection, 'genre')
+    eleventyConfig.addCollection('completeEntries', collection =>
+        getFilterCollection(collection)
     )
 
     /*
@@ -277,10 +270,9 @@ module.exports = function (eleventyConfig) {
         const uniqueMonths = [...new Set(months)]
 
         const postsByMonth = uniqueMonths.reduce((prev, month) => {
-            // If the posts match the current month and if they have a completion date
-            // (i.e., don't show in-progress books)
+            // If the posts match the current month
             const filteredPosts = posts.filter(
-                post => getYearMonth(post.date) === month && post.data.date
+                post => getYearMonth(post.date) === month
             )
 
             return [...prev, filteredPosts]
@@ -289,64 +281,30 @@ module.exports = function (eleventyConfig) {
         return postsByMonth
     }
 
-    // Filter an array of posts for the dropdown filters on log list pages
-    const filterPosts = (posts, filterType, filterName) => {
-        return posts.filter(post => {
-            if (filterType && filterName) {
-                if (filterType === 'year') {
-                    const year = getYearOnly(post.date)
-                    return year === filterName
-                }
-                if (filterType === 'genre') {
-                    return post?.data?.genre?.includes(filterName)
-                }
-                if (filterType === 'decade') {
-                    const decade = getDecade(post.data.release)
-                    return decade === filterName
-                }
-
-                return post.data[filterType] === filterName
-            }
-
-            return true
-        })
-    }
-
-    // Filter posts and separate them by month
-    const getPosts = (posts, filterType, filterName) => {
-        const filteredPosts = filterPosts(posts, filterType, filterName)
-        return separatePostsByMonth(filteredPosts).reverse()
-    }
-
     // Display list of all log posts, optionally filtering them
-    eleventyConfig.addShortcode(
-        'getPostsByFilter',
-        (posts, filterType, filterName) => {
-            const postsByMonth = getPosts(posts, filterType, filterName)
+    eleventyConfig.addShortcode('getPostsByFilter', posts => {
+        const postsByMonth = separatePostsByMonth(posts).reverse()
 
-            let html = '<ul class="log">'
-            postsByMonth.forEach(month => {
-                const reversedMonth = month.reverse()
+        let html = '<ul class="log">'
+        postsByMonth.forEach(month => {
+            const reversedMonth = month.reverse()
 
-                reversedMonth.forEach((post, index) => {
-                    const isFirst = index === 0
+            reversedMonth.forEach((post, index) => {
+                const isFirst = index === 0
 
-                    if (isFirst) {
-                        html += `<li class="monthAndYear" data-month-year="${getYearMonth(
-                            post.date
-                        )}"><span>${getReadableYearAndMonth(
-                            post.date
-                        )}</span></li>`
-                    }
+                if (isFirst) {
+                    html += `<li class="monthAndYear" data-month-year="${getYearMonth(
+                        post.date
+                    )}"><span>${getReadableYearAndMonth(post.date)}</span></li>`
+                }
 
-                    html += getPostListItem(post)
-                })
+                html += getPostListItem(post)
             })
-            html += '</ul>'
+        })
+        html += '</ul>'
 
-            return html
-        }
-    )
+        return html
+    })
 
     /*
      * Retrieve previous views/reads to list on individual post pages

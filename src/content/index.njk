@@ -6,10 +6,10 @@ eleventyNavigation:
     order: 1
 ---
 <div class="logHeader">
-    <p>{{ metadata.description }}</p>
+    <p class="headerDescription">{{ metadata.description }}</p>
     {% getFilters collections.posts %}
 </div>
 
-{% getPostsByFilter collections.posts %}
+{% getPostsByFilter collections.completeEntries %}
 
 <script>{% include "js/main.js" | assetPath %}</script>

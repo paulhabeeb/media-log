@@ -27,6 +27,10 @@ html {
     }
 }
 
+.headerDescription {
+    margin-right: var(--spacing-single);
+}
+
 .showFilters {
     align-items: center;
     background-color: var(--color-lightest-grey);
