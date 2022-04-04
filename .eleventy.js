@@ -287,9 +287,7 @@ module.exports = function (eleventyConfig) {
 
         let html = '<ul class="log">'
         postsByMonth.forEach(month => {
-            const reversedMonth = month.reverse()
-
-            reversedMonth.forEach((post, index) => {
+            month.forEach((post, index) => {
                 const isFirst = index === 0
 
                 if (isFirst) {
