@@ -526,5 +526,13 @@ html {
     li {
         display: inline-block;
         margin: 0 var(--spacing-third);
+
+        &.hideOnMobile {
+            display: none;
+
+            @include breakpoint('small') {
+                display: inline-block;
+            }
+        }
     }
 }

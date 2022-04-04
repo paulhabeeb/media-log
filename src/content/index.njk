@@ -16,34 +16,6 @@ eleventyNavigation:
 
 {% getPostsByFilter pagination.items %}
 
-<nav class="pagination">
-    <div>
-        {% if pagination.href.previous %}
-            <a class="paginationButton" href="{{ pagination.href.previous }}">Newer</a>
-        {% else %}
-            <span class="paginationButton invisiblePaginationButton">Newer</span>
-        {% endif %}
-    </div>
-    <ol class="pageList">
-        {% for pageEntry in pagination.pages %}
-            <li>
-                {% if page.url == pagination.hrefs[ loop.index0 ] %}
-                    {{ loop.index }}
-                {% else %}
-                <a href="{{ pagination.hrefs[ loop.index0 ] }}">
-                    {{ loop.index }}
-                </a>
-                {% endif %}
-            </li>
-        {% endfor %}
-    </ol>
-    <div>
-        {% if pagination.href.next %}
-            <a class="paginationButton" href="{{ pagination.href.next }}">Older</a>
-            {% else %}
-            <span class="paginationButton invisiblePaginationButton">Older</span>
-        {% endif %}
-    </div>
-</nav>
+{% getLogPagination pagination %}
 
 <script>{% include "js/main.js" | assetPath %}</script>

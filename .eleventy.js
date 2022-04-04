@@ -305,6 +305,76 @@ module.exports = function (eleventyConfig) {
     })
 
     /*
+     * Paginate the main log
+     */
+    // Get Newer/Older buttons
+    const getOlderNewerButton = (link, title) => {
+        let html = '<div>'
+
+        if (link) {
+            html += `<a class="paginationButton" href="${link}">${title}</a>`
+        } else {
+            html += `<span class="paginationButton invisiblePaginationButton">${title}</span>`
+        }
+
+        html += '</div>'
+
+        return html
+    }
+
+    // Get links for main numbered pagination
+    const getPaginationLink = (pageNum, links, hideOnMobile = false) => {
+        const className = hideOnMobile ? ' class="hideOnMobile"' : ''
+
+        return `<li${className}><a href="${
+            links[pageNum - 1]
+        }">${pageNum}</a></li>`
+    }
+
+    eleventyConfig.addShortcode('getLogPagination', pagination => {
+        const page = pagination.pageNumber + 1
+        const totalPages = pagination.hrefs.length
+
+        let html = '<nav class="pagination">'
+        html += getOlderNewerButton(pagination.href.previous, 'Newer')
+        html += '<ol class="pageList">'
+
+        if (page > 1) {
+            html += getPaginationLink(1, pagination.hrefs, true)
+        }
+        if (page - 2 > 1) {
+            if (page - 3 > 1) {
+                html += '<li class="hideOnMobile">...</li>'
+            }
+
+            html += getPaginationLink(page - 2, pagination.hrefs)
+        }
+        if (page - 1 > 1) {
+            html += getPaginationLink(page - 1, pagination.hrefs)
+        }
+        html += `<li class='currentPage'>${page}</li>`
+        if (page + 1 < totalPages) {
+            html += getPaginationLink(page + 1, pagination.hrefs)
+        }
+        if (page + 2 < totalPages) {
+            html += getPaginationLink(page + 2, pagination.hrefs)
+
+            if (page + 3 < totalPages) {
+                html += '<li class="hideOnMobile">...</li>'
+            }
+        }
+        if (page < totalPages) {
+            html += getPaginationLink(totalPages, pagination.hrefs, true)
+        }
+
+        html += '</ol>'
+        html += getOlderNewerButton(pagination.href.next, 'Older')
+        html += '</nav>'
+
+        return html
+    })
+
+    /*
      * Retrieve previous views/reads to list on individual post pages
      */
     eleventyConfig.addShortcode('getPreviousViews', (url, posts) => {
