@@ -1,5 +1,22 @@
 @import '../mixins';
 
+@mixin button {
+    border: 1px solid var(--color-light-grey);
+    border-radius: 3px;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-sans-medium);
+    padding: var(--spacing-sixth) var(--spacing-half);
+    transition: background-color 350ms ease;
+
+    &:hover {
+        background-color: var(--color-lightest-grey);
+    }
+
+    &:active {
+        background-color: var(--color-light-grey);
+    }
+}
+
 html {
     &.filtersOpen {
         overflow: hidden;
@@ -198,12 +215,7 @@ html {
     }
 
     @include breakpoint('small') {
-        border: 1px solid var(--color-light-grey);
-        border-radius: 3px;
-        font-size: var(--font-size-small);
-        font-weight: var(--font-weight-sans-medium);
-        padding: var(--spacing-sixth) var(--spacing-half);
-        transition: background-color 350ms ease;
+        @include button;
 
         &::after {
             border-bottom: none;
@@ -224,14 +236,6 @@ html {
         .filterWrapper.isOpen &::after {
             top: initial;
             transform: rotate(-180deg);
-        }
-
-        &:hover {
-            background-color: var(--color-lightest-grey);
-        }
-
-        &:active {
-            background-color: var(--color-light-grey);
         }
 
         .baseTitle.isHidden {
@@ -455,5 +459,34 @@ html {
             overflow: hidden;
             text-overflow: ellipsis;
         }
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--spacing-single);
+}
+
+.paginationButton {
+    @include button;
+    color: var(--color-not-black);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+}
+
+.invisiblePaginationButton {
+    visibility: hidden;
+}
+
+.pageList {
+    flex-grow: 1;
+    text-align: center;
+
+    li {
+        display: inline-block;
+        margin: 0 var(--spacing-third);
     }
 }

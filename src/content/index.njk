@@ -1,6 +1,10 @@
 ---
 layout: layouts/base.njk
-permalink: /index.html
+permalink: "/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+pagination:
+    data: collections.completeEntries
+    size: 100
+    reverse: true
 eleventyNavigation:
     key: Log
     order: 1
@@ -10,6 +14,36 @@ eleventyNavigation:
     {% getFilters collections.posts %}
 </div>
 
-{% getPostsByFilter collections.completeEntries %}
+{% getPostsByFilter pagination.items %}
+
+<nav class="pagination">
+    <div>
+        {% if pagination.href.previous %}
+            <a class="paginationButton" href="{{ pagination.href.previous }}">Newer</a>
+        {% else %}
+            <span class="paginationButton invisiblePaginationButton">Newer</span>
+        {% endif %}
+    </div>
+    <ol class="pageList">
+        {% for pageEntry in pagination.pages %}
+            <li>
+                {% if page.url == pagination.hrefs[ loop.index0 ] %}
+                    {{ loop.index }}
+                {% else %}
+                <a href="{{ pagination.hrefs[ loop.index0 ] }}">
+                    {{ loop.index }}
+                </a>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ol>
+    <div>
+        {% if pagination.href.next %}
+            <a class="paginationButton" href="{{ pagination.href.next }}">Older</a>
+            {% else %}
+            <span class="paginationButton invisiblePaginationButton">Older</span>
+        {% endif %}
+    </div>
+</nav>
 
 <script>{% include "js/main.js" | assetPath %}</script>

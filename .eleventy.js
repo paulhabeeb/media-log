@@ -283,7 +283,7 @@ module.exports = function (eleventyConfig) {
 
     // Display list of all log posts, optionally filtering them
     eleventyConfig.addShortcode('getPostsByFilter', posts => {
-        const postsByMonth = separatePostsByMonth(posts).reverse()
+        const postsByMonth = separatePostsByMonth(posts)
 
         let html = '<ul class="log">'
         postsByMonth.forEach(month => {
