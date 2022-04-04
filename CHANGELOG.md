@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.6 (2022-04-04)
+
+-   Move filters to /filters/ page
+-   Add pagination
+-   Add colors to active filters
+-   Bump dependencies
+
 ## 1.1.5 (2022-03-26)
 
 -   Fix navigation highlights
