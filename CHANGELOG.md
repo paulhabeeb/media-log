@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.7 (2022-04-04)
+
+-   Fix post order within months
+-   Fix pagination on mobile
+-   Fix active filter border colors on mobile
+
 ## 1.1.6 (2022-04-04)
 
 -   Move filters to /filters/ page
