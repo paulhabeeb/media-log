@@ -177,14 +177,17 @@ const updateFilterTitle = (enable, type, value) => {
     titles.forEach(title => {
         if (title.dataset.titleType === type) {
             const baseTitle = title.querySelector('.baseTitle')
+            const activeTitle = `isActive-${type}`
             let innerHTML = ''
 
             if (enable) {
+                title.classList.add(activeTitle)
                 baseTitle.classList.add('isHidden')
                 innerHTML = document.querySelector(
                     `[data-filter-value="${value}"]`
                 ).innerHTML
             } else {
+                title.classList.remove(activeTitle)
                 baseTitle.classList.remove('isHidden')
             }
 

@@ -113,19 +113,19 @@ html {
 }
 
 .activeDecade {
-    color: green;
+    color: var(--color-decade);
 }
 
 .activeGenre {
-    color: #a45602;
+    color: var(--color-genre);
 }
 
 .activeMedia {
-    color: blue;
+    color: var(--color-media);
 }
 
 .activeYear {
-    color: #c11;
+    color: var(--color-year);
 }
 
 .clearFilters {
@@ -244,6 +244,44 @@ html {
 
         .selectedTitle {
             display: inline-block;
+        }
+    }
+
+    &.isActive {
+        &-decade {
+            border-color: var(--color-decade);
+            color: var(--color-decade);
+
+            &::after {
+                border-top-color: var(--color-decade);
+            }
+        }
+
+        &-genre {
+            border-color: var(--color-genre);
+            color: var(--color-genre);
+
+            &::after {
+                border-top-color: var(--color-genre);
+            }
+        }
+
+        &-media {
+            border-color: var(--color-media);
+            color: var(--color-media);
+
+            &::after {
+                border-top-color: var(--color-media);
+            }
+        }
+
+        &-year {
+            border-color: var(--color-year);
+            color: var(--color-year);
+
+            &::after {
+                border-top-color: var(--color-year);
+            }
         }
     }
 }

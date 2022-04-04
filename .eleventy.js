@@ -180,7 +180,7 @@ module.exports = function (eleventyConfig) {
         const posts = collection.getFilteredByTag('posts')
         const filteredPosts = []
 
-        for (post of posts) {
+        for (let post of posts) {
             if (!post.data.date && showIncomplete) {
                 filteredPosts.push(post)
             }
