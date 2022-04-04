@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+permalink: /filters/index.html
+---
+<div class="logHeader">
+    <p class="headerDescription">{{ metadata.description }}</p>
+    {% getFilters collections.posts %}
+</div>
+
+{% getPostsByFilter collections.completeEntries | reverse %}
+
+<script>{% include "js/main.js" | assetPath %}</script>

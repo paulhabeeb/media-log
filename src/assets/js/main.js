@@ -139,12 +139,12 @@ const filterLogItems = () => {
 }
 
 // Set the location in the URL bar to match the selected filters.
-// E.g., ?genre=crime&decade=1960s&media=movie
+// E.g., /filters/?genre=crime&decade=1960s&media=movie
 const updateUrl = (type = null, value = null) => {
-    const url =
-        type === null
-            ? new URL(window.location.origin)
-            : new URL(window.location.href)
+    const clearFilters = type === null
+    const url = clearFilters
+        ? new URL(window.location.origin)
+        : new URL(`/filters/${window.location.search}`, window.location.origin)
 
     // If a filter of this type is already selected, then replace it.
     // E.g., if we have ?genre=romance and we just clicked documentary,
@@ -157,8 +157,17 @@ const updateUrl = (type = null, value = null) => {
         url.searchParams.append(type, value)
     }
 
-    window.history.pushState(null, document.title, url)
-    window.dispatchEvent(new Event('popstate'))
+    // The homepage shows only the first 100 log items, but the filter pages
+    // show all 1000+ and show/hide them based on the filters. This helps keep
+    // the number of DOM nodes low and page load times manageable. But that
+    // means we need to navigate to a new page when enabling the first filter or
+    // when clearing all the filters.
+    if (!window.location.pathname.includes('/filters/') || clearFilters) {
+        window.location.href = url
+    } else {
+        window.history.pushState(null, document.title, url)
+        window.dispatchEvent(new Event('popstate'))
+    }
 }
 
 // Replace the filter title with the active filter
