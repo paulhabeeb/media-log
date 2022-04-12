@@ -2,7 +2,7 @@
 title: Sands of Iwo Jima
 creator:
     - Allan Dwan
-release: 1950-01-01T00:00:00.000Z
+release: 1950-01-01T10:00:00.000Z
 studios:
     - Republic Pictures
 original_title: ''
@@ -17,7 +17,7 @@ genre:
     - Action
     - Drama
     - History
-format: ''
+format: Blu-ray
 service: ''
 venue: Home
 date: 2015-01-04T05:00:00.000Z
@@ -26,5 +26,3 @@ revisit: true
 media: Movie
 tmdb_id: 18712
 ---
-
-

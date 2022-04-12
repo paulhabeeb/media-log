@@ -2,7 +2,7 @@
 title: Molly’s Game
 creator:
     - Aaron Sorkin
-release: 2017-01-01T00:00:00.000Z
+release: 2017-01-01T10:00:00.000Z
 studios:
     - The Mark Gordon Company
     - Entertainment One
@@ -30,5 +30,3 @@ revisit: false
 media: Movie
 tmdb_id: 396371
 ---
-
-

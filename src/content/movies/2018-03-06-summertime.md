@@ -2,7 +2,7 @@
 title: Summertime
 creator:
     - David Lean
-release: 1955-01-01T00:00:00.000Z
+release: 1955-01-01T10:00:00.000Z
 studios:
     - London Films Productions
     - United Artists

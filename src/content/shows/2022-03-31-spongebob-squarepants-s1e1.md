@@ -25,7 +25,7 @@ rating: 3.5
 revisit: true
 tmdb_id: 387
 media: TV Show
-date: 2022-03-31T00:00:00.000Z
+date: 2022-03-31T10:00:00.000Z
 episode: 1
 season: 1
 ---

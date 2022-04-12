@@ -21,7 +21,7 @@ rating: 1.5
 revisit: false
 tmdb_id: 95665
 media: TV Show
-date: 2022-04-02T00:00:00.000Z
+date: 2022-04-02T10:00:00.000Z
 episode: 8
 season: 1
 ---

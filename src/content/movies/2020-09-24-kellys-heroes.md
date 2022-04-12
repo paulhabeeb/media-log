@@ -2,7 +2,7 @@
 title: Kelly’s Heroes
 creator:
     - Brian G. Hutton
-release: 1970-01-01T00:00:00.000Z
+release: 1970-01-01T10:00:00.000Z
 studios:
     - Katzka-Loeb
     - Avala Film

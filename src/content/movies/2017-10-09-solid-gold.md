@@ -3,7 +3,7 @@ title: Solid Gold
 creator:
     - Josh Safdie
     - Benny Safdie
-release: 2012-01-01T00:00:00.000Z
+release: 2012-01-01T10:00:00.000Z
 studios: []
 original_title: ''
 original_language: en
@@ -23,5 +23,3 @@ revisit: false
 media: Movie
 tmdb_id: 239745
 ---
-
-

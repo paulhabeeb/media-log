@@ -2,7 +2,7 @@
 title: Remember the Night
 creator:
     - Mitchell Leisen
-release: 1940-01-01T00:00:00.000Z
+release: 1940-01-01T10:00:00.000Z
 studios:
     - Paramount
 original_title: ''

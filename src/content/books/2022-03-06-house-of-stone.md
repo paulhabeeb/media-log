@@ -15,5 +15,5 @@ date:
 rating: 5
 revisit: false
 media: Book
-abandoned: 2022-03-30
+abandoned: 2022-03-30T10:00:00Z
 ---

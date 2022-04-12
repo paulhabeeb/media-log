@@ -32,24 +32,21 @@ module.exports = function (eleventyConfig) {
     }
 
     // Various date formats
-    const getDayOnly = date =>
-        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('dd')
+    const getDayOnly = date => DateTime.fromJSDate(date).toFormat('dd')
 
     // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
     const getHtmlDateString = date =>
-        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy-LL-dd')
+        DateTime.fromJSDate(date).toFormat('yyyy-LL-dd')
 
     const getReadableDate = date =>
-        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('dd LLLL yyyy')
+        DateTime.fromJSDate(date).toFormat('dd LLLL yyyy')
 
     const getReadableYearAndMonth = date =>
-        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('LLLL yyyy')
+        DateTime.fromJSDate(date).toFormat('LLLL yyyy')
 
-    const getYearMonth = date =>
-        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy-LL')
+    const getYearMonth = date => DateTime.fromJSDate(date).toFormat('yyyy-LL')
 
-    const getYearOnly = date =>
-        DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy')
+    const getYearOnly = date => DateTime.fromJSDate(date).toFormat('yyyy')
 
     eleventyConfig.addFilter('dayOnly', getDayOnly)
     eleventyConfig.addFilter('readableDate', getReadableDate)

@@ -2,7 +2,7 @@
 title: Freedom Downtime
 creator:
     - Emmanuel Goldstein
-release: 2001-01-01T00:00:00.000Z
+release: 2001-01-01T10:00:00.000Z
 studios: []
 original_title: ''
 original_language: en
@@ -22,5 +22,3 @@ revisit: false
 media: Movie
 tmdb_id: 9901
 ---
-
-

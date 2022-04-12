@@ -2,7 +2,7 @@
 title: Blue Velvet
 creator:
     - David Lynch
-release: 1986-01-01T00:00:00.000Z
+release: 1986-01-01T10:00:00.000Z
 studios:
     - DEG
 original_title: ''

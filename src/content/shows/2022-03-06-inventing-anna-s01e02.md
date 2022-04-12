@@ -19,7 +19,7 @@ genre:
 format: Streaming
 service: Netflix
 venue: Home
-date: 2022-03-06
+date: 2022-03-06T10:00:00Z
 rating: 2
 revisit: false
 media: TV Show
