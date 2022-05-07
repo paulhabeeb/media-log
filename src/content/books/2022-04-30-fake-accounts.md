@@ -11,8 +11,8 @@ language:
 format: Paperback
 translator:
 date_started: 2022-04-30T04:00:00Z
-date:
-rating:
+date: 2022-05-07T01:16:00Z
+rating: 3.5
 revisit: false
 media: Book
 abandoned:
