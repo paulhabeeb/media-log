@@ -1,5 +1,5 @@
 ---
-title: L'amie prodigieuse: Enfance, adolescence
+title: "L'amie prodigieuse: Enfance, adolescence"
 creator:
     - Elena Ferrante
 release: 2016-01-01T04:00:00Z
