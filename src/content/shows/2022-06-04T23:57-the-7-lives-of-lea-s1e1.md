@@ -16,7 +16,7 @@ genre:
     - Drama
     - Mystery
 format: Streaming
-service: iTunes
+service: Netflix
 venue: Home
 rating: ''
 revisit: false
