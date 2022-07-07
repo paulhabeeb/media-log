@@ -34,3 +34,5 @@ tmdb_id: 48831
 media: Movie
 date: 2022-06-16T23:04:00.000Z
 ---
+
+Watched this for this first time on the night before Jean-Louis Trintignant died. All the old greats keep slipping away. Françoise Fabian and Marie-Christine Barrault are still with us, though.
