@@ -44,5 +44,5 @@ rating: 2.5
 revisit: false
 tmdb_id: 833326
 media: Movie
-date: 2022-07-12T00:41:00.000Z
+date: 2022-07-11T22:41:00.000Z
 ---
