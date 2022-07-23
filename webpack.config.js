@@ -41,11 +41,9 @@ module.exports = {
     plugins: [
         new WebpackManifestPlugin(),
         new PugPlugin({
-            modules: [
-                PugPlugin.extractCss({
-                    filename: '[name].[contenthash:5].css',
-                }),
-            ],
+            extractCss: {
+                filename: '[name].[contenthash:5].css',
+            },
         }),
     ],
 }
