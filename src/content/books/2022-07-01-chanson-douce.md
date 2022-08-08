@@ -11,7 +11,7 @@ format: Paperback
 translator:
 pages: 240
 date_started: 2022-07-01T01:16:00Z
-date:
+date: 2022-08-08T19:16:00Z
 rating:
 revisit: false
 media: Book
