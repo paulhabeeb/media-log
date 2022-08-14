@@ -12,7 +12,7 @@ translator:
 pages: 344
 date_started: 2022-06-04T01:16:00Z
 date: 2022-06-26T12:16:00Z
-rating:
+rating: 3.5
 revisit: false
 media: Book
 abandoned:
