@@ -1,0 +1,92 @@
+---
+layout: layouts/base.njk
+pagination:
+    data: supabasePosts
+    size: 1
+    alias: post
+permalink: "{{ post.url }}"
+---
+
+{% set book = post.media === 'Book' %}
+{% set movie = post.media === 'Movie' %}
+{% set show = post.media === 'TV Show' %}
+{% if book %}
+    {% set creatorTitle = 'Author' %}
+    {% set creatorTitlePlural = 'Authors' %}
+{% elif movie %}
+    {% set creatorTitle = 'Director' %}
+    {% set creatorTitlePlural = 'Directors' %}
+{% elif show %}
+    {% set creatorTitle = 'Showrunner' %}
+    {% set creatorTitlePlural = 'Showrunners' %}
+{% endif %}
+
+<article>
+    <header class="postHeader">
+        <div class="postTitle-wrapper">
+            <h2 class="postTitle">{{ post.title | postTitle(post.original_title, post.original_language, post.season, post.episode) }}</h2>
+            <div class="releaseDate">{{ post.release | yearOnly }}</div>
+        </div>
+        <div class="postDates">
+            {% if post.revisit %}
+                <span class="icon-rewatch postRewatch">{% include "svg/revisit.svg" %}</span>
+            {% endif %}
+            {% if book and post.date_started %}
+            <time datetime="{{ post.date_started | htmlDateString }}">
+                {{ post.date_started | readableDate }}
+            </time>
+            &rarr;
+            {% endif %}
+            <time datetime="{{ post.date | htmlDateString }}">
+                {{ post.date | readableDate }}
+            </time>
+        </div>
+    </header>
+    
+    <dl class="postDetails">
+        {% printArray post.creator, creatorTitle, creatorTitlePlural %}
+        
+        {% if movie or show %}
+        {% printArray post.studios, 'Studio', 'Studios' %}
+        
+        <dt>Length</dt>
+        <dd>{{ post.length }} minutes</dd>
+        
+        {% printArray post.genre, 'Genre', 'Genres' %}
+        
+        {% printArray post.country, 'Country', 'Countries' %}
+        {% endif %}
+        
+        {% if book %}
+        <dt>Publisher</dt>
+        <dd>{{ post.publisher }}</dd>
+        
+        <dt>ISBN-13</dt>
+        <dd>{{ post.isbn }}</dd>
+        
+        <dt>Pages</dt>
+        <dd>{{ post.pages }}</dd>
+        {% endif %}
+        
+        {% printArray post.language, 'Language', 'Languages' %}
+        
+        {% if format !== '' %}
+        <dt>Format</dt>
+        <dd>{{ post.format }}</dd>
+        {% endif %}
+        
+        {% if movie or show %}
+            {% if service !== '' %}
+            <dt>Service</dt>
+            <dd>{{ post.service }}</dd>
+            {% endif %}
+            
+            {% if venue !== '' %}
+            <dt>Venue</dt>
+            <dd>{{ post.venue }}</dd>
+            {% endif %}
+        {% endif %}
+        
+        {% getPreviousViews post.url, supabasePosts %}
+    </dl>
+</article>

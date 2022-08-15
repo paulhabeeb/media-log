@@ -32,21 +32,15 @@ module.exports = function (eleventyConfig) {
     }
 
     // Various date formats
-    const getDayOnly = date => DateTime.fromJSDate(date).toFormat('dd')
-
-    // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-    const getHtmlDateString = date =>
-        DateTime.fromJSDate(date).toFormat('yyyy-LL-dd')
-
-    const getReadableDate = date =>
-        DateTime.fromJSDate(date).toFormat('dd LLLL yyyy')
-
+    const getDateTime = date =>
+        DateTime.fromISO(date, { zone: 'America/New_York' })
+    const getDayOnly = date => getDateTime(date).toFormat('dd')
+    const getHtmlDateString = date => getDateTime(date).toFormat('yyyy-LL-dd')
+    const getReadableDate = date => getDateTime(date).toFormat('dd LLLL yyyy')
     const getReadableYearAndMonth = date =>
-        DateTime.fromJSDate(date).toFormat('LLLL yyyy')
-
-    const getYearMonth = date => DateTime.fromJSDate(date).toFormat('yyyy-LL')
-
-    const getYearOnly = date => DateTime.fromJSDate(date).toFormat('yyyy')
+        getDateTime(date).toFormat('LLLL yyyy')
+    const getYearMonth = date => getDateTime(date).toFormat('yyyy-LL')
+    const getYearOnly = date => getDateTime(date).toFormat('yyyy')
 
     eleventyConfig.addFilter('dayOnly', getDayOnly)
     eleventyConfig.addFilter('readableDate', getReadableDate)
@@ -142,10 +136,10 @@ module.exports = function (eleventyConfig) {
         const genres = []
 
         posts.forEach(post => {
-            media.push(post.data.media)
+            media.push(post.media)
             years.push(getYearOnly(post.date))
-            decades.push(getDecade(post.data.release))
-            genres.push(post.data.genre)
+            decades.push(getDecade(post.release))
+            genres.push(post.genre)
         })
 
         const uniqueMedia = getUniques(media)
@@ -178,10 +172,10 @@ module.exports = function (eleventyConfig) {
         const filteredPosts = []
 
         for (let post of posts) {
-            if (!post.data.date && showIncomplete) {
+            if (!post.date && showIncomplete) {
                 filteredPosts.push(post)
             }
-            if (post.data.date && !showIncomplete) {
+            if (post.date && !showIncomplete) {
                 filteredPosts.push(post)
             }
         }
@@ -224,17 +218,16 @@ module.exports = function (eleventyConfig) {
     // Create log list item
     const getPostListItem = post => {
         const title = eleventyConfig.getFilter('postTitle')(
-            post.data.title,
-            post.data.original_title,
-            post.data.original_language,
-            post.data.season,
-            post.data.episode
+            post.title,
+            post.original_title,
+            post.original_language,
+            post.season,
+            post.episode
         )
         const url = eleventyConfig.getFilter('url')(post.url)
-        const decadeYear = getYearOnly(post.data.release)
-        const genres =
-            post?.data?.genre?.map(genre => toSlug(genre)).toString() || ''
-        const media = toSlug(post.data.media)
+        const decadeYear = getYearOnly(post.release)
+        const genres = post?.genre?.map(genre => toSlug(genre)).toString() || ''
+        const media = toSlug(post.media)
         const year = getYearMonth(post.date)
 
         let html = `<li class="logItem" data-decade="${decadeYear}" data-genre="${genres}" data-media="${media}" data-year="${year}">`
@@ -245,12 +238,10 @@ module.exports = function (eleventyConfig) {
         html += `<a href="${url}">${title}</a>`
         html += `<span class="logItem-mobileYearCreated">${decadeYear}</span>`
         html += '</div>'
-        html += `<div class="logItem-creator">${getCreator(
-            post.data.creator
-        )}</div>`
+        html += `<div class="logItem-creator">${getCreator(post.creator)}</div>`
         html += `<div class="logItem-yearCreated">${decadeYear}</div>`
 
-        if (post.data.revisit) {
+        if (post.revisit) {
             const icon = getSvgContent('revisit')
             html += `<div class="icon-rewatch logItem-rewatch">${icon}</div>`
         }
@@ -375,12 +366,11 @@ module.exports = function (eleventyConfig) {
      * Retrieve previous views/reads to list on individual post pages
      */
     eleventyConfig.addShortcode('getPreviousViews', (url, posts) => {
-        const {
-            data: { creator, date, episode, media, release, season, title },
-        } = posts.find(p => p.url === url)
+        const { creator, date, episode, media, release, season, title } =
+            posts.find(p => p.url === url)
 
         const filteredPosts = posts.filter(
-            ({ data }) =>
+            data =>
                 data.title === title &&
                 JSON.stringify(data.creator) === JSON.stringify(creator) &&
                 getReadableDate(data.release) === getReadableDate(release) &&

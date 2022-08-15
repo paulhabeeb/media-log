@@ -4,9 +4,9 @@ permalink: /filters/index.html
 ---
 <div class="logHeader">
     <p class="headerDescription">{{ metadata.description }}</p>
-    {% getFilters collections.posts %}
+    {% getFilters supabasePosts %}
 </div>
 
-{% getPostsByFilter collections.completeEntries | reverse %}
+{% getPostsByFilter supabasePosts | reverse %}
 
 <script>{% include "js/main.js" | assetPath %}</script>

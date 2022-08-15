@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 permalink: "/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 pagination:
-    data: collections.completeEntries
+    data: supabasePosts
     size: 100
     reverse: true
 eleventyNavigation:
@@ -11,7 +11,7 @@ eleventyNavigation:
 ---
 <div class="logHeader">
     <p class="headerDescription">{{ metadata.description }}</p>
-    {% getFilters collections.posts %}
+    {% getFilters supabasePosts %}
 </div>
 
 {% getPostsByFilter pagination.items %}
