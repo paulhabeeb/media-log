@@ -23,7 +23,7 @@
         "lint2:njk": "djlint src --lint --profile=nunjucks --extension njk"
     },
     "devDependencies": {
-        "@11ty/eleventy": "^1.0.1",
+        "@11ty/eleventy": "^1.0.2",
         "@11ty/eleventy-navigation": "^0.3.4",
         "@11ty/eleventy-plugin-rss": "^1.2.0",
         "@babel/core": "^7.18.10",
@@ -32,7 +32,7 @@
         "babel-loader": "^8.2.5",
         "cross-env": "^7.0.3",
         "css-loader": "^6.7.1",
-        "eslint": "^8.21.0",
+        "eslint": "^8.22.0",
         "eslint-config-prettier": "^8.5.0",
         "html-minifier": "^4.0.0",
         "luxon": "^3.0.1",
