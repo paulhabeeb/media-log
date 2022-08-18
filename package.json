@@ -20,7 +20,8 @@
         "lint": "npm-run-all -l lint:*",
         "lint:js": "eslint .",
         "lint:sass": "stylelint src/assets/scss/*.scss",
-        "lint2:njk": "djlint src --lint --profile=nunjucks --extension njk"
+        "lint2:njk": "djlint src --lint --profile=nunjucks --extension njk",
+        "release": "dotenv release-it"
     },
     "devDependencies": {
         "@11ty/eleventy": "^1.0.2",
@@ -34,6 +35,7 @@
         "cross-env": "^7.0.3",
         "css-loader": "^6.7.1",
         "dotenv": "^16.0.1",
+        "dotenv-cli": "^6.0.0",
         "eslint": "^8.22.0",
         "eslint-config-prettier": "^8.5.0",
         "html-minifier": "^4.0.0",
@@ -53,5 +55,23 @@
         "webpack": "^5.74.0",
         "webpack-cli": "^4.10.0",
         "webpack-manifest-plugin": "^5.0.0"
+    },
+    "release-it": {
+        "git": {
+            "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs --ignore-commit-pattern \"^(Releasing v.*|Add.*|Begin.*|Finish.*|Fix Seinfeld.*|Update.*|Fix D.*|Fix L.*)\"",
+            "commitMessage": "Releasing v${version}",
+            "tagName": "v${version}"
+        },
+        "github": {
+            "release": true,
+            "releaseName": "v${version}",
+            "tokenRef": "GITHUB_TOKEN"
+        },
+        "hooks": {
+            "after:bump": "npx auto-changelog -p --template changelog-template.hbs --ignore-commit-pattern \"^(Releasing v.*|Add.*|Begin.*|Finish.*|Fix Seinfeld.*|Update C.*)\""
+        },
+        "npm": {
+            "publish": false
+        }
     }
 }
