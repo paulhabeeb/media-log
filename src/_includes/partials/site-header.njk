@@ -12,7 +12,7 @@
             {% for navItem in collections.all | eleventyNavigation %}
                 <li class="navItem">
                     <a
-                        class="navItem-link{% if (navItem.url == page.url) or (navItem.title == 'Log' and ('/shows/' in page.filePathStem or '/books/' in page.filePathStem or '/movies/' in page.filePathStem)) %} navItem-link_active{% endif %}"
+                        class="navItem-link{% if (navItem.url == page.url) or (navItem.title == 'Log' and ('/content/post' in page.filePathStem or '/filters' in page.filePathStem)) %} navItem-link_active{% endif %}"
                         href="{{ navItem.url | url }}"
                     >
                         {{ navItem.title }}
@@ -22,3 +22,5 @@
         </ul>
     </nav>
 </header>
+
+{{ page | log }}
