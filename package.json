@@ -58,7 +58,7 @@
     },
     "release-it": {
         "git": {
-            "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs --ignore-commit-pattern \"^(Releasing v.*|Add.*|Begin.*|Finish.*|Fix Seinfeld.*|Update.*|Fix D.*|Fix L.*)\"",
+            "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs",
             "commitMessage": "Releasing v${version}",
             "tagName": "v${version}"
         },
@@ -68,7 +68,7 @@
             "tokenRef": "GITHUB_TOKEN"
         },
         "hooks": {
-            "after:bump": "npx auto-changelog -p --template changelog-template.hbs --ignore-commit-pattern \"^(Releasing v.*|Add.*|Begin.*|Finish.*|Fix Seinfeld.*|Update C.*)\""
+            "after:bump": "npx auto-changelog -p --commit-limit false --template changelog-template.hbs --ignore-commit-pattern \"^(Releasing v.*)\""
         },
         "npm": {
             "publish": false
