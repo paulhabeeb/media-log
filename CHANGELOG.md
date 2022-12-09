@@ -1,6 +1,11 @@
 # Changelog
 
-## [v2.0.1](https://github.com/skilar/input-log/compare/v2.0.0...v2.0.1) (18 August 2022)
+## [v2.0.2](https://github.com/skilar/input-log/compare/v2.0.1...v2.0.2) (9 December 2022)
+
+-   Bump dependencies [`3ce1fd9`](https://github.com/skilar/input-log/commit/3ce1fd9d24a557dd5730450afeaa92c49a6a1fcd)
+-   Don’t display undefined fields [`b972f54`](https://github.com/skilar/input-log/commit/b972f546f75cb021ea21a847a6bd1f82d4067656)
+
+## [v2.0.1](https://github.com/skilar/input-log/compare/v2.0.0...v2.0.1) (17 August 2022)
 
 -   Update release-it config [`0692666`](https://github.com/skilar/input-log/commit/06926660654675ca5484b83f0d00efb9e73fb7fc)
 
