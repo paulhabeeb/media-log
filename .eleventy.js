@@ -12,7 +12,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss)
 
     // For debugging
-    eleventyConfig.addFilter('log', value => {
+    eleventyConfig.addFilter('logger', value => {
         console.log(value)
     })
 
@@ -76,6 +76,7 @@ module.exports = function (eleventyConfig) {
      */
     eleventyConfig.addShortcode('printArray', (array, title, pluralTitle) => {
         let html = ''
+
         if (Array.isArray(array) && array.length > 1) {
             html += `<dt>${pluralTitle}</dt>`
             html += '<div>'
@@ -83,7 +84,7 @@ module.exports = function (eleventyConfig) {
                 html += `<dd>${item}</dd>`
             })
             html += '</div>'
-        } else {
+        } else if (array[0] !== undefined) {
             html += `<dt>${title}</dt>`
             html += `<dd>${array[0]}</dd>`
         }
@@ -209,7 +210,7 @@ module.exports = function (eleventyConfig) {
         } else if (creators.length === 2) {
             creatorString = `${creators[0]} and ${creators[1]}`
         } else {
-            creatorString = creators[0]
+            creatorString = creators?.[0] || ''
         }
 
         return creatorString

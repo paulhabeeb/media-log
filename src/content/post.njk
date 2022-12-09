@@ -47,41 +47,41 @@ permalink: "{{ post.url }}"
         {% printArray post.creator, creatorTitle, creatorTitlePlural %}
         
         {% if movie or show %}
-        {% printArray post.studios, 'Studio', 'Studios' %}
-        
-        <dt>Length</dt>
-        <dd>{{ post.length }} minutes</dd>
-        
-        {% printArray post.genre, 'Genre', 'Genres' %}
-        
-        {% printArray post.country, 'Country', 'Countries' %}
+            {% printArray post.studios, 'Studio', 'Studios' %}
+            
+            <dt>Length</dt>
+            <dd>{{ post.length }} minutes</dd>
+            
+            {% printArray post.genre, 'Genre', 'Genres' %}
+            
+            {% printArray post.country, 'Country', 'Countries' %}
         {% endif %}
         
         {% if book %}
-        <dt>Publisher</dt>
-        <dd>{{ post.publisher }}</dd>
-        
-        <dt>ISBN-13</dt>
-        <dd>{{ post.isbn }}</dd>
-        
-        <dt>Pages</dt>
-        <dd>{{ post.pages }}</dd>
+            <dt>Publisher</dt>
+            <dd>{{ post.publisher }}</dd>
+            
+            <dt>ISBN-13</dt>
+            <dd>{{ post.isbn }}</dd>
+            
+            <dt>Pages</dt>
+            <dd>{{ post.pages }}</dd>
         {% endif %}
         
         {% printArray post.language, 'Language', 'Languages' %}
         
-        {% if format !== '' %}
-        <dt>Format</dt>
-        <dd>{{ post.format }}</dd>
+        {% if post.format !== '' %}
+            <dt>Format</dt>
+            <dd>{{ post.format }}</dd>
         {% endif %}
         
         {% if movie or show %}
-            {% if service !== '' %}
+            {% if post.service !== '' %}
             <dt>Service</dt>
             <dd>{{ post.service }}</dd>
             {% endif %}
             
-            {% if venue !== '' %}
+            {% if post.venue !== '' %}
             <dt>Venue</dt>
             <dd>{{ post.venue }}</dd>
             {% endif %}
