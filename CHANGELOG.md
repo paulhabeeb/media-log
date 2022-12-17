@@ -1,5 +1,10 @@
 # Changelog
 
+## [v2.1.0](https://github.com/skilar/input-log/compare/v2.0.2...v2.1.0) (17 December 2022)
+
+-   Bump dependencies [`ada1234`](https://github.com/skilar/input-log/commit/ada1234b37cf2e96f7fe24b117ca39ae11c42cad)
+-   Add Matomo [`12fece9`](https://github.com/skilar/input-log/commit/12fece929c41f2b2d411d420e22b378d73bb3961)
+
 ## [v2.0.2](https://github.com/skilar/input-log/compare/v2.0.1...v2.0.2) (9 December 2022)
 
 -   Bump dependencies [`3ce1fd9`](https://github.com/skilar/input-log/commit/3ce1fd9d24a557dd5730450afeaa92c49a6a1fcd)
