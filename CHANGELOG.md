@@ -1,5 +1,9 @@
 # Changelog
 
+## [v2.1.1](https://github.com/skilar/input-log/compare/v2.1.0...v2.1.1) (29 March 2023)
+
+-   Bump dependencies [`bacf4dc`](https://github.com/skilar/input-log/commit/bacf4dcba5a4622e9aa2fe76339eb066650f1088)
+
 ## [v2.1.0](https://github.com/skilar/input-log/compare/v2.0.2...v2.1.0) (17 December 2022)
 
 -   Bump dependencies [`ada1234`](https://github.com/skilar/input-log/commit/ada1234b37cf2e96f7fe24b117ca39ae11c42cad)
