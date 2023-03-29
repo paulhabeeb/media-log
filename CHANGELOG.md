@@ -1,6 +1,10 @@
 # Changelog
 
-## [v2.1.1](https://github.com/skilar/input-log/compare/v2.1.0...v2.1.1) (29 March 2023)
+## [v2.1.2](https://github.com/skilar/input-log/compare/v2.1.1...v2.1.2) (29 March 2023)
+
+-   Update pug-plugin [`ae85dc0`](https://github.com/skilar/input-log/commit/ae85dc0e4432cdd09f7bd024fe814b9a7984ba55)
+
+## [v2.1.1](https://github.com/skilar/input-log/compare/v2.1.0...v2.1.1) (28 March 2023)
 
 -   Bump dependencies [`bacf4dc`](https://github.com/skilar/input-log/commit/bacf4dcba5a4622e9aa2fe76339eb066650f1088)
 
