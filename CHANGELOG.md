@@ -1,6 +1,10 @@
 # Changelog
 
-## [v2.1.2](https://github.com/skilar/input-log/compare/v2.1.1...v2.1.2) (29 March 2023)
+## [v2.1.3](https://github.com/skilar/input-log/compare/v2.1.2...v2.1.3) (29 March 2023)
+
+-   Remove debug logging [`05e7c41`](https://github.com/skilar/input-log/commit/05e7c410f321fe2808404385bbf3f339d119539b)
+
+## [v2.1.2](https://github.com/skilar/input-log/compare/v2.1.1...v2.1.2) (28 March 2023)
 
 -   Update pug-plugin [`ae85dc0`](https://github.com/skilar/input-log/commit/ae85dc0e4432cdd09f7bd024fe814b9a7984ba55)
 
